@@ -1,69 +1,43 @@
-# Basic
+# Site settings
 title: Xheni
-subtitle: Jennz
-description: Jenny from the blog
-avatarTitle: leopardpan
-# 头像里面的描述
-avatarDesc: infoSec / Developer
-url: "https://xeni.al"
+description: 'InfoSec student, Nextcloud contributor, Open Labs member'
+url: 'https://xeni.al'
+baseurl: '/xenial'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
-# Comment
-comment:
-    disqus: xh3n1
-    
+author:
+  name: 'Xheni Myrtaj'
+  email: xheni@protonmail.com
+  twitter_username: xh3n1
+  facebook_username: xh3n1
+  github_username:  xh3n1
+  linkedin_username:  xh3n1
 
-# Social
-social:
-    weibo: 5366874726 
-    github: leopardpan
-    # twitter: 
-    mail: xheni@protonmail.com
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
-# 百度统计 
-# 使用博客模板请去掉或者更换 id 
-baidu:
-    id: 8ba1c6be0953b6f9c2ba38e57f615421  
-
-# Google Analytics
-# 使用博客模板请去掉或者更换 id
-ga:
-    id: UA-84134159-3   
-    host: auto  
-
-
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
-#
-#
-# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
-
-
-permalink: /:year/:month/:title/
-# Format
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
 highlighter: rouge
 
-textColor: #FF0000
+sass:
+    sass_dir: _sass
+    style: compressed
 
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: clear
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
 
-# The blog button should not be removed.
-blog_button:
-    title: 博客主页
-
-# Navigation buttons in the front page.s
-nav:
-    - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 关于我, description: about, url: '/about'}      
-    
-
-# Pagination
-gems: [jekyll-paginate,jekyll-sitemap]
-paginate: 20
-paginate_path: "page/:num/"
-
-
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
