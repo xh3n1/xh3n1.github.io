@@ -1,1 +1,43 @@
-theme: jekyll-theme-hacker	  
+# Site settings
+title: Xheni
+description: 'InfoSec student, Nextcloud contributor, Open Labs member'
+url: 'https://xeni.al'
+baseurl: '/xenial'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Xheni Myrtaj'
+  email: xheni@protonmail.com
+  twitter_username: xh3n1
+  facebook_username: xh3n1
+  github_username:  xh3n1
+  linkedin_username:  xh3n1
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

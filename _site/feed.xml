@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xheni</title>
+    <description>InfoSec student, Nextcloud contributor, Open Labs member</description>
+    <link>http://localhost:4000/xenial/</link>
+    <atom:link href="http://localhost:4000/xenial/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 21 Oct 2017 01:13:07 +0200</pubDate>
+    <lastBuildDate>Sat, 21 Oct 2017 01:13:07 +0200</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>LibOCon and libre ladies ?!</title>
+        <description>&lt;p&gt;I attended LibOCon conference.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Oct 2017 17:04:23 +0200</pubDate>
+        <link>http://localhost:4000/xenial/2017/liboconandlibreladies/</link>
+        <guid isPermaLink="true">http://localhost:4000/xenial/2017/liboconandlibreladies/</guid>
+        
+        <category>opensource</category>
+        
+        <category>girlsintech</category>
+        
+        
+        <category>opensource</category>
+        
+      </item>
+    
+      <item>
+        <title>Who am I?!</title>
+        <description>&lt;p&gt;Xheni (en:Jenny) or xh3n1, is just a humanoid who has black hair and big eyes. She has always been the weird kid because she used to play football and video games while other girls played with dolls. Even though her dad wanted her to study medicine, she chose Business Informatics. Did you know that when she was a kid, she wanted to be a hacker ( That was her decision after watching the movie “hackers”). Currently, she is studying Msc in Information Security and one day she hopes to become a good ethical hacker ;). She mostly enjoys coding while she is drinking coffee and listening to good rock music.
+Xheni was a student of Rails Girls Summer of Code 2017 working on the Nextcloud project. She is a member of Open Labs Albania, a community which promotes free and open source technologies, open data, open technological standards, online privacy etc. She is a Linux lover and has tried many linux distributions. She loves animals (more than you :p). She likes books, movies and animes. She runs a meme page and loves Pepe. She speaks shqip, english and ein bisschen Deutsch. Try bribing her with chocolates. She believes in aliens, do you?&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Jan 2016 16:04:23 +0100</pubDate>
+        <link>http://localhost:4000/xenial/2016/whoamI/</link>
+        <guid isPermaLink="true">http://localhost:4000/xenial/2016/whoamI/</guid>
+        
+        <category>personal</category>
+        
+        
+        <category>personal</category>
+        
+      </item>
+    
+  </channel>
+</rss>
