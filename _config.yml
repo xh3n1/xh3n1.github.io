@@ -3,8 +3,10 @@ title: Xheni
 description: 'InfoSec student, Nextcloud contributor, Open Labs member'
 url: 'https://xh3n1.github.io'
 baseurl: ''
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+google_analytics: 'UA-92085041-4'
+disqus_shortname: 'xheni-me'
+
+
 
 author:
   name: 'Xheni Myrtaj'
