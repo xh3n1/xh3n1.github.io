@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/2016/Led-Zepelin-The-Greatest-Band-Ever/</loc>
+      <loc>http://localhost:4000/2016/Led-Zeppelin-The-Greatest-Band-Ever/</loc>
       
         <lastmod>2016-01-08T16:04:23+01:00</lastmod>
       
@@ -68,7 +68,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2017-10-22T02:48:00+02:00</lastmod>
+        <lastmod>2017-10-22T04:07:58+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -87,7 +87,7 @@
     <url>
       <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2017-10-22T02:48:00+02:00</lastmod>
+        <lastmod>2017-10-22T04:07:58+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
