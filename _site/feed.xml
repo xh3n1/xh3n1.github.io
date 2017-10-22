@@ -5,15 +5,64 @@
     <description>InfoSec student, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Oct 2017 04:22:00 +0200</pubDate>
-    <lastBuildDate>Sun, 22 Oct 2017 04:22:00 +0200</lastBuildDate>
+    <pubDate>Sun, 22 Oct 2017 20:56:04 +0200</pubDate>
+    <lastBuildDate>Sun, 22 Oct 2017 20:56:04 +0200</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
-        <title>LibOCon and libre ladies...</title>
-        <description>&lt;p&gt;I attended the LibOCon conference in Rome and talked about community guidelines on how to keep contributors motivated. I had the opportunity to meet other ladies who contribute to LibreOffice &amp;lt;3. 
+        <title>LibOCon and libre Ladies...</title>
+        <description>&lt;p&gt;LibOCon is the annual gathering of the LibreOffice community. At LibOCon, LibreOffice users gather to network and meet key LibreOffice developers, designers, localizers, documenters, supporters and marketers, and to learn about the latest in LibreOffice development.
+I have been a LibreOffice user for many years and this year I joined the &lt;a href=&quot;https://conference.libreoffice.org/&quot;&gt;LibreOffice Conference&lt;/a&gt; from 11-13 October in Rome, Italy.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/icontributed.jpg&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;
+&lt;em&gt;Suela and Xheni during their presentation. Credits: Redon Skikuli CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;LibOCon 2017 was hosted inside historical buildings, the property of the City of Rome. 
+&lt;a href=&quot;https://twitter.com/Suela_Palushi&quot;&gt;Suela&lt;/a&gt; and I talked  about “How to retain new contributors?”,
+“Our experience as newcomers” and “Contributions to open source” - survey. Here are some of the results of the survey:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/libocon.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/libocon2.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/libocon6.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/libocon5.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/libocon7.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We had some interesting answers when  we asked them “How do community activities affect your experience as a contributor?”&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“It makes me feel that I am doing the things right. Each time I generate a contribution, I feel
+happiness because I am spending time of my life for the benefit of projects that will useful for other people around the world while I sharing this experience with other human beings”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Gain experience and new friends ”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“In 1:1/groups brainstorming is much faster and enjoyable”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Get to know more people in the same field of interests as mine”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Community gives you outside connections, adds purpose and enjoyment to the work we’re all doing”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;During LibOCon and HackFest I had the opportunity to meet other open source ladies who contribute to LibreOffice and we took this picture &amp;lt;3. 
 &lt;img src=&quot;/images/librecon.jpg&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;
-&lt;em&gt;LibOCOn CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
+&lt;em&gt;LibreLadies CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I had a great time in Rome. Beautiful city and good friends.&lt;/p&gt;
+
+&lt;p&gt;Ps: The next LibOCon will be held in Tirana. See you there!
+&lt;img src=&quot;/images/romanforum.jpg&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;
+&lt;em&gt;Roman Forum CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
+
 </description>
         <pubDate>Thu, 12 Oct 2017 17:04:23 +0200</pubDate>
         <link>http://localhost:4000/2017/liboconandlibreladies/</link>
