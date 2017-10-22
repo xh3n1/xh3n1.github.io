@@ -5,8 +5,8 @@
     <description>InfoSec student, Nextcloud contributor, Open Labs member, RGSoC alumna &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Oct 2017 01:56:19 +0200</pubDate>
-    <lastBuildDate>Sun, 22 Oct 2017 01:56:19 +0200</lastBuildDate>
+    <pubDate>Sun, 22 Oct 2017 02:48:00 +0200</pubDate>
+    <lastBuildDate>Sun, 22 Oct 2017 02:48:00 +0200</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -25,6 +25,139 @@
         
         
         <category>opensource</category>
+        
+      </item>
+    
+      <item>
+        <title>Rails Girls Summer of Code</title>
+        <description>&lt;p&gt;Time seems to fly by so fast when you are a student of Rails Girls Summer of Code and a contributor of a project you love.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-they-started-to-get-into-the-open-source-world&quot;&gt;&lt;strong&gt;How they started to get into the open source world!&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://jona.azizaj.com&quot;&gt;Jona&lt;/a&gt; and Xheni met each other 5 years ago at the University of Tirana, Faculty of Economy because both of them wanted to study for Business Informatics. At the beginning they didn’t “like” each other a lot because Xheni was an Inter fan while Jona a Milan fan, different teams that play in Italy and their fans “fight” a lot with each other. YES, you read it very well, so don’t get surprised if they know football rules/ football players/ teams pretty well because they are crazy about football. The good news is that they found something in common, yaaay! They attended together the first edition of OSCAL, &lt;a href=&quot;https://oscal.openlabs.cc/&quot;&gt;Open Source Conference Albania&lt;/a&gt;, the first conference in Albania dedicated only to open source software. After meeting a lot of other FLOSS enthusiasts at the conference, they discovered &lt;a href=&quot;https://openlabs.cc/en/&quot;&gt;Open Labs&lt;/a&gt; that is the community behind OSCAL. Open Labs organizes a lot of events dedicated to different open source projects like GNU/Linux, Mozilla, Wikipedia, OpenStreetMap, LibreOffice etc. Both of them were intrigued by the world of Linux, that’s how they first started contributing to open source and became FLOSS advocates. Now that they have been part of Open Labs for four years, you see them part of different open source communities because being part of a community has helped them a lot to gain new experiences, learn new things, make new friends and have fun!&lt;/p&gt;
+
+&lt;h3 id=&quot;rgsoc-lets-apply&quot;&gt;&lt;strong&gt;RGSoC, let’s apply!&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Jona’s and Xheni’s latest involvement into open source is &lt;a href=&quot;https://nextcloud.com/&quot;&gt;Nextcloud&lt;/a&gt;, a suite of client-server software for creating and using file hosting service, where their contributions consisted mostly on promoting Nextcloud and translating it in their local language (shqip).&lt;/p&gt;
+
+&lt;p&gt;At OSCAL (third edition) they met Jan-Christoph Borchardt and had the chance to talk with him. After some months, they saw his tweet about a
+dedicated scholarship program that aims to foster diversity in Open Source since 2013, called “Rails Girls Summer of Code”. Both of them were
+really enthusiast and happy to hear about such a great opportunity that could help girls develop their skills and gain new exciting experiences. After posting this on the &lt;a href=&quot;https://forum.openlabs.cc/&quot;&gt;Open Labs forum&lt;/a&gt; to share it with all the girls, they even organized an “unofficial” meeting with all the interested girls to help each other with the process. It was the first time that 4 teams from Albania applied to be part of RGSoC!&lt;/p&gt;
+
+&lt;h3 id=&quot;why-nextcloud&quot;&gt;&lt;strong&gt;Why Nextcloud?&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;After picking each other as teammates, Jona and Xheni had to decide about the project they wanted to spend all their summer working on. Wait, what about the name of the team?
+Hmmm let’s say they needed only a couple of hours to find the appropriate name for them. And it was not very difficult, because both of them are &lt;strong&gt;CODEAHOLICS&lt;/strong&gt;. Yes, I mean it! They stay awake all night long and they like to sleep in the morning because for them is way easier to work when the place is very quiet, people are sleeping and the only thing that they can hear is their favorite music. Okay now let’s get back to the topic. After scouting all the projects listed, the first one that was deemed a perfect fit for them was Nextcloud. Why? Because they were already using it and they were familiar (not a lot) with the community. Both of them believe that when you use something and you like it, it’s very easy for you to start promoting and working on it, in this way you will always do something that you love and are not forced to. They decided to work on the contacts app and documentation part during the summer.
+After finishing the application all the albanian teams were “stressed” waiting about the final result. Who could imagine that we would be one of the lucky teams, being the first albanian team part of RGSoC! Imagine their happy faces when they saw the approval email, &lt;strong&gt;yaaay&lt;/strong&gt; :D&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/codeaholics_logo.png&quot; alt=&quot;image&quot; /&gt;
+&lt;em&gt;Codeaholics Logo. (Photo: Anxhelo Lushka, Creative Commons Attribution-Share Alike 4.0 International.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;challenges&quot;&gt;&lt;strong&gt;Challenges&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Some of the challenges that our team has faced during this period:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First of all, installing the &lt;a href=&quot;https://nextcloud.com/&quot;&gt;Nextcloud&lt;/a&gt; server locally was not as easy for us as we first assumed.&lt;/li&gt;
+  &lt;li&gt;Before attending RGSoC we barely had any experience with Git on an important open source project as Nextcloud with a lot of people contributing into it. During our journey we made many mistakes and had to do some researches on different Git commands. Thanks to the friendly community over at Nextcloud, we learned many new Git commands, now it’s just a matter of remembering them :)&lt;/li&gt;
+  &lt;li&gt;We fought a lot with JavaScript and in particular AngularJS. We wanted to work on something new for us and that’s why we chose the Contacts App. We were complete beginners on AngularJS and during the first weeks we were mainly focused on reading and watching tutorials.&lt;/li&gt;
+  &lt;li&gt;Another challenging thing was working remotely together over different time-zones (6 hours difference) as Jona was attending “Flock to Fedora Conference” in Boston.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/codeaholics_angularJS.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;em&gt;Too much AngularJS, not enough coffee. (Photo: Jona &amp;amp; Xheni, Creative Commons Attribution-Share Alike 4.0 International.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;things-we-have-learned&quot;&gt;&lt;strong&gt;Things we have learned&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Despite the challenges we had during our summer, we have learned a lot of new things. Here are some of the things we can recall:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pair programming, a very good way to keep each other on task. Brainstorming helps a lot when you work as a team. Don’t forget that two brains are better than one.&lt;/li&gt;
+  &lt;li&gt;AngularJS concepts: we learned about controllers, services, promises, filters and much more.&lt;/li&gt;
+  &lt;li&gt;JavaScript is the world’s most misunderstood programming language but we understand it better now :).&lt;/li&gt;
+  &lt;li&gt;We learned about vCard format specification.&lt;/li&gt;
+  &lt;li&gt;New Git Commands that were really useful for our daily job.&lt;/li&gt;
+  &lt;li&gt;Asking for help because the communication is the key to solve some of the issues! There are always people out there willing to help, especially on the Nextcloud IRC channels.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/codeaholics_pairprogramming.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;em&gt;Pair Programming at Open Labs Hackerspace. (Photo: Jona &amp;amp; Xheni, Creative Commons Attribution-Share Alike 4.0 International.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;nextcloud-contributions&quot;&gt;&lt;strong&gt;Nextcloud contributions&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;There is an albanian idiom “-Fillimi i mbarë, gjysma e punës” (English equivalent: Well begun, is half done), therefore we created our first PR on our first week and we began contributing on Nextcloud by fixing some starter issues, opening new issues, testing and reviewing etc.&lt;/p&gt;
+
+&lt;p&gt;Nowadays we are mainly focused on developing a new feature: “favorite contacts”, allowing users to quickly favourite some of their contacts.  We are confident to have this feature finished by the end of the summer.&lt;/p&gt;
+
+&lt;p&gt;What will be next? We certainly will continue contributing on other Nextcloud apps, even after the summer ends because we really love the vibe that this community has and the friendly environment.&lt;/p&gt;
+
+&lt;h3 id=&quot;girl-power-at-the-nextcloud-conference&quot;&gt;&lt;strong&gt;Girl Power at the Nextcloud conference!&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;One of the best things about working on the open source projects are the conferences. &lt;a href=&quot;https://twitter.com/codeaholics_AL&quot;&gt;Codeaholics&lt;/a&gt; joined the &lt;a href=&quot;https://nextcloud.com/conf/&quot;&gt;Nextcloud Conference&lt;/a&gt; on 22-29 August in Berlin, Germany. We were the early birds who arrived in the morning on the first day, waiting for other contributors to join the conference.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/codeaholics_nextcloud_conference.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;em&gt;Team Codeaholics at Nextcloud Conference. (Photo: Christoph Wurst, Creative Commons Attribution-Share Alike 4.0 International.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, we had the chance to meet our coaches Morris and Joas in person, our mentor joined us as well. We had four amazing days full of hacking and working on specific tasks on Nextcloud. It’s very helpful when you have your coaches nearby so you can directly ask them and clarify in case of any doubts. In addition to meeting our coaches we also met many other contributors during our stay in Berlin. Fun fact: We knew most of them already by their GitHub usernames, that’s why the first question we asked them was their github username. ;)&lt;/p&gt;
+
+&lt;p&gt;We attended some talks related to the collaboration between Red Hat and Nextcloud, Collabora Online, how the Technical University of Berlin uses Nextcloud, Scalability Recommendations, Security etc.&lt;/p&gt;
+
+&lt;p&gt;On the weekend, there were some lightning talks and workshops where we also shared &lt;a href=&quot;https://www.youtube.com/watch?v=OpMtsE_MICs&quot;&gt;our experience&lt;/a&gt; as RGSoC students with them (a lot of applauses in the end, yaaay)! It was a wonderful conference and a great opportunity to network with the community behind Nextcloud, which makes you feel more motivated to keep contributing.
+And just for the record, coding while drinking Club Mate is one of the best feelings ever. (Try it :P)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/codeaholics_nextcloud.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;em&gt;Nextcloud Conference. (Photo:Raghu Nayyar, Creative Commons Attribution-Share Alike 4.0 International.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;During our stay in Berlin we attended the “Open Source Ladies” event together with Jan, which is an event that aims to help women contribute to open source projects and guide them how to join their communities. It was very nice to meet some new enthusiastic Open Source Ladies from Berlin and share our experiences.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-will-we-miss-most&quot;&gt;&lt;strong&gt;What will we miss most&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Now that RGSoC ended, we will miss a lot:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Our weekly meeting calls with our &lt;a href=&quot;https://twitter.com/benediktdeicke&quot;&gt;supervisor&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/jancborchardt&quot;&gt;mentor&lt;/a&gt;  and coaches. It has been a pleasure working with all of them. By the way: Even though all of them were German and we have heard stories that Germans are very strict or that is very difficult to work with them we are very happy to admit that it is NOT true! Each wednesday that we have our weekly call, we were very happy to talk with them and hear their feedback because it was really helpful for us, that’s why this is one of the things we will miss most! (Thank you guys :D)&lt;/li&gt;
+  &lt;li&gt;Status updates, because they helped us keep track of what we achieved and to set goals for our team.&lt;/li&gt;
+  &lt;li&gt;Being able to focus full-time on open-source development and community building.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;all-in-all&quot;&gt;&lt;strong&gt;All in All…&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;It was a never-to-be-forgotten summer - one of those summers that leave a rich heritage of beautiful memories in their going. Is it the end? Definitely NO, our journey does not end here. We are both open source enthusiasts and the gained experience we had this summer has inspired us even more to continue contributing to coding part of open source projects.&lt;/p&gt;
+
+&lt;p&gt;Thanks RGSoC for this amazing experience we had during this summer, we are happy to be one of the RGSoC alumni now and share our journey with other people!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 Sep 2017 17:04:23 +0200</pubDate>
+        <link>http://localhost:4000/2017/Rails-Girls-Summer-Of-Code/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/Rails-Girls-Summer-Of-Code/</guid>
+        
+        <category>opensource girlsintech</category>
+        
+        
+        <category>opensource</category>
+        
+      </item>
+    
+      <item>
+        <title>Why Led Zeppelin is the greatest band ever...</title>
+        <description>&lt;p&gt;Xheni (en:Jenny) or xh3n1, is just a humanoid who has black hair and big eyes. She has always been the weird kid because she used to play football and video games while other girls played with dolls. Even though her dad wanted her to study medicine, she chose Business Informatics. Did you know that when she was a kid, she wanted to be a hacker ( That was her decision after watching the movie “hackers”). Currently, she is studying Msc in Information Security and one day she hopes to become a good ethical hacker ;). She mostly enjoys coding while she is drinking coffee and listening to good rock music.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/hacktoberfest.jpg&quot; alt=&quot;hactoberfest&quot; title=&quot;Stickers lover CC-BY-SA 4.0&quot; /&gt;
+&lt;em&gt;Xheni loves stickers CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Xheni was a student of &lt;a href=&quot;https://teams.railsgirlssummerofcode.org/users/1703&quot;&gt;Rails Girls Summer of Code 2017&lt;/a&gt; working on the &lt;a href=&quot;https://nextcloud.com&quot;&gt;Nextcloud&lt;/a&gt; project. She is a member of &lt;a href=&quot;https://openlabs.cc&quot;&gt;Open Labs Albania&lt;/a&gt;, a community which promotes free and open source technologies, open data, open technological standards, online privacy etc. She is a Linux lover and has tried many linux distributions. She loves animals (more than you :p). She likes books, movies and animes. She runs a meme page and loves Pepe. She speaks shqip, english and ein bisschen Deutsch. Try bribing her with chocolates. She believes in aliens, do you?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/redshoes.jpg&quot; alt=&quot;red shoes&quot; title=&quot; Oscal 2017 CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;OSCAL 2017 CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Jan 2016 16:04:23 +0100</pubDate>
+        <link>http://localhost:4000/2016/Led-Zepelin-The-Greatest-Band-Ever/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/Led-Zepelin-The-Greatest-Band-Ever/</guid>
+        
+        <category>LedZeppelin Rock Music</category>
+        
+        
+        <category>music</category>
         
       </item>
     
