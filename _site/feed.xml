@@ -5,8 +5,8 @@
     <description>InfoSec student, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Oct 2017 04:07:58 +0200</pubDate>
-    <lastBuildDate>Sun, 22 Oct 2017 04:07:58 +0200</lastBuildDate>
+    <pubDate>Sun, 22 Oct 2017 04:13:47 +0200</pubDate>
+    <lastBuildDate>Sun, 22 Oct 2017 04:13:47 +0200</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -130,7 +130,9 @@ And just for the record, coding while drinking Club Mate is one of the best feel
         <link>http://localhost:4000/2017/Rails-Girls-Summer-Of-Code/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/Rails-Girls-Summer-Of-Code/</guid>
         
-        <category>opensource girlsintech</category>
+        <category>opensource</category>
+        
+        <category>girlsintech</category>
         
         
         <category>opensource</category>
@@ -138,7 +140,7 @@ And just for the record, coding while drinking Club Mate is one of the best feel
       </item>
     
       <item>
-        <title>Why Led Zeppelin is the greatest band ever...</title>
+        <title>Why Led Zeppelin is thee greatest band ever...</title>
         <description>&lt;p&gt;Have you ever done a &lt;strong&gt;Zeppathon&lt;/strong&gt;? When you sit your ass down and listen to all nine Led Zeppelin albums in a row. It takes about 7 hours to do. Every true fan must do it at least once in their lifetime.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/music/ledzeppelin.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
@@ -218,7 +220,11 @@ Led Zeppelin’s lyrics have much of Lord Byron about them: grandiosity, majesty
         <link>http://localhost:4000/2016/Led-Zeppelin-The-Greatest-Band-Ever/</link>
         <guid isPermaLink="true">http://localhost:4000/2016/Led-Zeppelin-The-Greatest-Band-Ever/</guid>
         
-        <category>LedZeppelin Rock Music</category>
+        <category>Music</category>
+        
+        <category>Rock</category>
+        
+        <category>Led Zeppelin</category>
         
         
         <category>music</category>
