@@ -33,6 +33,21 @@
   
     
     <url>
+      <loc>http://localhost:4000/2017/c-base-hackerspace/</loc>
+      
+        <lastmod>2017-08-26T17:04:23+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://localhost:4000/2017/Led-Zeppelin-The-Greatest-Band-Ever/</loc>
       
         <lastmod>2017-03-08T16:04:23+01:00</lastmod>
@@ -68,7 +83,7 @@
     <url>
       <loc>http://localhost:4000/feed.xml</loc>
       
-        <lastmod>2017-10-22T20:56:04+02:00</lastmod>
+        <lastmod>2017-10-24T13:45:12+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -87,7 +102,7 @@
     <url>
       <loc>http://localhost:4000/css/main.css</loc>
       
-        <lastmod>2017-10-22T20:56:04+02:00</lastmod>
+        <lastmod>2017-10-24T13:45:12+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

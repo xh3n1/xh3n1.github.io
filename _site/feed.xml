@@ -5,8 +5,8 @@
     <description>InfoSec student, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Oct 2017 20:56:04 +0200</pubDate>
-    <lastBuildDate>Sun, 22 Oct 2017 20:56:04 +0200</lastBuildDate>
+    <pubDate>Tue, 24 Oct 2017 13:45:12 +0200</pubDate>
+    <lastBuildDate>Tue, 24 Oct 2017 13:45:12 +0200</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -185,6 +185,29 @@ And just for the record, coding while drinking Club Mate is one of the best feel
         
         
         <category>opensource</category>
+        
+      </item>
+    
+      <item>
+        <title>C-base Hackerspace</title>
+        <description>&lt;p&gt;The c-base is the crashed spacestation in the center of Berlin. Nerds, Geeks, SciFi-Fans and digital activists founded the society in 1995. Since that time they reconstruct the space station and use it to share knowledge, interact with other species and provide a space for likeminded groups and individuals. Some people say, that the c-base is “the mother of all hackerspaces”, okay, maybe we will believe that.&lt;/p&gt;
+
+&lt;p&gt;I visited C-base together with some friends from Open Labs Hackerspace ( The brightest hackerspace). It was one of the best things I did during my stay in Berlin this summer. Hopefully, I will visit it again in the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/cbase.jpg&quot; alt=&quot;Cbase&quot; title=&quot;C-base &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;In case of revolution, break glass! CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Aug 2017 17:04:23 +0200</pubDate>
+        <link>http://localhost:4000/2017/c-base-hackerspace/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/c-base-hackerspace/</guid>
+        
+        <category>Places</category>
+        
+        <category>Hackerspace</category>
+        
+        
+        <category>places</category>
         
       </item>
     
