@@ -5,8 +5,8 @@
     <description>InfoSec student, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 24 Oct 2017 13:45:12 +0200</pubDate>
-    <lastBuildDate>Tue, 24 Oct 2017 13:45:12 +0200</lastBuildDate>
+    <pubDate>Tue, 24 Oct 2017 14:12:49 +0200</pubDate>
+    <lastBuildDate>Tue, 24 Oct 2017 14:12:49 +0200</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -208,6 +208,37 @@ And just for the record, coding while drinking Club Mate is one of the best feel
         
         
         <category>places</category>
+        
+      </item>
+    
+      <item>
+        <title>Oscal 2017</title>
+        <description>&lt;p&gt;OSCAL (Open Source Conference Albania) is the first annual conference in Albania organized to promote software freedom, open source software, free culture and open knowledge, a global movement that originally started more than 25 years ago.
+I have attended Oscal conferences since the beginning, except  last year and I am very glad that I didn’t miss  Oscal 2017.
+The Conference took place at 13 &amp;amp; 14 May 2017 in Tirana and  gathered free libre open source technology users, developers, academics, governmental agencies and people who share the idea that software should be free and open ; that knowledge is a communal property and free and open to everyone.
+Oscal’s mission is to educate Albanian youth, and not only, on Free and Open Source Software, its ideology and the great community behind it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/oscal2017.jpg&quot; alt=&quot;Oscal 2017&quot; title=&quot;Oscal Group Photo &quot; /&gt;
+&lt;em&gt;Oscal 2017. Credits : Andis Rado.CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The conference is supported and organized by Open Labs , the community that promotes free libre open source culture in Albania since 2012.
+The conference itself was well-organized, with multiple tracks of talks, workshops and of course infobooths.I attended some interesting talks and workshops and met new people and old friends, folks of open source, geeks and nerds.
+I wanted to mention something else thing that makes OSCAL special and it the fact that male/female ratio seems to be the inverse of what you usually see in these kind of conferences. There are girls everywhere: infobooths, speakers and visitors. GREAT, huh?
+There were also some cool and funny  posters ( albanian idioms and opensource jokes). I LOVED THEM!
+Can’t wait for the next Oscal!!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 May 2017 17:04:23 +0200</pubDate>
+        <link>http://localhost:4000/2017/Oscal-2017/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/Oscal-2017/</guid>
+        
+        <category>opensource</category>
+        
+        <category>conference</category>
+        
+        <category>albania</category>
+        
+        
+        <category>opensource</category>
         
       </item>
     
