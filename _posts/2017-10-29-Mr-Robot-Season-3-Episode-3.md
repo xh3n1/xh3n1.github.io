@@ -1,6 +1,6 @@
 ---
 title:  "Eps3.2_1egacy.so, a flashback episode of Mr Robot "
-date:   2016-01-08 15:04:23
+date:   2017-20-29 20:04:23
 categories: [movies]
 tags: [movies]
 ---
