@@ -5,13 +5,15 @@
     <description>InfoSec student, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 30 Oct 2017 22:04:14 +0100</pubDate>
-    <lastBuildDate>Mon, 30 Oct 2017 22:04:14 +0100</lastBuildDate>
+    <pubDate>Mon, 30 Oct 2017 22:09:39 +0100</pubDate>
+    <lastBuildDate>Mon, 30 Oct 2017 22:09:39 +0100</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
-        <title>Eps3.2_1egacy.so, a flashback episode of Mr Robot </title>
-        <description>&lt;p&gt;First of all I loved the Shining style opening credits. The “Eps3.2_1egacy.so” is a flashback episode dedicated to one character: Tyrell.  It  answers to many questions like : What happened to Tyrell the night of the 5/9 hack, Why didn’t he contact his wife ? What’s his role in the Dark Army and on the Stage 2? How is he connected to Elliot?  The weird relationship between Elliot and Tyrell is the focus of this episode. 
+        <title>Eps3.2_1egacy.so, a flashback episode </title>
+        <description>&lt;p&gt;This is my first recap of Mr Robot episodes. It’s full of spoilers and if you haven’t watched it yet,  DO NO READ IT!&lt;/p&gt;
+
+&lt;p&gt;First of all I loved the Shining style opening credits. The “Eps3.2_1egacy.so” is a flashback episode dedicated to one character: Tyrell Wellick.  It  answers to many questions like : What happened to Tyrell the night of the 5/9 hack, Why didn’t he contact his wife ? What’s his role in the Dark Army and on the Stage 2? How is he connected to Elliot?  The weird relationship between Elliot and Tyrell is the focus of this episode. 
 The flashback begins on the night of the hack as Elliot has just put his plan in motion. While Tyrell is staring at his partner computer, Elliot walks over to the popcorn machine, and we know that the gun is in there. We first assumed that he killed Tyrell but he  aims the gun at Tyrell, pulls the trigger and no shot is fired.  Tyrell is not scared. He laughs and sees this as divine intervention. Mr Robot gave the gun to Tyrell and told him if Elliot ever wants to stop the stage 2, he should shoot him. 
 Irving and the Dark Army shows up with questions for Tyrell. Mr. Robot has no clue who he is and he is confused.
 We’ve gone back in time to see what Tyrell was up to while Elliot spent time in jail. Tyrell undergoes some disturbing questioning at the cabin. We know now that he has some daddy issues and  declares his loyalty to Elliot.&lt;/p&gt;
@@ -28,6 +30,8 @@ When Tyrell and Elliot finally meet back up at the Cab, Elliot has absolutely no
         <guid isPermaLink="true">http://localhost:4000/2017/Mr-Robot-Season-3-Episode-3/</guid>
         
         <category>movies</category>
+        
+        <category>Mr Robot</category>
         
         
         <category>movies</category>
