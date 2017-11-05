@@ -5,21 +5,27 @@
     <description>InfoSec student, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 Nov 2017 19:01:21 +0100</pubDate>
-    <lastBuildDate>Sun, 05 Nov 2017 19:01:21 +0100</lastBuildDate>
+    <pubDate>Sun, 05 Nov 2017 19:20:41 +0100</pubDate>
+    <lastBuildDate>Sun, 05 Nov 2017 19:20:41 +0100</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
         <title>Eps3.3_m3tadata.par2, a security review  </title>
-        <description>&lt;p&gt;What caught my attention this time was one of the Elliot’s monologues about our privacy online.&lt;/p&gt;
+        <description>&lt;p&gt;“Metadata. The story behind the data. Getting information is one thing, but how it was created, where, by whom, can often be illuminating.”&lt;/p&gt;
 
-&lt;p&gt;Our friend mentioned that metadata from pictures which are  posted on social media by us , for example on  Facebook and Instagram can reveal a lot  more about the ones who took the pictures and they don’t know it. Information like who took the photo and the location. This is how he found the  address of the person who hacked his computer. Elliot’s thoughts about social media and metadata is not a big surprise for people who are concerned about their privacy online. 
+&lt;p&gt;&lt;img src=&quot;/images/metadata2.png&amp;quot;Elliot&amp;quot;&quot; alt=&quot;Elliot&quot; /&gt;
+&lt;em&gt;Elliot with plenty of metadata&lt;/em&gt; 
+What caught my attention this time was one of the Elliot’s monologues about metadata and our privacy online.
+Our friend mentioned that metadata from pictures which are  posted on social media by us , for example on  Facebook and Instagram can reveal a lot  more about the ones who took the pictures and they don’t know it. Information like who took the photo and the location, GPS coordinates. This is how he found the  address of the person who hacked his computer and this is how FBI found the person behind the fsociety video posted on VIMEO . Elliot’s thoughts about social media and metadata is not a big surprise for people who are concerned about their privacy online. 
 One week before I watched this episode, believe it or not, I was reading about EXIF metadata.&lt;br /&gt;
 It was quite interesting that Elliot mentionied specifically EXIF data when he was telling us  about metadata and we know that our friend is right. 
-&lt;img src=&quot;/images/metadata.jpg&quot; alt=&quot;Tyrell&quot; title=&quot;Elliot&quot; /&gt;
+&lt;img src=&quot;/images/metadata.jpg&quot; alt=&quot;Elliot&quot; title=&quot;Elliot&quot; /&gt;
 &lt;em&gt;Elliot&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Even if facebook, instagram or twitter wipes the metadata when actually posting a picture online, it will still get the raw photo when you uploaded it. Some advices would be to use  a Metadata Anonymization Toolkit if you really don’t want your pictures  to have metadata when you upload them online,  to lock down social media accounts to maximum privacy levels, disable location-based posting, and remember that what you post online is out there forever.&lt;/p&gt;
+&lt;p&gt;Even if facebook, instagram or twitter wipes the metadata when actually posting a picture online, it will still get the raw photo when you uploaded it. An advice would be to use  a Metadata Anonamization Toolkit if you really don’t want your pictures  to have metadata when you upload them online,  to lock down social media accounts to maximum privacy levels, disable location-based posting, and remember that what you post online is out there forever.&lt;/p&gt;
+
+&lt;h3 id=&quot;____how-to-confuse-the-bugs&quot;&gt;____How to confuse the bugs?&lt;/h3&gt;
+&lt;p&gt;When  Elliot was confronting Darlene, he  puts a device that created a  noise to confuse the bugs. This device it is known as a audio jammer and it was designed to obscure human speech from listening devices. These devices do exist in reality and you  can even find  mobile apps  which turn your smartphone into an audio jammer. These devices are legal to use, so consider using them if you are paranoid.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Nov 2017 11:04:23 +0100</pubDate>
         <link>http://localhost:4000/2017/Mr-Robot-Season-3-Episode-4/</link>
