@@ -6,7 +6,7 @@ tags: [movies, Mr Robot]
 ---
 “Metadata. The story behind the data. Getting information is one thing, but how it was created, where, by whom, can often be illuminating.”
 
-![Elliot](/images/metadata2.png "Elliot")
+![Elliot](/images/metadata2.jpg "Elliot")
 
 *Elliot with plenty of metadata* 
 
@@ -20,5 +20,6 @@ It was quite interesting that Elliot mentionied specifically EXIF data when he w
 
 Even if facebook, instagram or twitter wipes the metadata when actually posting a picture online, it will still get the raw photo when you uploaded it. An advice would be to use  a Metadata Anonamization Toolkit if you really don't want your pictures  to have metadata when you upload them online,  to lock down social media accounts to maximum privacy levels, disable location-based posting, and remember that what you post online is out there forever. 
 
-### ____How to confuse the bugs? 
+### __How to confuse the bugs?__
+ 
 When  Elliot was confronting Darlene, he  puts a device that created a  noise to confuse the bugs. This device it is known as a audio jammer and it was designed to obscure human speech from listening devices. These devices do exist in reality and you  can even find  mobile apps  which turn your smartphone into an audio jammer. These devices are legal to use, so consider using them if you are paranoid. 
