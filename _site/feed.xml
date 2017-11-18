@@ -5,9 +5,38 @@
     <description>InfoSec student, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 Nov 2017 19:28:16 +0100</pubDate>
-    <lastBuildDate>Sun, 05 Nov 2017 19:28:16 +0100</lastBuildDate>
+    <pubDate>Sat, 18 Nov 2017 23:50:03 +0100</pubDate>
+    <lastBuildDate>Sat, 18 Nov 2017 23:50:03 +0100</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title> Git Workshop at Open Labs </title>
+        <description>&lt;p&gt;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It is the most popular VCS used by thousand developers.&lt;/p&gt;
+
+&lt;p&gt;Before the  Rails Girls Summer of Code,  I barely had any experience with Git and I knew only some concepts. 
+Thanks to the Git documentation and the very friendly community over at Nextcloud, I learned many new Git commands.:).&lt;/p&gt;
+
+&lt;p&gt;I am a member at Open Labs Hackerspace and I have noticed that many members of our community are interested in learning Git. Thus, I decided to organize a workshop about Git. Why not? Knowledge sharing is very important to me  and it is the main reason why I advocate Open Source. It’s not tham I am a Git expert, not at all, but still I think that If know something that others don’t, share it with them.
+I talked with Sidorela, another open source enthusiast member of Open Labs about it and together we decided to host the first Git workshop at Open Labs. We proposed the idea of organizing a workshop at Open Labs Forum and as I expected they were interested in learning some commands.
+The workshop went very good. We talked a bit about Git history and Git design in general and then we explained some concepts to them. We practiced and run the most useful git commands.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/mergeconflict.jpg&quot; alt=&quot;merge&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A link of the &lt;a href=&quot;https://github.com/xh3n1/Personal/blob/master/presentation/introductiontoGit.pdf&quot;&gt;presentation&lt;/a&gt; can be found on my Personal GitHub repo. 
+The feedback that they gave us after the event was really good, and it encourages me to continue with Git workshops and not only.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Nov 2017 11:04:23 +0100</pubDate>
+        <link>http://localhost:4000/2017/Git-Workshop-At-OpenLabs/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/Git-Workshop-At-OpenLabs/</guid>
+        
+        <category>opensource</category>
+        
+        <category>openlabs</category>
+        
+        
+        <category>opensource</category>
+        
+      </item>
     
       <item>
         <title>Eps3.3_m3tadata.par2, a security review  </title>
