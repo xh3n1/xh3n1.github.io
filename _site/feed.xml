@@ -5,8 +5,8 @@
     <description>InfoSec student, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Nov 2017 15:44:07 +0100</pubDate>
-    <lastBuildDate>Thu, 30 Nov 2017 15:44:07 +0100</lastBuildDate>
+    <pubDate>Sun, 03 Dec 2017 00:15:23 +0100</pubDate>
+    <lastBuildDate>Sun, 03 Dec 2017 00:15:23 +0100</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -168,6 +168,49 @@ happiness because I am spending time of my life for the benefit of projects that
         
         
         <category>opensource</category>
+        
+      </item>
+    
+      <item>
+        <title>CryptoParty in Tirana</title>
+        <description>&lt;p&gt;Privacy is the space in which ideas are developed, to retreat into whenever you want. This space is not only physical but digital as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is a CryptoParty?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;CryptoParties are free and open for everyone, but especially ​those without prior knowledge, who haven’t yet attended one.
+CryptoParty is a decentralized movement with constantly happening activities in the entire world. The goal of this movement is sharing as much knowledge to as many individuals as possible on how to protect ourselves in the digital world. This worldwide effort introduces the basis of cryptography both in theory and practice, such as encrypted communication, prevention of espionage when navigating on the internet, anonymity on Tor netwyork, cryptography with public key, storage encryption, Virtual Private Networks (VPN) etc. The project consists of a series of workshops free and open for everyone .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The first CryptoParty in Albania&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To join this worldwide effort and to inform about the dangers of the digital world, the importance of online privacy and exchange of practical knowledge to protect our privacy, Open Labs with the support of Arjen Kamphuis and Ardian Haxha have organized CryptoParty Tirana.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/cryptoparty1.jpg&quot; alt=&quot;CryptoParty&quot; title=&quot;Cryptoparty&quot; /&gt;
+&lt;em&gt;CryptoParty Albania. Credits: CC-BY-4.0 Andis Rado&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The CryptoParty  took place at Innovation Hub Tirana  and  gathered  many technology enthusiasts , developers, students, academics, journalists  and people who are concerned about privacy and information security.
+It was the first CryptoParty in Albania and  it  was really well-organized, with multiple talks and  workshops like:  private browsing, file-encryption, email-encryption, debian installation etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/cryptoparty2.jpg&quot; alt=&quot;CryptoParty&quot; title=&quot;Cryptoparty&quot; /&gt;
+&lt;em&gt;Data encryption workshop. Credits: CC-BY-4.0 Andis Rado&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;However, there were people who come down on the side of the government: “I have nothing to hide”…
+The nothing to hide argument states that government surveillance programs do not threaten privacy unless they uncover illegal activities, and that if they do uncover illegal activities, the person committing these activities does not have the right to keep them private. Hence, a person who favors this argument may state “I’ve got nothing to hide” and therefore does not express opposition to government surveillance.An individual using this argument may say that a person should not have worries about government or surveillance if he/she has “nothing to hide.”-Wikipedia.&lt;/p&gt;
+
+&lt;p&gt;My point is:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;“Arguing that you don’t care about the right to privacy because you have nothing to hide, is no different than saying you don’t care about free speech because you have nothing to say.” – E. Snowden.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Emilio Mordini, philosopher and psychoanalyst, argued that the “nothing to hide” argument is inherently paradoxical. People do not need to have “something to hide” in order to hide “something”. What is relevant is not what is hidden, rather the experience that there is an intimate area, which could be hidden, whose access could be restricted. Psychologically speaking, we become individuals through the discovery that we could hide something to others.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Oct 2017 17:04:23 +0200</pubDate>
+        <link>http://localhost:4000/2017/CryptoParty-in-Tirana/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/CryptoParty-in-Tirana/</guid>
+        
+        <category>cryptoparty</category>
+        
+        
+        <category>crypto</category>
         
       </item>
     
