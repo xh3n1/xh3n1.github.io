@@ -3,6 +3,8 @@ title:  "Rails Girls Summer of Code"
 date:   2017-09-26 15:04:23
 categories: [opensource]
 tags: [opensource , girlsintech]
+lang: en
+ref: rails
 ---
 Time seems to fly by so fast when you are a student of Rails Girls Summer of Code and a contributor of a project you love.
 

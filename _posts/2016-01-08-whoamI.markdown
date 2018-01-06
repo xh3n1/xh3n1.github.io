@@ -3,6 +3,8 @@ title:  "Who is Xheni?!"
 date:   2016-01-08 15:04:23
 categories: [personal]
 tags: [personal]
+lang: en
+ref: xheni
 ---
 Xheni (en:Jenny) or xh3n1, is just a humanoid who has black hair and big eyes. She has always been the weird kid because she used to play football and video games while other girls played with dolls. Even though her dad wanted her to study medicine, she chose Business Informatics. Did you know that when she was a kid, she wanted to be a hacker ( That was her decision after watching the movie “hackers”). Currently, she is studying Msc in Information Security and one day she hopes to become a good ethical hacker ;). She mostly enjoys coding while she is drinking coffee and listening to good rock music.
 

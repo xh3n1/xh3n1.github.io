@@ -3,6 +3,8 @@ title:  " Git Workshop at Open Labs "
 date:   2017-11-08 10:04:23
 categories: [opensource]
 tags: [opensource, openlabs]
+lang: en
+ref: git
 ---
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It is the most popular VCS used by thousand developers. 
 

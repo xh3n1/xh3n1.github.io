@@ -3,6 +3,8 @@ title:  "LibOCon and libre Ladies..."
 date:   2017-10-12 15:04:23
 categories: [opensource]
 tags: [opensource, girlsintech, conference]
+lang: en
+ref: libreladies
 ---
 LibOCon is the annual gathering of the LibreOffice community. At LibOCon, LibreOffice users gather to network and meet key LibreOffice developers, designers, localizers, documenters, supporters and marketers, and to learn about the latest in LibreOffice development.
 I have been a LibreOffice user for many years and this year I joined the [LibreOffice Conference](https://conference.libreoffice.org/) from 11-13 October in Rome, Italy.

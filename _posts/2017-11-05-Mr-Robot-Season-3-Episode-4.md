@@ -3,6 +3,8 @@ title:  "Eps3.3_m3tadata.par2, a security review  "
 date:   2017-11-05 10:04:23
 categories: [movies]
 tags: [movies, Mr Robot]
+lang: en
+ref: mrrobot2
 ---
 “Metadata. The story behind the data. Getting information is one thing, but how it was created, where, by whom, can often be illuminating.”
 

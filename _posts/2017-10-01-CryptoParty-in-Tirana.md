@@ -3,6 +3,8 @@ title:  "CryptoParty in Tirana"
 date:   2017-10-01 15:04:23
 categories: [crypto]
 tags: [cryptoparty]
+lang: en
+ref: cryptoparty
 ---
 Privacy is the space in which ideas are developed, to retreat into whenever you want. This space is not only physical but digital as well.
 

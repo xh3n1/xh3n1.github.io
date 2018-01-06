@@ -3,6 +3,8 @@ title:  "Eps3.2_1egacy.so, a flashback episode "
 date:   2017-10-29 20:04:23
 categories: [movies]
 tags: [movies, Mr Robot]
+lang: en
+ref: mrrobot
 ---
 This is my first recap of Mr Robot episodes. It's full of spoilers and if you haven't watched it yet,  DO NO READ IT!
 

@@ -3,6 +3,8 @@ title:  "Why Led Zeppelin is the greatest band ever..."
 date:   2017-03-08 15:04:23
 categories: [music]
 tags: [Music, Rock, Led Zeppelin]
+lang: en
+ref: ledzeppelin
 ---
 Have you ever done a __Zeppathon__? When you sit your ass down and listen to all nine Led Zeppelin albums in a row. It takes about 7 hours to do. Every true fan must do it at least once in their lifetime.
 
