@@ -5,8 +5,8 @@
     <description>InfoSec student, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Feb 2018 20:13:40 +0100</pubDate>
-    <lastBuildDate>Wed, 07 Feb 2018 20:13:40 +0100</lastBuildDate>
+    <pubDate>Wed, 07 Feb 2018 20:15:22 +0100</pubDate>
+    <lastBuildDate>Wed, 07 Feb 2018 20:15:22 +0100</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -77,7 +77,7 @@
 
 &lt;h2 id=&quot;getting-familiar-with-phplist&quot;&gt;&lt;strong&gt;Getting familiar with phpList&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;It wasn’t the first time I took an online course, but it’s the first time I’ve been really enjoying it. But during the training time I felt like the coding exercises were not enough for me, so I asked my phpList mentor to assign me some real-world bugs to fix. The phpList source code was easy to find on on GitHub and I registered an account for myself on the project’s Mantis bug tracker. I started off with issues tagged as ‘quick-fix’ – these ones were well described and easy to fix. Soon I was working on the source code and submitting my first pull requests. This way I put my Treehouse knowledge to immediate use and my motivation got quite a boost once I saw my first &lt;a href=&quot;https://github.com/phpList/phplist3/pulls?q=is%3Apr+author%3Axh3n1+is%3Aclosed&quot;&gt;PRs&lt;/a&gt; being merged. :rocket: :heart_eyes:&lt;/p&gt;
+&lt;p&gt;It wasn’t the first time I took an online course, but it’s the first time I’ve been really enjoying it. But during the training time I felt like the coding exercises were not enough for me, so I asked my phpList mentor to assign me some real-world bugs to fix. The phpList source code was easy to find on on GitHub and I registered an account for myself on the project’s Mantis bug tracker. I started off with issues tagged as ‘quick-fix’ – these ones were well described and easy to fix. Soon I was working on the source code and submitting my first pull requests. This way I put my Treehouse knowledge to immediate use and my motivation got quite a boost once I saw my first &lt;a href=&quot;https://github.com/phpList/phplist3/pulls?q=is%3Apr+author%3Axh3n1+is%3Aclosed&quot;&gt;PRs&lt;/a&gt; being merged.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Disclaimer: This article was originally published on phpList blog.&lt;/strong&gt;&lt;/p&gt;
 </description>
