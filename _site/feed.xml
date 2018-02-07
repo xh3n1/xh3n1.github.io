@@ -5,9 +5,98 @@
     <description>InfoSec student, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 07 Dec 2017 16:31:29 +0100</pubDate>
-    <lastBuildDate>Thu, 07 Dec 2017 16:31:29 +0100</lastBuildDate>
+    <pubDate>Wed, 07 Feb 2018 20:07:50 +0100</pubDate>
+    <lastBuildDate>Wed, 07 Feb 2018 20:07:50 +0100</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
+    
+      <item>
+        <title>Learning advanced PHP with phpList and Treehouse</title>
+        <description>&lt;p&gt;The transition from being a student to the world of real work can be quite challenging. But if you are just starting out in the tech industry, combining online learning with contributing to Open Source allows you to develop your skills and gain experience in collaborative software development and management. I am a student and Open Source enthusiast who has contributed to several projects in recent years. During the last two months, I have combined online classrooms and workshops with an internship at phpList to develop my skills and practices. This has been my journey.&lt;/p&gt;
+
+&lt;h2 id=&quot;enterprise-skills-with-online-learning&quot;&gt;&lt;strong&gt;Enterprise skills with online learning&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Two months ago my most daunting question was which training platform to use to sharpen my PHP skills. It needed to fit my skill level and learning style. There is no single “best” course that fits everyone’s needs; we needed to find a platform which met the criteria. I was looking to extend my existing programming skills with newer and more sophisticated PHP systems and techniques. The courses needed to suit my &lt;strong&gt;intermediate level&lt;/strong&gt; and include coding exercises, as I like to learn ‘by doing’. While I found many PHP courses for beginners, intermediate and advanced courses were very difficult to find. &lt;a href=&quot;https://teamtreehouse.com/library/topic:php&quot;&gt;Team Treehouse&lt;/a&gt; was the only offering that convinced me because it covered more advanced topics such as &lt;strong&gt;Object Oriented&lt;/strong&gt; PHP and &lt;strong&gt;testing frameworks&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-treehouse-works&quot;&gt;&lt;strong&gt;How Treehouse works&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Treehouse has a library which is a complete catalog of all the content that they offer. You can browse by &lt;a href=&quot;https://teamtreehouse.com/library/type:workshop&quot;&gt;type&lt;/a&gt;, topic or &lt;a href=&quot;https://teamtreehouse.com/library/sort:difficulty&quot;&gt;difficulty&lt;/a&gt;. Furthermore, there are different &lt;strong&gt;&lt;a href=&quot;https://teamtreehouse.com/tracks/objectoriented-php-2&quot;&gt;tracks&lt;/a&gt;&lt;/strong&gt; to choose from. Each track is a selection of courses with a common theme, like a certain programming language or a aspect of web development. The track acts as a roadmap so you know what to learn next, those are more of a guidance though and you are not forced to pick the courses in a specific order, allowing for a modular mix of topics. A course in Team Treehouse usually consists of &lt;strong&gt;video lectures&lt;/strong&gt;, &lt;strong&gt;project code&lt;/strong&gt;, &lt;strong&gt;code challenges&lt;/strong&gt; and &lt;strong&gt;quizzes&lt;/strong&gt;. The combination of these methods of delivering content is a good means for ensuring that students will retain the knowledge of each course. I absolutely like the Treehouse’s approach to their videos. Most of them are are very short with good pacing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/treehouse1.jpg&quot; alt=&quot;php coding demonstration&quot; /&gt;
+&lt;em&gt;PHP coding demonstration in a Treehouse video lecture&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Each individual lesson within a course has a video lecture, project code to experiment with, and a “&lt;strong&gt;workspace&lt;/strong&gt;” where you can make changes to the project code and see the results right away. If you have an active pro account, you can &lt;strong&gt;download course files&lt;/strong&gt; such as videos and video transcript for offline learning. Over the last two months, I completed 9 Treehouse courses in all, each chosen for their real-world usefulness and relevance to phpList 3 and 4:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PHP Basics 2&lt;/li&gt;
+  &lt;li&gt;Object-oriented PHP basics 2&lt;/li&gt;
+  &lt;li&gt;Extending object-oriented PHP&lt;/li&gt;
+  &lt;li&gt;PHP standards and best practices&lt;/li&gt;
+  &lt;li&gt;PHP databases with PDO&lt;/li&gt;
+  &lt;li&gt;PHP standards and best practices&lt;/li&gt;
+  &lt;li&gt;PHP user authentication&lt;/li&gt;
+  &lt;li&gt;Integrating PHP with databases&lt;/li&gt;
+  &lt;li&gt;PHP testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also attended the following &lt;strong&gt;workshops&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dependency Management with Composer&lt;/li&gt;
+  &lt;li&gt;Basic Error Handling with PHP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;teachers-notes&quot;&gt;&lt;strong&gt;Teacher’s Notes&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;The Teacher’s Notes for each video appear on the left-most tab below the video player. There you can find notes such as a summary of the lesson and useful links provided by the teacher. In my opinion, the links in the teacher’s notes worth the time to read because all knowledge that can improve your understanding is worth your time to read.&lt;/p&gt;
+
+&lt;h4 id=&quot;quizzes-and-code-challenges&quot;&gt;&lt;strong&gt;Quizzes and Code Challenges&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/challenges.jpg&quot; alt=&quot;A code challenge question on Treehouse&quot; /&gt;
+&lt;em&gt;A code challenge question on Treehouse&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The quizzes require a certain number of correct answers to pass. The only thing that I don’t like about them is that I’m not told why my answer is wrong, especially for the fill in the blank questions. The code challenges require writing some real code to test your knowledge and skill. There are two components involved in the Code Challenge. One component is the editor interface that you interact with and this is the only component you really see and touch. The other is the component that actually evaluates the code you write to see if it is correct. The code challenges and the quizzes help you to solidify your understanding. If you pay attention to the videos and write down concepts, it makes passing the code challenges and quizzes much easier.&lt;/p&gt;
+
+&lt;h4 id=&quot;workspaces&quot;&gt;&lt;strong&gt;Workspaces&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Workspace is a fully browser-based code editor. You can use it to work alongside a Treehouse course. Each Workspace has a total storage limit of 50 MB. Currently, students are allowed to have up to 100 Workspaces created at a time.&lt;/p&gt;
+
+&lt;h4 id=&quot;motivational-tracking-tools&quot;&gt;&lt;strong&gt;Motivational tracking tools&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/badge.jpg&quot; alt=&quot;I earned +30 points for unlocking this badge&quot; /&gt;
+&lt;em&gt;I earned +30 points for unlocking this badge&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Team Treehouse really knows how to motivate students to complete their courses. First of all, there are &lt;strong&gt;badges&lt;/strong&gt;. Everybody loves badges. Students get badges for reaching certain goals. There are always new badges being added to accompany new lessons and new courses. Another incentive tool is the &lt;strong&gt;motivational email&lt;/strong&gt; you get from the teacher when you complete the course. Next is the &lt;strong&gt;points system&lt;/strong&gt;. You get points in each area of Team Treehouse by completing courses and lessons. The more lessons you complete in, for example, PHP, the more points in the PHP area you get. Team Treehouse tracks both your points in each area and your total points. You also get points by posting on the Team Treehouse forum. Furthermore, it &lt;strong&gt;tracks your progress&lt;/strong&gt; in percentage system. You can see what percent of the total amount of content in a given track you have completed. This is a really good measure of your progress, and it feels great to see how far you have come. These incentive methods are very good for keeping the student focused.&lt;/p&gt;
+
+&lt;h4 id=&quot;treehouse-community&quot;&gt;&lt;strong&gt;Treehouse community&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Treehouse community is the best place to talk with your fellow students, asking questions, getting your questions answered, answering your fellow students’ questions and making it easier to make connections with like-minded folks going through the same journey as you are.  &lt;/p&gt;
+
+&lt;h4 id=&quot;cons&quot;&gt;&lt;strong&gt;Cons&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;The course quality varies from teacher to teacher and the PHP courses are taught by different teachers. Some teachers may be skilled in their profession, but don’t manage to communicate well with students. Also, some of them did not offer coding challenges, but only quizzes. Furthermore, not all teachers sent out motivational emails at the end of the course which would have made for a nicer learning experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-familiar-with-phplist&quot;&gt;&lt;strong&gt;Getting familiar with phpList&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;It wasn’t the first time I took an online course, but it’s the first time I’ve been really enjoying it. But during the training time I felt like the coding exercises were not enough for me, so I asked my phpList mentor to assign me some real-world bugs to fix. The phpList source code was easy to find on on GitHub and I registered an account for myself on the project’s Mantis bug tracker. I started off with issues tagged as ‘quick-fix’ – these ones were well described and easy to fix. Soon I was working on the source code and submitting my first pull requests. This way I put my Treehouse knowledge to immediate use and my motivation got quite a boost once I saw my first &lt;a href=&quot;https://github.com/phpList/phplist3/pulls?q=is%3Apr+author%3Axh3n1+is%3Aclosed&quot;&gt;PRs&lt;/a&gt; being merged. :rocket: :heart_eyes:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disclaimer: This article was originally published on phpList blog.&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Feb 2018 11:04:23 +0100</pubDate>
+        <link>http://localhost:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</guid>
+        
+        <category>opensource</category>
+        
+        <category>course</category>
+        
+        <category>phplist</category>
+        
+        
+        <category>opensource</category>
+        
+        <category>phplist</category>
+        
+      </item>
     
       <item>
         <title> Git Workshop at Open Labs </title>
@@ -468,30 +557,6 @@ Led Zeppelin’s lyrics have much of Lord Byron about them: grandiosity, majesty
         
         
         <category>music</category>
-        
-      </item>
-    
-      <item>
-        <title>Who is Xheni?!</title>
-        <description>&lt;p&gt;Xheni (en:Jenny) or xh3n1, is just a humanoid who has black hair and big eyes. She has always been the weird kid because she used to play football and video games while other girls played with dolls. Even though her dad wanted her to study medicine, she chose Business Informatics. Did you know that when she was a kid, she wanted to be a hacker ( That was her decision after watching the movie “hackers”). Currently, she is studying Msc in Information Security and one day she hopes to become a good ethical hacker ;). She mostly enjoys coding while she is drinking coffee and listening to good rock music.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/hacktoberfest.jpg&quot; alt=&quot;hactoberfest&quot; title=&quot;Stickers lover CC-BY-SA 4.0&quot; /&gt;
-&lt;em&gt;Xheni loves stickers CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Xheni was a student of &lt;a href=&quot;https://teams.railsgirlssummerofcode.org/users/1703&quot;&gt;Rails Girls Summer of Code 2017&lt;/a&gt; working on the &lt;a href=&quot;https://nextcloud.com&quot;&gt;Nextcloud&lt;/a&gt; project. She is a member of &lt;a href=&quot;https://openlabs.cc&quot;&gt;Open Labs Albania&lt;/a&gt;, a community which promotes free and open source technologies, open data, open technological standards, online privacy etc. She is a Linux lover and has tried many linux distributions. She loves animals (more than you :p). She likes books, movies and animes. She runs a meme page and loves Pepe. She speaks shqip, english and ein bisschen Deutsch. Try bribing her with chocolates. She believes in aliens, do you?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/redshoes.jpg&quot; alt=&quot;red shoes&quot; title=&quot; Oscal 2017 CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;OSCAL 2017 CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 08 Jan 2016 16:04:23 +0100</pubDate>
-        <link>http://localhost:4000/2016/whoamI/</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/whoamI/</guid>
-        
-        <category>personal</category>
-        
-        
-        <category>personal</category>
         
       </item>
     
