@@ -21,10 +21,10 @@ Treehouse has a library which is a complete catalog of all the content that they
 ![php coding demonstration](/images/treehouse1.jpg)
 *PHP coding demonstration in a Treehouse video lecture*
 
- Each individual lesson within a course has a video lecture, project code to experiment with, and a “**workspace**” where you can make changes to the project code and see the results right away. If you have an active pro account, you can **download course files** such as videos and video transcript for offline learning. Over the last two months, I completed 9 Treehouse courses in all, each chosen for their real-world usefulness and relevance to phpList 3 and 4:
+ Each individual lesson within a course has a video lecture, project code to experiment with, and a “**workspace**” where you can make changes to the project code and see the results right away. If you have an active pro account, you can **download course files** such as videos and video transcript for offline learning. Over the last two months, I completed 9 Treehouse courses in all, each chosen for their real-world usefulness and relevance to phpList [3](https://github.com/phplist/phplist3) and [4](https://github.com/phpList/phplist4-core):
 
-*   PHP Basics 2
-*   Object-oriented PHP basics 2
+*   PHP Basics 
+*   Object-oriented PHP basics 
 *   Extending object-oriented PHP
 *   PHP standards and best practices
 *   PHP databases with PDO

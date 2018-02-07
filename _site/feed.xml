@@ -5,8 +5,8 @@
     <description>InfoSec student, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Feb 2018 20:07:50 +0100</pubDate>
-    <lastBuildDate>Wed, 07 Feb 2018 20:07:50 +0100</lastBuildDate>
+    <pubDate>Wed, 07 Feb 2018 20:13:40 +0100</pubDate>
+    <lastBuildDate>Wed, 07 Feb 2018 20:13:40 +0100</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -24,11 +24,11 @@
 &lt;p&gt;&lt;img src=&quot;/images/treehouse1.jpg&quot; alt=&quot;php coding demonstration&quot; /&gt;
 &lt;em&gt;PHP coding demonstration in a Treehouse video lecture&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Each individual lesson within a course has a video lecture, project code to experiment with, and a “&lt;strong&gt;workspace&lt;/strong&gt;” where you can make changes to the project code and see the results right away. If you have an active pro account, you can &lt;strong&gt;download course files&lt;/strong&gt; such as videos and video transcript for offline learning. Over the last two months, I completed 9 Treehouse courses in all, each chosen for their real-world usefulness and relevance to phpList 3 and 4:&lt;/p&gt;
+&lt;p&gt;Each individual lesson within a course has a video lecture, project code to experiment with, and a “&lt;strong&gt;workspace&lt;/strong&gt;” where you can make changes to the project code and see the results right away. If you have an active pro account, you can &lt;strong&gt;download course files&lt;/strong&gt; such as videos and video transcript for offline learning. Over the last two months, I completed 9 Treehouse courses in all, each chosen for their real-world usefulness and relevance to phpList &lt;a href=&quot;https://github.com/phplist/phplist3&quot;&gt;3&lt;/a&gt; and &lt;a href=&quot;https://github.com/phpList/phplist4-core&quot;&gt;4&lt;/a&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;PHP Basics 2&lt;/li&gt;
-  &lt;li&gt;Object-oriented PHP basics 2&lt;/li&gt;
+  &lt;li&gt;PHP Basics&lt;/li&gt;
+  &lt;li&gt;Object-oriented PHP basics&lt;/li&gt;
   &lt;li&gt;Extending object-oriented PHP&lt;/li&gt;
   &lt;li&gt;PHP standards and best practices&lt;/li&gt;
   &lt;li&gt;PHP databases with PDO&lt;/li&gt;
