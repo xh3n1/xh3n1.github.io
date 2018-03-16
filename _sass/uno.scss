@@ -937,7 +937,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #e25440; }
+	color: #4da6ff; }
 	a:hover {
 		color: #b9301c;
 		-o-transition: .5s;
@@ -955,7 +955,7 @@ h5 {
 	margin-bottom: .4em;
 	font-family: "Roboto Slab", serif;
 	font-weight: lighter;
-	color: #333333;
+	color: #000d1a;
 	-webkit-font-smoothing: antialiased; }
 
 h1 {
@@ -1085,7 +1085,7 @@ pre {
 	position: relative;
 	display: inline-block;
 	padding: 8px 18px 9px 18px;
-	background: #e25440;
+	background: #4da6ff;
 	border-radius: 3px;
 	text-align: center;
 	color: #FFF; }
@@ -1308,13 +1308,13 @@ hr {
 
 .btn, .navigation__item a {
 	padding: 10px 20px;
-	border: 1px solid #e25440;
+	border: 1px solid #4da6ff;
 	border-radius: 20px;
 	font-size: .9em;
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-shadow: none;
-	color: #e25440;
+	color: #4da6ff;
 	-webkit-font-smoothing: antialiased; }
 	.btn:hover, .navigation__item a:hover {
 		color: #b9301c;
@@ -1441,7 +1441,7 @@ i {
 	font-size: 1.5em;
 	line-height: 1.3em; }
 	.post-list__post-title a {
-		color: #333333; }
+		color: #000d1a; }
 		.post-list__post-title a:hover {
 			color: #b9301c; }
 
