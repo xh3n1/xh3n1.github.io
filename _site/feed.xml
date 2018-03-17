@@ -5,8 +5,8 @@
     <description>InfoSec student, Nextcloud &amp; phpList contributor, Open Labs Hackerspace member, RGSoC alumna,  &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 17 Mar 2018 02:33:23 +0100</pubDate>
-    <lastBuildDate>Sat, 17 Mar 2018 02:33:23 +0100</lastBuildDate>
+    <pubDate>Sat, 17 Mar 2018 02:36:12 +0100</pubDate>
+    <lastBuildDate>Sat, 17 Mar 2018 02:36:12 +0100</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -95,6 +95,100 @@
         <category>opensource</category>
         
         <category>phplist</category>
+        
+      </item>
+    
+      <item>
+        <title>34c3 - Endlich, normale Leute...</title>
+        <description>&lt;p&gt;The Chaos Communication Congress is an annual conference organized by the Chaos Computer Club. The congress features a variety of lectures and workshops on technical and political issues related to Security, Cryptography, Privacy and online Freedom of Speech. The event takes place regularly at the end of the year since 1984, with the current date and duration (December 27–30) established in 2005. It is considered one of the largest events of this kind, alongside the DEF CON in Las Vegas.
+&lt;em&gt;This is what I read on Wikipedia before I decided to go there.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Chaos Communication Congress has been running for 34 years, and this was the first year that Congress was hosted in Leipzig.
+Around 15,000 people took part in this remarkable event. No doubt, it’s the biggest hacker conference in Europe.
+Apart from the official conference program, the CCC also offers space for assemblies, lightning talks, developer meetings, art installations, workshops, and special places for kids to play.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;tuwat!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/logo-tuwat.png&quot; alt=&quot;tuwat&quot; title=&quot;tuwat&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This year’s motto, “tuwat!”, which is a slang-dialect for “do something!”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;My first Congress&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A security professional told me how cool this conference is and convinced me to go there. But I went there with Jona, my RGSoC teammate. We arrived in Berlin one night before the CCC, and we almost missed our flixbus to Leipzig, because I wanted to see the Brandenburger Tor. What a night !!&lt;/p&gt;
+
+&lt;p&gt;CCC is more than a ‘hacker’ conference. It’s a community get-together and the community consists of all creatures of the web who share the common vision for an open and free technological society: hackers, programmers,hactivists, artists, philosophers, engineers, trollers, robots, aliens etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/leipzig.jpg&quot; alt=&quot;pool&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have never been in other Congress Centers, but The Congress Center Leipzig (CCL) was huge and stunning.
+ There was one huge hall (Hall 2), which was filled with all the assemblies and two halls filled with the big lecture halls.
+The coolest hall to hang out was the one with the  Assemblies where hackerspaces and interest groups get together and bring their computers and coolest toys, doing what they do best —hacking.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/rockets.jpg&quot; alt=&quot;rocket&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There was also this “pool area” which was very outstanding and they played very good music. Nerds know how to party ;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-pool.jpeg&quot; alt=&quot;pool&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The big glass hall allowed daylight consumption and made it obvious when that was missing.
+ I was very amazed, especially at night, by all those neon lights, art decorations, nerdy atmosphere.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-rocket.jpg&quot; alt=&quot;rocket&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I obviously saw some talks about security, and even about open source satellites.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-talk.jpg&quot; alt=&quot;talk&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I visited assemblies, played some games, listened to robotic music, met some old friends and of course grabbed a lot of stickers. Totally enjoyable experience!
+I spend most of the time at Nextcloud assembly, together with other Nextclouders.
+  By the way, on the third day, I was wearing the Nextcloud T-shirt and guess what? People came to me and asked about Nextcloud or just said: “I love Nextcloud, awesome software”.
+   The real soul of the Congress is people getting together, making something crazy and temporary, learning new things, and simply having fun.
+  I have seen strange things.
+  What really got my attention was an impressive 3D zoetrope.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-robot.jpg&quot; alt=&quot;robot&quot; title=&quot;34c3&quot; /&gt;
+   Also the pneumatic robot-dog-horse-with-gasmask, which is driven by an Arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-face.jpg&quot; alt=&quot;face&quot; title=&quot;34c3&quot; /&gt;
+   This one scared me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Make Mate, not War&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you know that Mate is geeks’ favourite drink?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/floramate.jpg&quot; alt=&quot;mate&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Back in the “Real World”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that I have been to a Chaos Communication Congress, I know that feeling, the strange realization after it’s all over and that you’re back in the “real world”. It’s somehow alienating in comparison to being surrounded by computer geeks, artists, hackers, coders and other like-minded individuals over the four days of the Congress. There was this hand-written poster “Endlich, normale Leute” — “At last, normal people” — which is irony piled on irony but the sentiment is still right for certain strange values of “normal”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Random photos taken with my Samsung Galaxy Note 3&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/alien.jpg&quot; alt=&quot;alien&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-ihavenoidea.jpg&quot; alt=&quot;ihavenoidea&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-unix.jpg&quot; alt=&quot;unix&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-more.jpg&quot; alt=&quot;more&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-chaos.jpg&quot; alt=&quot;chaos&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-chaos2017.jpg&quot; alt=&quot;chaos&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Dec 2017 16:04:23 +0100</pubDate>
+        <link>http://localhost:4000/2017/34c3-reflections/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/34c3-reflections/</guid>
+        
+        <category>34c3</category>
+        
+        <category>ccc</category>
+        
+        <category>hackers</category>
+        
+        
+        <category>conference</category>
         
       </item>
     
@@ -526,37 +620,6 @@ And just for the record, coding while drinking Club Mate is one of the best feel
         
         
         <category>places</category>
-        
-      </item>
-    
-      <item>
-        <title>Oscal 2017</title>
-        <description>&lt;p&gt;OSCAL (Open Source Conference Albania) is the first annual conference in Albania organized to promote software freedom, open source software, free culture and open knowledge, a global movement that originally started more than 25 years ago.
-I have attended Oscal conferences since the beginning, except  last year and I am very glad that I didn’t miss  Oscal 2017.
-The Conference took place at 13 &amp;amp; 14 May 2017 in Tirana and  gathered free libre open source technology users, developers, academics, governmental agencies and people who share the idea that software should be free and open ; that knowledge is a communal property and free and open to everyone.
-Oscal’s mission is to educate Albanian youth, and not only, on Free and Open Source Software, its ideology and the great community behind it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/oscal2017.jpg&quot; alt=&quot;Oscal 2017&quot; title=&quot;Oscal Group Photo &quot; /&gt;
-&lt;em&gt;Oscal 2017. Credits : Andis Rado.CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The conference is supported and organized by Open Labs , the community that promotes free libre open source culture in Albania since 2012.
-The conference itself was well-organized, with multiple tracks of talks, workshops and of course infobooths.I attended some interesting talks and workshops and met new people and old friends, folks of open source, geeks and nerds.
-I wanted to mention something else thing that makes OSCAL special and it the fact that male/female ratio seems to be the inverse of what you usually see in these kind of conferences. There are girls everywhere: infobooths, speakers and visitors. GREAT, huh?
-There were also some cool and funny  posters ( albanian idioms and opensource jokes). I LOVED THEM!
-Can’t wait for the next Oscal!!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 May 2017 17:04:23 +0200</pubDate>
-        <link>http://localhost:4000/2017/Oscal-2017/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/Oscal-2017/</guid>
-        
-        <category>opensource</category>
-        
-        <category>conference</category>
-        
-        <category>albania</category>
-        
-        
-        <category>opensource</category>
         
       </item>
     
