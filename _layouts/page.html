@@ -9,6 +9,7 @@ layout: default
 
   <section class="post">
     {{ content }}
+    {{ content | reading_time | pluralize: "minute" }} to read.</p>
   </section>
 
 </article>
