@@ -74,7 +74,7 @@ Do you know that Mate is geeks' favourite drink?
 
 __Back in the "Real World"__
 
-Now that I have been to a Chaos Communication Congress, I know that feeling, the strange realization after it’s all over and that you’re back in the “real world”. It’s somehow alienating in comparison to being surrounded by computer geeks, artists, hackers, coders and other like-minded individuals over the four days of the Congress. There was this hand-written poster “Endlich, normale Leute” — “At last, normal people” — which is irony piled on irony but the sentiment is still right for certain strange values of “normal”. :+1:
+Now that I have been to a Chaos Communication Congress, I know that feeling, the strange realization after it’s all over and that you’re back in the “real world”. It’s somehow alienating in comparison to being surrounded by computer geeks, artists, hackers, coders and other like-minded individuals over the four days of the Congress. There was this hand-written poster “Endlich, normale Leute” — “At last, normal people” — which is irony piled on irony but the sentiment is still right for certain strange values of “normal”. :rocket:
 
 __Random photos taken with my Samsung Galaxy Note 3__
 
