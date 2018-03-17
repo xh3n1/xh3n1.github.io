@@ -5,8 +5,8 @@
     <description>InfoSec student, Nextcloud &amp; phpList contributor, Open Labs Hackerspace member, RGSoC alumna,  &amp; Inter fan</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 16 Mar 2018 16:36:58 +0100</pubDate>
-    <lastBuildDate>Fri, 16 Mar 2018 16:36:58 +0100</lastBuildDate>
+    <pubDate>Sat, 17 Mar 2018 02:33:23 +0100</pubDate>
+    <lastBuildDate>Sat, 17 Mar 2018 02:33:23 +0100</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
@@ -95,6 +95,98 @@
         <category>opensource</category>
         
         <category>phplist</category>
+        
+      </item>
+    
+      <item>
+        <title>34c3, Endlich, normale Leute...</title>
+        <description>&lt;p&gt;The Chaos Communication Congress is an annual conference organized by the Chaos Computer Club. The congress features a variety of lectures and workshops on technical and political issues related to Security, Cryptography, Privacy and online Freedom of Speech. The event takes place regularly at the end of the year since 1984, with the current date and duration (December 27–30) established in 2005. It is considered one of the largest events of this kind, alongside the DEF CON in Las Vegas.
+&lt;em&gt;This is what I read on Wikipedia before I decided to go there.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Chaos Communication Congress has been running for 34 years, and this was the first year that Congress was hosted in Leipzig.
+Around 15,000 people took part in this remarkable event. No doubt, it’s the biggest hacker conference in Europe.
+Apart from the official conference program, the CCC also offers space for assemblies, lightning talks, developer meetings, art installations, workshops, and special places for kids to play.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;tuwat!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/logo-tuwat.png&quot; alt=&quot;tuwat&quot; title=&quot;tuwat&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This year’s motto, “tuwat!”, which is a slang-dialect for “do something!”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;My first Congress&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A security professional told me how cool this conference is and convinced me to go there. But I went there with Jona, my RGSoC teammate. We arrived in Berlin one night before the CCC, and we almost missed our flixbus to Leipzig, because I wanted to see the Brandenburger Tor. What a night !!&lt;/p&gt;
+
+&lt;p&gt;CCC is more than a ‘hacker’ conference. It’s a community get-together and the community consists of all creatures of the web who share the common vision for an open and free technological society: hackers, programmers,hactivists, artists, philosophers, engineers, trollers, robots, aliens etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/leipzig.jpg&quot; alt=&quot;pool&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have never been in other Congress Centers, but The Congress Center Leipzig (CCL) was huge and stunning.
+ There was one huge hall (Hall 2), which was filled with all the assemblies and two halls filled with the big lecture halls.
+The coolest hall to hang out was the one with the  Assemblies where hackerspaces and interest groups get together and bring their computers and coolest toys, doing what they do best —hacking.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/rockets.jpg&quot; alt=&quot;rocket&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There was also this “pool area” which was very outstanding and they played very good music. Nerds know how to party ;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-pool.jpeg&quot; alt=&quot;pool&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The big glass hall allowed daylight consumption and made it obvious when that was missing.
+ I was very amazed, especially at night, by all those neon lights, art decorations, nerdy atmosphere.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-rocket.jpg&quot; alt=&quot;rocket&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I obviously saw some talks about security, and even about open source satellites.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-talk.jpg&quot; alt=&quot;talk&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I visited assemblies, played some games, listened to robotic music, met some old friends and of course grabbed a lot of stickers. Totally enjoyable experience!
+I spend most of the time at Nextcloud assembly, together with other Nextclouders.
+  By the way, on the third day, I was wearing the Nextcloud T-shirt and guess what? People came to me and asked about Nextcloud or just said: “I love Nextcloud, awesome software”.
+   The real soul of the Congress is people getting together, making something crazy and temporary, learning new things, and simply having fun.
+  I have seen strange things.
+  What really got my attention was an impressive 3D zoetrope.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-robot.jpg&quot; alt=&quot;robot&quot; title=&quot;34c3&quot; /&gt;
+   Also the pneumatic robot-dog-horse-with-gasmask, which is driven by an Arduino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-face.jpg&quot; alt=&quot;face&quot; title=&quot;34c3&quot; /&gt;
+   This one scared me.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Make Mate, not War&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Do you know that Mate is geeks’ favourite drink?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/floramate.jpg&quot; alt=&quot;mate&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Back in the “Real World”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now that I have been to a Chaos Communication Congress, I know that feeling, the strange realization after it’s all over and that you’re back in the “real world”. It’s somehow alienating in comparison to being surrounded by computer geeks, artists, hackers, coders and other like-minded individuals over the four days of the Congress. There was this hand-written poster “Endlich, normale Leute” — “At last, normal people” — which is irony piled on irony but the sentiment is still right for certain strange values of “normal”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Random photos taken with my Samsung Galaxy Note 3&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/alien.jpg&quot; alt=&quot;alien&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-ihavenoidea.jpg&quot; alt=&quot;ihavenoidea&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-unix.jpg&quot; alt=&quot;unix&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-more.jpg&quot; alt=&quot;more&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-chaos.jpg&quot; alt=&quot;chaos&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/34c3-chaos2017.jpg&quot; alt=&quot;chaos&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 31 Dec 2017 16:04:23 +0100</pubDate>
+        <link>http://localhost:4000/2017/34c3-chaos-communication-congress/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/34c3-chaos-communication-congress/</guid>
+        
+        <category>Congress</category>
+        
+        <category>hackers</category>
+        
+        
+        <category>Event</category>
         
       </item>
     
@@ -465,98 +557,6 @@ Can’t wait for the next Oscal!!&lt;/p&gt;
         
         
         <category>opensource</category>
-        
-      </item>
-    
-      <item>
-        <title>Why Led Zeppelin is the greatest band ever...</title>
-        <description>&lt;p&gt;Have you ever done a &lt;strong&gt;Zeppathon&lt;/strong&gt;? When you sit your ass down and listen to all nine Led Zeppelin albums in a row. It takes about 7 hours to do. Every true fan must do it at least once in their lifetime.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/music/ledzeppelin.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Led Zeppelin&lt;/strong&gt; has gone down in history as one of the greastest bands of all time. I’m here to show you that they are, in fact, the greatest of them all (I believe).
-Remembered as the biggest band of the 1970’s, Led Zeppelin gained iconic status through their electrifying live shows. Over time, their popularity hasn’t waned, and they are still one of the most popular bands today. Only reuniting a handful of times, they have remained true to their legacy and will be forever remembered as their classic line-up: &lt;strong&gt;Robert Plant, Jimmy Page, John Paul Jones, and John Bonham&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/music/ledzeppelin2.JPG&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now you might say, “This sounds like you’re pandering to Led Zeppelin fans, I mean, not everybody likes them you know.  You can’t just say they were the best band to have ever existed and have it be true.”  If so, you’d be right.  Not everyone likes Led Zeppelin, and not everyone would say that they were the best band to have ever existed.  That’s not the point.  The point is: Led Zeppelin was a legend of a band—something that might not happen again, if not for a long time.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/music/ledzeppelin2.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;“Why?” You ask.  Well, faithful reader, the answer lies in the artists.  Take Jimmy Page for example.  Page is no doubt an excellent guitarist, but what makes him so good?  Well for starters, at the time (the 70’s) he was at the epitome of guitar playing skill.  Give him anything, and he could play it.  Not only this, but he was also what rock-fanatics might call a “riff machine.”  This man would spit out iconic riff after riff, making every song incredibly catchy.  Take their 1971 hit “Black Dog” for instance.  “Black Dog” is entirely driven by Jimmy’s riff, repeating through breaks of Robert Plant’s wailing vocals.  Songs that were given the power of Page’s iconic riffs became rock staples.  Now that might be enough to call him one of the best, but he’s not done.  One of Led Zeppelin’s key factors is their solo potential.  Jimmy Page could solo, and he could solo hard.  Really hard.  The hardest.  From the iconic “Stairway to Heaven” to the short and sweet “Whole Lotta Love” solo, Jimmy demonstrated absolute dominance over the industry in practically every song.  His skill combined with his fellow band members’ proved to be one of the best in the business.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/music/robertplant.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Speaking of fellow band members, on to the glorious Robert Plant.  Plant, the singer, was the spitting image of “showman.”  He had the long blond hair, the extra-skinny skinny jeans, and the staple unbuttoned shirt purposely exposing his entire torso.  And he had the stance, too.  When singing, he would stand perpendicular to the crowd with his right hand raised to eye level, his finger lazily pointing upwards while he moved his hand around without much of a pattern.  He was so feminine that he was incredibly masculine. The man was a legend for several reasons.  Aside from the look, he had the voice.  He was characteristic for his screeching wails and charisma, and he commanded the stage with ease.  His voice gave a twisted, darker sound most of the time, but can easily be happy or bluesy.  Robert Plant’s voice is really what gives a Led Zeppelin song its flair, and without it the songs wouldn’t feel the same.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/music/jimmypage.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Page and Plant were known as the flagships for the band, but don’t forget about the forgotten duo:  John Paul Jones and John Bonham.  Let’s begin with JPJ, because without him, most bassists wouldn’t have an idol. John Paul Jones will forever be the unsung hero of the group. His ability to creatively and skillfully craft new riffs on bass that could mimic the guitar riffs gave the songs an incredible drive, and he is also a multi-instrumentalist.  Not only did he play bass (which he was most famous for), he also plays the guitar, koto, lap steel guitars, mandolin, autoharp, violin, ukulele, sitar, cello, and recorder (as heard in “Stairway to Heaven”).  Not only does he play all of these instruments, he plays them well.  Well enough to use in whatever song the band needs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/music/johnpauljones.jpeg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;John Bonham on the other hand was the glue that stuck the band together.  JPJ was the jack-of-all-trades, Page was the guitar wizard, and Plant was the showman, but Bonham had something that Led Zeppelin needed.  He was very dear to the band members, and kept them together and happy.  He was one of the best drummers to have ever existed, and was known for his speed, power, and groove. 
-One only needs to listen to Moby Dick to recognise that John Bonham was an extraordinary drummer of seemingly limitless ability. His thunder can be heard on songs ranging from cock-rock classics such as Black Dog, to the beautiful ballads Over the Hills and Far Away and The Rain Song, to the folksy Bron-Y-Aur Stomp.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/music/bonzo.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Without a doubt, Led Zeppelin most definitely has what it takes to be one of the best bands in history.  The combination of skill, technique, genre, and a level of musical bravery to surpass the norms seen during its time lead the band to be incredibly memorable.  When listening to Led Zeppelin, almost all of their songs have become staples in American history.  Each member was at the peak of his trade and each added his own flavor to the music.  Led Zeppelin is so good in fact that I truly believe the world of music would be vastly different without them, more so than any other band in history.&lt;/p&gt;
-
-&lt;p&gt;Who can forget such classic lines as “Mean old levee, taught me to weep and moan”, or “I don’t know, but I been told, that big-legged women ain’t got no soul”.
-Led Zeppelin’s lyrics have much of Lord Byron about them: grandiosity, majesty, and more than a handful of irreverence. The lyrics cover everything from love, to The Lord of the Rings, to sex in its sexiest form, to childhood friendship. Whether influenced by blues, folk or good old rock ‘n roll, Led Zeppelin’s lyrics encompass a wide range of experiences.&lt;/p&gt;
-
-&lt;p&gt;The guitar solo is a hallmark of rock ‘n roll and many artists are credited as being masters of the craft: from Jimi Hendrix to Slash. However, few solos carry as much emotion as Jimmy Page’s, whether we be listening to Since I’ve Been Loving You, Rock and Roll, or Stairway to Heaven. Page’s perfect mix of fast and slow passages, highs and lows, all set against Plant’s voice define the Led Zeppelin sound, and you’d be hard-pressed to find another artist who delivers the goods so succinctly.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/music/led.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Led Zeppelin will mostly forever be remembered as a rock band, whose classics such as Whole Lotta Love, Trampled Underfoot and Kashmir shook the foundations of the genre to its core. But there was another side to the Led Zeppelin coin, a side characterised by sensitivity, contemplation and beauty. Led Zeppelin authored some of the most beautiful ballads ever written, from the tribute to Plant’s deceased son All My Love, to the love song Thank You, to the hauntingly indescribable The Rain Song.&lt;/p&gt;
-
-&lt;p&gt;Now my final reason, one everyone should hold dear, is the ability for Led Zeppelin to create songs of different, rather odd genres and still have them all turn out as a major commercial success.  Take the skill of each member and combine them into one song and you could make anything happen.  Their strong suit, the combination of hard rock and blues, was their defining factor—but they had much more.  “Stairway to Heaven,” some would say their magnum opus, almost lacks a genre.  It has a hard rock section at the end, but in the beginning (with the aforementioned medieval recorder section supplied by the wonderful John Paul Jones), it had an indiscernible, eerie sound.  “Over the Hills and Far Away” utilized an acoustic indie sound which led into some hard rock, and “Going to California” took that indie sound and ran with it for the whole song.  “What is and What Should Never Be” is almost indiscernible as well, yet does feel like hard rock at times.  Led Zeppelin had an artistic freedom in instrumentation, lyrics, and genre that none could rival, pushing them forth to be one of the most influential and creative (if not best) bands in history.&lt;/p&gt;
-
-&lt;h3 id=&quot;some-interesting-facts&quot;&gt;&lt;strong&gt;Some interesting facts…&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;(source: https://ohfact.com)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1-Formation of Led Zeppelin&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The band Led Zeppelin was formed by Jimmy Page in the year 1968 but at first it was named The New Yardbirds. Later they changed the name to Led Zeppelin. Jimmy Page wanted to name it Lead Zeppelin but he thought that the Americans might pronounce it ‘Leed’. So, he changed it to Led to leave no confusions.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2-Jimmy Page and Black Magic&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Prior to the success of the band Led Zeppelin, Jimmy Page was heavily interested in the black magic and dark arts. He even owned a book shop and publishing house based on occult. Due to this some people thought that the four symbols on the fourth album cover are satanic symbols. Well they are; but it’s not him, its “them”. Who is them ?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;3-Untitled Fourth album&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Even after the launch of three successful albums, Led Zeppelin, II, III; the press still called the Led Zeppelin band hype. So, when it was turn of the fourth album, the band decided not to print even a single word on the record sleeve. They even refused to print their names; instead they opted for four symbols on the cover and each symbol represented each member. Even though the symbol didn’t contain any letter yet it seems to spell ‘Zoso’ and people started referring the album by the name Zoso.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;4-Jimmy Page and the Double-neck&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Jimmy Page used Gibson’s double – necked guitar with ease and was one of the earliest adopter of this double – necked guitar. In a poll in 2012 his Gibson EDS – 1275 guitar was named the coolest guitar in rock.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;5-New engineer for every album&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Jimmy Page didn’t want anyone else to take credit for the sound of Zeppelin songs. So, he produced every record of the band himself and for each album he used to hire a new engineer.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;6-Only one TV appearance&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Led Zeppelin had made only one TV appearance which was in June 1969 for a French TV. This is because after taping for the French TV appearance, they realized that the audio video quality of TV is quite low and no matter how well they performed they would be at the mercy of the studio engineers.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;7-The disbandment of Led Zeppelin&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In 1980 John Bonham died after choking on his own vomit. This led to the disbandment of Led Zeppelin. Later on in an autopsy it was revealed that on the night of his death John Bonham had an equivalent of 40 shots of vodka in his body.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 08 Mar 2017 16:04:23 +0100</pubDate>
-        <link>http://localhost:4000/2017/Led-Zeppelin-The-Greatest-Band-Ever/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/Led-Zeppelin-The-Greatest-Band-Ever/</guid>
-        
-        <category>Music</category>
-        
-        <category>Rock</category>
-        
-        <category>Led Zeppelin</category>
-        
-        
-        <category>music</category>
         
       </item>
     
