@@ -15,7 +15,8 @@ robots: noindex
             {% if post.tags.size > 0 %}
             &#8226; <span class="post-meta__tags">on {% for tag in post.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }},</a> {% endfor %} ,</span>
             {% endif %}
-          :hourglass_flowing_sand:  {{ content | reading_time | pluralize: "minute" }} to read.</p>
+            <span>  :hourglass_flowing_sand:  {{ content | reading_time | pluralize: "minute" }} to read.</span>
+        </p>
         </div>
         <hr class="post-list__divider">
       </li>
