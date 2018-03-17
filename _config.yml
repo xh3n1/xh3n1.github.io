@@ -1,6 +1,6 @@
 # Site settings
 title: Xheni
-description: 'InfoSec student, Nextcloud & phpList contributor, Open Labs Hackerspace member, RGSoC alumna,  & Inter fan'
+description: 'InfoSec student, Nextcloud & phpList contributor, Open Labs Hackerspace member, RGSoC alumna.'
 url: 'https://xh3n1.github.io'
 baseurl: ''
 google_analytics: 'UA-92085041-4'
@@ -43,4 +43,6 @@ kramdown:
   hard_wrap: false
 
 gems: ['jekyll-paginate']
+plugins:
+  - jemoji
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
