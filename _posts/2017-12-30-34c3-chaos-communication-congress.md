@@ -1,8 +1,8 @@
 ---
-title:  "34c3, Endlich, normale Leute..."
+title:  "34c3 - Endlich, normale Leute..."
 date:   2017-12-31 15:04:23
-categories: [Event]
-tags: [Congress, hackers]
+categories: [conference]
+tags: [34c3,ccc,hackers]
 lang: en
 ref: 34c3
 ---
