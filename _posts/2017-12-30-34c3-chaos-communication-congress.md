@@ -40,6 +40,9 @@ There was also this "pool area" which was very outstanding and they played very 
 ![pool](/images/events/34c3-pool.jpeg  "34c3")
 
   The big glass hall allowed daylight consumption and made it obvious when that was missing.
+
+  ![pool](/images/events/lights.jpg  "34c3")
+
  I was very amazed, especially at night, by all those neon lights, art decorations, nerdy atmosphere.
 
  ![rocket](/images/events/34c3-rocket.jpg  "34c3")
