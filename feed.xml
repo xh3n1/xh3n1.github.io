@@ -2,12 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xheni</title>
-    <description>InfoSec student, Nextcloud &amp; phpList contributor, Open Labs Hackerspace member, RGSoC alumna. :lock: :computer: :blush:</description>
+    <description>InfoSec student, Software Developer at phpList, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna. :lock: :computer: :blush:</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 17 Mar 2018 23:14:58 +0100</pubDate>
-    <lastBuildDate>Sat, 17 Mar 2018 23:14:58 +0100</lastBuildDate>
+    <pubDate>Wed, 04 Apr 2018 23:09:58 +0200</pubDate>
+    <lastBuildDate>Wed, 04 Apr 2018 23:09:58 +0200</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Nextcloud hackweek! I'm always up for hacking some more...</title>
+        <description>&lt;p&gt;After attending the &lt;a href=&quot;https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/&quot;&gt;Nextcloud Conference 2017&lt;/a&gt;  and helping at the Fosdem 2018 Nextcloud booth,
+ I look forward to joining the other Nextclouders again, this time for a hackweek.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/nextcloud-chocolate.jpg&quot; alt=&quot;nextcloud choco&quot; /&gt;
+ &lt;em&gt;Fosdem 2018&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Nextcloud contributors from all over the world, will gather in Stuttgart for a hackweek
+from the 9th of April to the 13th of April.
+During Nextcloud hackweeks, nextclouders focus on coding: going through issues,
+discussing and fixing them, and so on.
+I was a Rails Girls Summer of Code student working on Nextcloud during the summer
+ 2017 and I’m very happy that Nextcloud will be one of the &lt;a href=&quot;https://teams.railsgirlssummerofcode.org/projects/200-nextcloud&quot;&gt;RGSoC projects&lt;/a&gt;
+again this year and I am delighted to see there are so many applications submitted. I’m looking forward to the Hackweek, especially because I will meet Jessica and Arati, the Rails Girls Summer of Code 2018 girls, and I will share my experience from last year with them, but also work together to fix some issues.
+I’m planning to contribute again to the &lt;a href=&quot;https://github.com/nextcloud/contacts&quot;&gt;Contacts App&lt;/a&gt; as I know it better
+than the other applications, &lt;a href=&quot;https://github.com/nextcloud/gallery&quot;&gt;Gallery App&lt;/a&gt; because it has some good starter
+issues and I would like to challenge myself a bit with also working
+on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Full-Text Search&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 04 Apr 2018 22:20:23 +0200</pubDate>
+        <link>http://localhost:4000/2018/Nextcloud-hackweek/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/Nextcloud-hackweek/</guid>
+        
+        <category>opensource</category>
+        
+        <category>nextcloud</category>
+        
+        <category>rgsoc</category>
+        
+        <category>hackweek</category>
+        
+        
+        <category>opensource</category>
+        
+        <category>nextcloud</category>
+        
+      </item>
     
       <item>
         <title>Learning advanced PHP with phpList and Treehouse</title>
@@ -531,37 +570,6 @@ And just for the record, coding while drinking Club Mate is one of the best feel
         
         
         <category>places</category>
-        
-      </item>
-    
-      <item>
-        <title>Oscal 2017</title>
-        <description>&lt;p&gt;OSCAL (Open Source Conference Albania) is the first annual conference in Albania organized to promote software freedom, open source software, free culture and open knowledge, a global movement that originally started more than 25 years ago.
-I have attended Oscal conferences since the beginning, except  last year and I am very glad that I didn’t miss  Oscal 2017.
-The Conference took place at 13 &amp;amp; 14 May 2017 in Tirana and  gathered free libre open source technology users, developers, academics, governmental agencies and people who share the idea that software should be free and open ; that knowledge is a communal property and free and open to everyone.
-Oscal’s mission is to educate Albanian youth, and not only, on Free and Open Source Software, its ideology and the great community behind it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/oscal2017.jpg&quot; alt=&quot;Oscal 2017&quot; title=&quot;Oscal Group Photo &quot; /&gt;
-&lt;em&gt;Oscal 2017. Credits : Andis Rado.CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The conference is supported and organized by Open Labs , the community that promotes free libre open source culture in Albania since 2012.
-The conference itself was well-organized, with multiple tracks of talks, workshops and of course infobooths.I attended some interesting talks and workshops and met new people and old friends, folks of open source, geeks and nerds.
-I wanted to mention something else thing that makes OSCAL special and it the fact that male/female ratio seems to be the inverse of what you usually see in these kind of conferences. There are girls everywhere: infobooths, speakers and visitors. GREAT, huh?
-There were also some cool and funny  posters ( albanian idioms and opensource jokes). I LOVED THEM!
-Can’t wait for the next Oscal!!&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 May 2017 17:04:23 +0200</pubDate>
-        <link>http://localhost:4000/2017/Oscal-2017/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/Oscal-2017/</guid>
-        
-        <category>opensource</category>
-        
-        <category>conference</category>
-        
-        <category>albania</category>
-        
-        
-        <category>opensource</category>
         
       </item>
     
