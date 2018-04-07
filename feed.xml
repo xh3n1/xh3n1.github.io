@@ -5,29 +5,36 @@
     <description>InfoSec student, Software Developer at phpList, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna. :lock: :computer: :blush:</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Apr 2018 23:09:58 +0200</pubDate>
-    <lastBuildDate>Wed, 04 Apr 2018 23:09:58 +0200</lastBuildDate>
+    <pubDate>Sat, 07 Apr 2018 22:07:31 +0200</pubDate>
+    <lastBuildDate>Sat, 07 Apr 2018 22:07:31 +0200</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
-        <title>Nextcloud hackweek! I'm always up for hacking some more...</title>
-        <description>&lt;p&gt;After attending the &lt;a href=&quot;https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/&quot;&gt;Nextcloud Conference 2017&lt;/a&gt;  and helping at the Fosdem 2018 Nextcloud booth,
- I look forward to joining the other Nextclouders again, this time for a hackweek.&lt;/p&gt;
+        <title>Ready for Nextcloud hackweek</title>
+        <description>&lt;p&gt;After attending the &lt;a href=&quot;https://nextcloud.com/blog/significant-growth-at-nextcloud-conference-brought-150-customers-colleagues-and-friends-together/&quot;&gt;Nextcloud Conference 2017&lt;/a&gt;  and helping out at the Fosdem 2018 Nextcloud booth,
+ I look forward to joining the other Nextclouders again, this time for a hackweek. I’m always up for some hacking.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/events/nextcloud-chocolate.jpg&quot; alt=&quot;nextcloud choco&quot; /&gt;
  &lt;em&gt;Fosdem 2018&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Nextcloud contributors from all over the world, will gather in Stuttgart for a hackweek
+&lt;p&gt;Nextcloud contributors from all over the world will gather in Stuttgart for a hackweek
 from the 9th of April to the 13th of April.
 During Nextcloud hackweeks, nextclouders focus on coding: going through issues,
-discussing and fixing them, and so on.
-I was a Rails Girls Summer of Code student working on Nextcloud during the summer
- 2017 and I’m very happy that Nextcloud will be one of the &lt;a href=&quot;https://teams.railsgirlssummerofcode.org/projects/200-nextcloud&quot;&gt;RGSoC projects&lt;/a&gt;
-again this year and I am delighted to see there are so many applications submitted. I’m looking forward to the Hackweek, especially because I will meet Jessica and Arati, the Rails Girls Summer of Code 2018 girls, and I will share my experience from last year with them, but also work together to fix some issues.
-I’m planning to contribute again to the &lt;a href=&quot;https://github.com/nextcloud/contacts&quot;&gt;Contacts App&lt;/a&gt; as I know it better
+discussing and fixing them, and so on.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/jonatoni&quot;&gt;Jona Azizaj&lt;/a&gt; and I were Rails Girls Summer of Code students working on Nextcloud during the summer 2017. RGSoC is a dedicated scholarship program that aims to foster diversity in Open Source since 2013. This scholarship offered us a great opportunity to shape and develop our programming skills more.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/codeaholics_nextcloud_conference.jpg&quot; alt=&quot;image&quot; /&gt;
+&lt;em&gt;Team Codeaholics at Nextcloud Conference. (Photo: Christoph Wurst, Creative Commons Attribution-Share Alike 4.0 International.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Nextcloud will be one of the &lt;a href=&quot;https://teams.railsgirlssummerofcode.org/projects/200-nextcloud&quot;&gt;RGSoC projects&lt;/a&gt;
+again this year and I am delighted to see there are so many applications submitted to this project. I’m looking forward to the Hackweek, especially because I will meet Jessica and Arati, the Rails Girls Summer of Code 2018 students, and I will share my experience from last year with them, but also work together to fix some issues.
+I’m planning to contribute again to &lt;a href=&quot;https://github.com/nextcloud/contacts&quot;&gt;Contacts App&lt;/a&gt; as I know it better
 than the other applications, &lt;a href=&quot;https://github.com/nextcloud/gallery&quot;&gt;Gallery App&lt;/a&gt; because it has some good starter
 issues and I would like to challenge myself a bit with also working
 on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Full-Text Search&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;#HappyHacking :blush:&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Apr 2018 22:20:23 +0200</pubDate>
         <link>http://localhost:4000/2018/Nextcloud-hackweek/</link>
