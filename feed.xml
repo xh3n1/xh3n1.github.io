@@ -5,9 +5,50 @@
     <description>InfoSec student, Software Developer at phpList, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna. :lock: :computer: :blush:</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Apr 2018 22:07:31 +0200</pubDate>
-    <lastBuildDate>Sat, 07 Apr 2018 22:07:31 +0200</lastBuildDate>
+    <pubDate>Sat, 26 May 2018 17:27:18 +0200</pubDate>
+    <lastBuildDate>Sat, 26 May 2018 17:27:18 +0200</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Back in my days</title>
+        <description>&lt;p&gt;Let me tell you a short story. Back in my days, when I was just a young and dumb tech student, I saw an event on facebook about Linux cafe organized by Open Labs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/backinmydays.jpg&quot; alt=&quot;barcode&quot; title=&quot;back in my days&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was using Ubuntu at that time and I really wanted to go to such event, because I thought that this might be an opportunity to meet people that share
+the same interest as me. But, I couldn’t go alone because I was very shy and I assumed that there might be people much smarter than me, with super hacking skills, because Open Labs first gave me the impression
+that it was a place only for nerds. Anyway, I asked my uni friends, Suela and Jona to join me but they didn’t want to.
+So, I ended up alone and I went there. I was in front of the door and just when I thought that I made it, sadly, I was like:”Xheni, what are you doing here? Go back home.”
+There I was, stalking Open Labs online without the courage to be part of it. Some months later, I heard that they were
+organizing Oscal (Open Source Conference Albania), and I said to myself:”Xheni you should not miss this!”. I asked my friends again, and this time I convinced them.
+I went there. I saw almost every talk, made new friends, got stickers. I had so much fun and since then I fell in love with open source. I also enjoyed oscal, as a volunteer because I was a volunteer for the second edition and the fourth edition as well, but I missed the third one because I was in Germany at that time (recuperating from my stressful years of studies).
+Anyway, this time I decided that I should be part of Oscal in a different way, as a speaker even though I’m still that shy girl who didn’t go inside 5 years ago.
+Guess what, I submitted two sessions. One was a workshop to help the beginners with git and GitHub and one was a talk about the driving force behind open source communities.
+You can find my presentations &lt;a href=&quot;https://github.com/xh3n1/Personal/tree/master/presentation&quot;&gt;here&lt;/a&gt;. Both sessions went GREAT.&lt;/p&gt;
+
+&lt;p&gt;Marinela Gogo and I did a survey about contributing to open source and until now 52 people took it. I will share them on my blog at a later time because I want to dedicate another blog post to it and also get more people to fill it out.
+Scan now the barcode below and worry later. :wink:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/barcode.png&quot; alt=&quot;barcode&quot; title=&quot;open&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 May 2018 17:20:23 +0200</pubDate>
+        <link>http://localhost:4000/2018/open-by-default-oscal-2018/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/open-by-default-oscal-2018/</guid>
+        
+        <category>opensource</category>
+        
+        <category>openlabs</category>
+        
+        <category>conference</category>
+        
+        <category>albania</category>
+        
+        
+        <category>opensource</category>
+        
+        <category>conference</category>
+        
+      </item>
     
       <item>
         <title>Ready for Nextcloud hackweek</title>
@@ -554,29 +595,6 @@ And just for the record, coding while drinking Club Mate is one of the best feel
         
         
         <category>opensource</category>
-        
-      </item>
-    
-      <item>
-        <title>C-base Hackerspace</title>
-        <description>&lt;p&gt;The c-base is the crashed spacestation in the center of Berlin. Nerds, Geeks, SciFi-Fans and digital activists founded the society in 1995. Since that time they reconstruct the space station and use it to share knowledge, interact with other species and provide a space for likeminded groups and individuals. Some people say, that the c-base is “the mother of all hackerspaces”, okay, maybe we will believe that.&lt;/p&gt;
-
-&lt;p&gt;I visited C-base together with some friends from Open Labs Hackerspace ( The brightest hackerspace). It was one of the best things I did during my stay in Berlin this summer. Hopefully, I will visit it again in the future.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/cbase.jpg&quot; alt=&quot;Cbase&quot; title=&quot;C-base &quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;In case of revolution, break glass! CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 26 Aug 2017 17:04:23 +0200</pubDate>
-        <link>http://localhost:4000/2017/c-base-hackerspace/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/c-base-hackerspace/</guid>
-        
-        <category>Places</category>
-        
-        <category>Hackerspace</category>
-        
-        
-        <category>places</category>
         
       </item>
     
