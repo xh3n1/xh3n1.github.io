@@ -3,10 +3,10 @@
   <channel>
     <title>Xheni</title>
     <description>InfoSec student, Software Developer at phpList, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna. :lock: :computer: :blush:</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 Jun 2018 21:43:54 +0200</pubDate>
-    <lastBuildDate>Fri, 15 Jun 2018 21:43:54 +0200</lastBuildDate>
+    <link>http://10.211.55.4:4000/</link>
+    <atom:link href="http://10.211.55.4:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 29 Jun 2018 23:19:35 +0200</pubDate>
+    <lastBuildDate>Fri, 29 Jun 2018 23:19:35 +0200</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -61,8 +61,8 @@ When you try to be familiar with a broad range of technologies and you are able 
 &lt;p&gt;Don’t leave “broken windows” (aka bad design, poor code or wrong decisions) unrepaired.&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 May 2018 17:20:23 +0200</pubDate>
-        <link>http://localhost:4000/2018/the-pragmatic-programmer/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/the-pragmatic-programmer/</guid>
+        <link>http://10.211.55.4:4000/2018/the-pragmatic-programmer/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2018/the-pragmatic-programmer/</guid>
         
         <category>books</category>
         
@@ -96,8 +96,8 @@ Scan now the barcode below and worry later. :wink:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/barcode.png&quot; alt=&quot;barcode&quot; title=&quot;open&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 May 2018 17:20:23 +0200</pubDate>
-        <link>http://localhost:4000/2018/open-by-default-oscal-2018/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/open-by-default-oscal-2018/</guid>
+        <link>http://10.211.55.4:4000/2018/open-by-default-oscal-2018/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2018/open-by-default-oscal-2018/</guid>
         
         <category>opensource</category>
         
@@ -142,8 +142,8 @@ on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Ful
 &lt;p&gt;#HappyHacking :blush:&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Apr 2018 22:20:23 +0200</pubDate>
-        <link>http://localhost:4000/2018/Nextcloud-hackweek/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/Nextcloud-hackweek/</guid>
+        <link>http://10.211.55.4:4000/2018/Nextcloud-hackweek/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2018/Nextcloud-hackweek/</guid>
         
         <category>opensource</category>
         
@@ -233,8 +233,8 @@ on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Ful
 &lt;p&gt;&lt;strong&gt;Disclaimer: This article was originally published on phpList blog.&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Feb 2018 11:04:23 +0100</pubDate>
-        <link>http://localhost:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</guid>
+        <link>http://10.211.55.4:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</guid>
         
         <category>opensource</category>
         
@@ -332,8 +332,8 @@ I spend most of the time at Nextcloud assembly, together with other Nextclouders
 &lt;p&gt;&lt;img src=&quot;/images/events/34c3-chaos2017.jpg&quot; alt=&quot;chaos&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 31 Dec 2017 16:04:23 +0100</pubDate>
-        <link>http://localhost:4000/2017/34c3-chaos-communication-congress/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/34c3-chaos-communication-congress/</guid>
+        <link>http://10.211.55.4:4000/2017/34c3-chaos-communication-congress/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2017/34c3-chaos-communication-congress/</guid>
         
         <category>34c3</category>
         
@@ -363,8 +363,8 @@ The workshop went very good. We talked a bit about Git history and Git design in
 The feedback that they gave us after the event was really good, and it encourages me to continue with Git workshops and not only.&lt;/p&gt;
 </description>
         <pubDate>Wed, 08 Nov 2017 11:04:23 +0100</pubDate>
-        <link>http://localhost:4000/2017/Git-Workshop-At-OpenLabs/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/Git-Workshop-At-OpenLabs/</guid>
+        <link>http://10.211.55.4:4000/2017/Git-Workshop-At-OpenLabs/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2017/Git-Workshop-At-OpenLabs/</guid>
         
         <category>opensource</category>
         
@@ -397,8 +397,8 @@ It was quite interesting that Elliot mentionied specifically EXIF data when he w
 &lt;p&gt;When  Elliot was confronting Darlene, he  puts a device that created a  noise to confuse the bugs. This device it is known as a audio jammer and it was designed to obscure human speech from listening devices. These devices do exist in reality and you  can even find  mobile apps  which turn your smartphone into an audio jammer. These devices are legal to use, so consider using them if you are paranoid.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Nov 2017 11:04:23 +0100</pubDate>
-        <link>http://localhost:4000/2017/Mr-Robot-Season-3-Episode-4/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/Mr-Robot-Season-3-Episode-4/</guid>
+        <link>http://10.211.55.4:4000/2017/Mr-Robot-Season-3-Episode-4/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2017/Mr-Robot-Season-3-Episode-4/</guid>
         
         <category>movies</category>
         
@@ -426,8 +426,8 @@ When Tyrell and Elliot finally meet back up at the Cab, Elliot has absolutely no
 
 </description>
         <pubDate>Sun, 29 Oct 2017 21:04:23 +0100</pubDate>
-        <link>http://localhost:4000/2017/Mr-Robot-Season-3-Episode-3/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/Mr-Robot-Season-3-Episode-3/</guid>
+        <link>http://10.211.55.4:4000/2017/Mr-Robot-Season-3-Episode-3/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2017/Mr-Robot-Season-3-Episode-3/</guid>
         
         <category>movies</category>
         
@@ -494,8 +494,8 @@ happiness because I am spending time of my life for the benefit of projects that
 
 </description>
         <pubDate>Thu, 12 Oct 2017 17:04:23 +0200</pubDate>
-        <link>http://localhost:4000/2017/liboconandlibreladies/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/liboconandlibreladies/</guid>
+        <link>http://10.211.55.4:4000/2017/liboconandlibreladies/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2017/liboconandlibreladies/</guid>
         
         <category>opensource</category>
         
@@ -541,8 +541,8 @@ The nothing to hide argument states that government surveillance programs do not
 &lt;p&gt;Emilio Mordini, philosopher and psychoanalyst, argued that the “nothing to hide” argument is inherently paradoxical. People do not need to have “something to hide” in order to hide “something”. What is relevant is not what is hidden, rather the experience that there is an intimate area, which could be hidden, whose access could be restricted. Psychologically speaking, we become individuals through the discovery that we could hide something to others.&lt;/p&gt;
 </description>
         <pubDate>Sun, 01 Oct 2017 17:04:23 +0200</pubDate>
-        <link>http://localhost:4000/2017/CryptoParty-in-Tirana/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/CryptoParty-in-Tirana/</guid>
+        <link>http://10.211.55.4:4000/2017/CryptoParty-in-Tirana/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2017/CryptoParty-in-Tirana/</guid>
         
         <category>cryptoparty</category>
         
