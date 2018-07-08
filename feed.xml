@@ -5,9 +5,61 @@
     <description>InfoSec student, Software Developer at phpList, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna. :lock: :computer: :blush:</description>
     <link>http://10.211.55.4:4000/</link>
     <atom:link href="http://10.211.55.4:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 Jun 2018 23:19:35 +0200</pubDate>
-    <lastBuildDate>Fri, 29 Jun 2018 23:19:35 +0200</lastBuildDate>
+    <pubDate>Sun, 08 Jul 2018 17:36:56 +0200</pubDate>
+    <lastBuildDate>Sun, 08 Jul 2018 17:36:56 +0200</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>DOKU.TECH and the young spirit of Prishtina</title>
+        <description>&lt;p&gt;DOKU.TECH is an annual conference in Kosova and one of the leading tech events in the Balkans that is devoted to idea sharing, igniting discussions, interactive workshops, DIY sessions, fun-filled days and musical evenings. During the past four editions, DOKU.TECH has welcomed over 5,000 attendees who came from the Balkans, Europe, and United States.
+This year’s DOKU.TECH motto was: “One person’s craziness, is another one’s reality.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/dokutech2018.jpg&quot; alt=&quot;dokutech&quot; title=&quot;DOKU.TECH&quot; /&gt;
+ &lt;em&gt;Official DOKU.TECH poster&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;DOKU.TECH in collaboration with Open Labs offered 15 participants the opportunity to take part at DOKU.TECH with cover travel and accommodation.
+I was very excited about going there, because I had never been in Prishtina before (Shame on me). The trip from Tirana to Prishtina was nice, not only because I read 100 pages of “A pragmatic programmer” book, but also because of stunning views of beautiful mountains, rivers and lakes and of course funny people in the bus.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/kukes-albania.jpg&quot; alt=&quot;dokutech&quot; title=&quot;Kukes Albania&quot; /&gt;
+ &lt;em&gt;Stunnning view in Kukes, Albania&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/open-labs-girls.jpg&quot; alt=&quot;open labs girls at dokutech&quot; title=&quot;Open Labs Girls at DOKU.TECH&quot; /&gt;
+ &lt;em&gt;Open Labs Girls at DOKU.TECH&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The conference itself was good, some of the presentations were very interesting and the main hall was always full of people interested in Tech. Also, young people outside sitting and chilling out with their friends, playing games etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/events/dokutech.jpg&quot; alt=&quot;dokutech&quot; title=&quot;DOKU.TECH&quot; /&gt;
+ &lt;em&gt;One of the interesting talks at DOKU.TECH&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I had the chance to visit Prishtina Hackerspace. Do you that they even produce their own beer? I was very impressed by the nerdy space, artistically nice rooms, hacker tools and “vishnjet”( something like wild cherries).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/prishtina hackerspace.jpg&quot; alt=&quot;prishtina hackerspace&quot; /&gt;
+&lt;img src=&quot;/images/prishtina-hackerspace-beer.jpg&quot; alt=&quot;prishtina&quot; /&gt;
+&lt;img src=&quot;/images/prishtina-hackerspace.jpg&quot; alt=&quot;prishtina&quot; /&gt;
+ &lt;em&gt;Prishtina Hackerspace&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I have to say though that it lacks diversity a bit, but it is something that it can be improved in the future.
+The capital city of Kosovo was smaller than I expected and a bit chaotic urban-wise, but it’s a city with a positive vibe, friendly and warm people with young spirit.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/prishtina view.jpg&quot; alt=&quot;prishtina&quot; title=&quot;Prishtina&quot; /&gt;
+ &lt;em&gt;The view from Cathedral of Saint Mother Teresa, Pristina&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It has a lively night life, a lovely boulevard and people who like to drink beer. All in all, I had a pleasant experience and will visit it again.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 28 Jun 2018 23:20:23 +0200</pubDate>
+        <link>http://10.211.55.4:4000/2018/dokutech-prishtina/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2018/dokutech-prishtina/</guid>
+        
+        <category>conference</category>
+        
+        <category>tech</category>
+        
+        <category>prishtina</category>
+        
+        
+        <category>conference</category>
+        
+      </item>
     
       <item>
         <title>Starting my journey as a Pragmatic Programmer</title>
@@ -505,49 +557,6 @@ happiness because I am spending time of my life for the benefit of projects that
         
         
         <category>opensource</category>
-        
-      </item>
-    
-      <item>
-        <title>CryptoParty in Tirana</title>
-        <description>&lt;p&gt;Privacy is the space in which ideas are developed, to retreat into whenever you want. This space is not only physical but digital as well.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is a CryptoParty?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;CryptoParties are free and open for everyone, but especially ​those without prior knowledge, who haven’t yet attended one.
-CryptoParty is a decentralized movement with constantly happening activities in the entire world. The goal of this movement is sharing as much knowledge to as many individuals as possible on how to protect ourselves in the digital world. This worldwide effort introduces the basis of cryptography both in theory and practice, such as encrypted communication, prevention of espionage when navigating on the internet, anonymity on Tor netwyork, cryptography with public key, storage encryption, Virtual Private Networks (VPN) etc. The project consists of a series of workshops free and open for everyone .&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;The first CryptoParty in Albania&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;To join this worldwide effort and to inform about the dangers of the digital world, the importance of online privacy and exchange of practical knowledge to protect our privacy, Open Labs with the support of Arjen Kamphuis and Ardian Haxha have organized CryptoParty Tirana.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/cryptoparty1.jpg&quot; alt=&quot;CryptoParty&quot; title=&quot;Cryptoparty&quot; /&gt;
-&lt;em&gt;CryptoParty Albania. Credits: CC-BY-4.0 Andis Rado&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The CryptoParty  took place at Innovation Hub Tirana  and  gathered  many technology enthusiasts , developers, students, academics, journalists  and people who are concerned about privacy and information security.
-It was the first CryptoParty in Albania and  it  was really well-organized, with multiple talks and  workshops like:  private browsing, file-encryption, email-encryption, debian installation etc.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/cryptoparty2.jpg&quot; alt=&quot;CryptoParty&quot; title=&quot;Cryptoparty&quot; /&gt;
-&lt;em&gt;Data encryption workshop. Credits: CC-BY-4.0 Andis Rado&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;However, there were people who come down on the side of the government: “I have nothing to hide”…
-The nothing to hide argument states that government surveillance programs do not threaten privacy unless they uncover illegal activities, and that if they do uncover illegal activities, the person committing these activities does not have the right to keep them private. Hence, a person who favors this argument may state “I’ve got nothing to hide” and therefore does not express opposition to government surveillance.An individual using this argument may say that a person should not have worries about government or surveillance if he/she has “nothing to hide.”-Wikipedia.&lt;/p&gt;
-
-&lt;p&gt;My point is:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;“Arguing that you don’t care about the right to privacy because you have nothing to hide, is no different than saying you don’t care about free speech because you have nothing to say.” – E. Snowden.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Emilio Mordini, philosopher and psychoanalyst, argued that the “nothing to hide” argument is inherently paradoxical. People do not need to have “something to hide” in order to hide “something”. What is relevant is not what is hidden, rather the experience that there is an intimate area, which could be hidden, whose access could be restricted. Psychologically speaking, we become individuals through the discovery that we could hide something to others.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Oct 2017 17:04:23 +0200</pubDate>
-        <link>http://10.211.55.4:4000/2017/CryptoParty-in-Tirana/</link>
-        <guid isPermaLink="true">http://10.211.55.4:4000/2017/CryptoParty-in-Tirana/</guid>
-        
-        <category>cryptoparty</category>
-        
-        
-        <category>crypto</category>
         
       </item>
     
