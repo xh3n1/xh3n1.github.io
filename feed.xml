@@ -5,9 +5,266 @@
     <description>InfoSec student, Software Developer at phpList, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna. :lock: :computer: :blush:</description>
     <link>http://10.211.55.4:4000/</link>
     <atom:link href="http://10.211.55.4:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Jul 2018 17:54:11 +0200</pubDate>
-    <lastBuildDate>Sun, 08 Jul 2018 17:54:11 +0200</lastBuildDate>
+    <pubDate>Thu, 20 Sep 2018 22:35:27 +0200</pubDate>
+    <lastBuildDate>Thu, 20 Sep 2018 22:35:27 +0200</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>A security review of phpList REST API</title>
+        <description>&lt;p&gt;APIs are essential for building applications that are open and can integrate with other applications and services, yet with the openness of APIs comes a challenge: APIs can create additional security risks, as they increase the number of ways in which malicious actors could get into applications. Therefore, when developing APIs, careful design and security are important. As part of my internship at phpList, I had the opportunity to work on performing a risk assessment for the REST API.&lt;/p&gt;
+
+&lt;p&gt;On a personal note, it has been a challenging and exciting experience. I would like to share the research with the community as a learning opportunity for readers and myself. Please note that all high severity risks have been addressed and resolved already in the various related code repositories.&lt;/p&gt;
+
+&lt;h2 id=&quot;recap-on-the-phplist-rest-api&quot;&gt;Recap on the phpList REST API&lt;/h2&gt;
+
+&lt;p&gt;The phpList &lt;a href=&quot;https://github.com/phpList/rest-api&quot;&gt;REST API&lt;/a&gt; provides functions for superusers to manage lists and subscribers. It uses functionality from the phpList &lt;a href=&quot;https://github.com/phpList/core&quot;&gt;core&lt;/a&gt; module .&lt;/p&gt;
+
+&lt;p&gt;This new REST API can also be used to provide REST access to an existing phpList 3 installation. For this, &lt;a href=&quot;https://github.com/phpList/phplist3&quot;&gt;phpList 3&lt;/a&gt; installation and the phpList 4 installation with the REST API need to share the same database.&lt;/p&gt;
+
+&lt;h3 id=&quot;local-demo-with-postman&quot;&gt;Local demo with Postman&lt;/h3&gt;
+
+&lt;p&gt;You can try out the REST API by using pre-prepared requests and the Postman GUI tool. Install Postman as a browser extension or stand-alone app, open the phpList 4 &lt;a href=&quot;https://documenter.getpostman.com/view/3293511/phplist-4-rest-api-demo/RVftkC9t#4710e871-973d-46fa-94b7-727fdc292cd5&quot;&gt;REST API Demo collection&lt;/a&gt; and click “Run in Postman”.
+For more information on how to install and try phpList REST API , please read the &lt;a href=&quot;https://github.com/phpList/rest-api/blob/master/README.md&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;tools-used&quot;&gt;Tools used&lt;/h3&gt;
+
+&lt;p&gt;Reading “&lt;a href=&quot;https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470&quot;&gt;The Web Application Hacker’s Handbook&lt;/a&gt;”, helped me quite a lot in the process of reviewing the security of phpList REST API.
+Curl
+Another tool that I used was &lt;strong&gt;BurpSuite Community Edition&lt;/strong&gt;, which was also mentioned in the book. Burp is widely used by security professionals to find security vulnerabilities in web applications and I had the opportunity to play around with it for this risk assessment.
+&lt;strong&gt;Burp&lt;/strong&gt; can test any HTTP endpoint. The process is to proxy the client’s traffic through Burp and then test it in the normal way.
+&lt;img src=&quot;/images/burp.png&quot; alt=&quot;Burp&quot; title=&quot;Burp&quot; /&gt;
+ &lt;em&gt;Burp interface&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I also used &lt;strong&gt;cURL&lt;/strong&gt; to consume the API calls. It is an open source software command line tool that is used to transfer data with URLs.&lt;/p&gt;
+
+&lt;p&gt;The REST API topic has been also covered in several sites such as OWASP (The Open Web Application Security Project) &lt;a href=&quot;https://www.owasp.org/index.php/REST_Security_Cheat_Sheet&quot;&gt;REST Security&lt;/a&gt;, which is a good starter reference to learn about the main security challenges of REST.&lt;/p&gt;
+
+&lt;p&gt;On a personal note, it has been a challenging and exciting experience. I would like to share the research with the community since the found high severity risks have been &lt;strong&gt;resolved&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;implementation-of-the-api-during-testing&quot;&gt;Implementation of the API during testing&lt;/h2&gt;
+
+&lt;p&gt;Here is a technical overview of how the REST API was implemented during my testing.&lt;/p&gt;
+
+&lt;h3 id=&quot;session-creation&quot;&gt;Session creation&lt;/h3&gt;
+&lt;p&gt;For authentication a user has to call the /api/v2/sessions route and provide username and password within the POST body:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;POST /app.php/api/v2/sessions HTTP/1.1
+Host: 10.211.55.4:82
+User-Agent: curl/7.54.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+Connection: close
+
+{
+    &quot;login_name&quot;: &quot;admin&quot;,
+    &quot;password&quot;: &quot;admin1234&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The controller then queries the existing phpList database for an administrator and user with this password:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public function postAction(Request $request): View
+{
+   $this-&amp;gt;validateCreateRequest($request);
+   $administrator = $this-&amp;gt;administratorRepository-&amp;gt;findOneByLoginCredentials(
+       $request-&amp;gt;get('login_name'),
+       $request-&amp;gt;get('password')
+   );
+   if ($administrator === null) {
+       throw new UnauthorizedHttpException('', 'Not authorized', null, 1500567098);
+   }
+
+   $token = $this-&amp;gt;createAndPersistToken($administrator);
+
+   return View::create()-&amp;gt;setStatusCode(Response::HTTP_CREATED)-&amp;gt;setData($token);
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The controller is creating a new session key of 256 bytes and returning the MD5 representation of it. The user can then use those credentials for authentication.&lt;/p&gt;
+
+&lt;h3 id=&quot;session-verification&quot;&gt;Session verification&lt;/h3&gt;
+
+&lt;p&gt;For authentication purposes a trait AuthenticationTrait is implemented, this trait implements a function requireAuthentication:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;private function requireAuthentication(Request $request): Administrator
+{
+   $administrator = $this-&amp;gt;authentication-&amp;gt;authenticateByApiKey($request);
+   if ($administrator === null) {
+       throw new AccessDeniedHttpException(
+           'No valid session key was provided as basic auth password.',
+           null,
+           1512749701
+       );
+   }
+
+   return $administrator;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;When this function is invoked, it calls &lt;em&gt;\PhpList\Core\Security\Authentication::authenticateByApiKey&lt;/em&gt;, this function is implemented as following.&lt;/p&gt;
+
+&lt;p&gt;As one can see, it searches the AdministratorTokenRepository for an unexpired key and then verifies whether the token belongs to an administrator:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public function authenticateByApiKey(Request $request)
+{
+   $apiKey = $request-&amp;gt;headers-&amp;gt;get('php-auth-pw');
+   if (empty($apiKey)) {
+       return null;
+   }
+
+   $token = $this-&amp;gt;tokenRepository-&amp;gt;findOneUnexpiredByKey($apiKey);
+   if ($token === null) {
+       return null;
+   }
+
+   /** @var Administrator|null $administrator */
+   $administrator = $token-&amp;gt;getAdministrator();
+   if ($administrator === null) {
+       return null;
+   }
+
+   try {
+       // This checks for cases where a super user created a session key and then got their super user
+       // privileges removed during the lifetime of the session key.
+     // In addition, this will load the lazy-loaded model from the database,
+       // which will check that the model really exists in the database (i.e., it has not been deleted).
+       if (!$administrator-&amp;gt;isSuperUser()) {
+           $administrator = null;
+       }
+   } catch (EntityNotFoundException $exception) {
+       $administrator = null;
+   }
+
+   return $administrator;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This is done by querying the table phplist_admintoken for the current session key.&lt;/p&gt;
+
+&lt;p&gt;In the controllers, authentication is enforced by calling &lt;em&gt;\PhpList\RestBundle\Controller\SessionController::validateCreateRequest&lt;/em&gt; in every function such as the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public function cgetAction(Request $request): View
+{
+   $this-&amp;gt;requireAuthentication($request);
+
+   return View::create()-&amp;gt;setData($this-&amp;gt;subscriberListRepository-&amp;gt;findAll());
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;lists-route&quot;&gt;Lists Route&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;\PhpList\RestBundle\Controller\ListController&lt;/em&gt; implements cgetAction, getAction and deleteAction. Those functions allow an administrator to:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Get a collection of lists&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Get information about a single list&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Delete a list&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The information is returned to the user as a JSON string with a Content-Type of application/json:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;HTTP/1.1 200 OK
+Date: Thu, 21 Jun 2018 14:45:33 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Cache-Control: no-cache, private
+Content-Length: 210
+Connection: close
+Content-Type: application/json
+
+{&quot;name&quot;:&quot;newsletter&quot;,&quot;description&quot;:&quot;Sign up to our newsletter&amp;lt;h1&amp;gt;&amp;lt;script&amp;gt;alert(1)&amp;lt;\/script&amp;gt;&quot;,&quot;creation_date&quot;:&quot;2018-06-20T13:29:07+02:00&quot;,&quot;list_position&quot;:0,&quot;subject_prefix&quot;:&quot;&quot;,
+&quot;public&quot;:true,&quot;category&quot;:&quot;&quot;,&quot;id&quot;:2}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;subscribers-route&quot;&gt;Subscribers route&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;\PhpList\RestBundle\Controller\SubscriberController&lt;/em&gt;
+implements postAction. This function allows an administrator to:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Create a subscriber&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The information is returned to the user as a JSON string with a Content-Type of application/json:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;HTTP/1.1 201 Created
+Date: Thu, 21 Jun 2018 15:05:17 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Cache-Control: no-cache, private
+Content-Length: 219
+Connection: close
+Content-Type: application/json
+
+{&quot;creation_date&quot;:&quot;2018-06-21T17:05:17+02:00&quot;,&quot;email&quot;:&quot;xhenitest@xheni.me&quot;,
+&quot;confirmed&quot;:false,&quot;blacklisted&quot;:false,&quot;bounce_count&quot;:0,
+&quot;unique_id&quot;:&quot;498f3de0e0b033665f58bb4b3c3f3c21&quot;,
+&quot;html_email&quot;:false,&quot;disabled&quot;:false,&quot;id&quot;:7}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The controller performs the required authentication checks and doesn’t expose any functionalities not yet available to superusers. The security level is thus adequate.&lt;/p&gt;
+
+&lt;h2 id=&quot;security-concerns-and-mitigation&quot;&gt;Security concerns and mitigation&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Note&lt;/em&gt;: High severity risks have already been &lt;em&gt;mitigated&lt;/em&gt;; the other risks identified have been addressed by hardening the pertinent code.&lt;/p&gt;
+
+&lt;h3 id=&quot;disabled-admins-can-still-use-rest-api&quot;&gt;Disabled admins can still use REST API&lt;/h3&gt;
+
+&lt;p&gt;Administrators that are disabled in phpList are still able to login using the REST API.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;: Adjust the authenticateByApiKey to check if the user is disabled.
+Note: This issue has already been &lt;a href=&quot;https://github.com/phpList/core/pull/293&quot;&gt;fixed&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;invalid-login-attempts-are-not-logged&quot;&gt;Invalid login attempts are not logged&lt;/h3&gt;
+
+&lt;p&gt;Invalid login attempts using the REST API are not logged. The regular web interface is logging those in the event log.
+From these logs you can monitor activity and potentially discover any patterns or excessive usage activity.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;: Add logging of login events to REST API.&lt;/p&gt;
+
+&lt;h3 id=&quot;insecure-storage-of-sensitive-information&quot;&gt;Insecure storage of sensitive information&lt;/h3&gt;
+
+&lt;p&gt;As the session tokens are stored unencrypted, a leak of the phplist_admintoken table will allow a malicious actor to authenticate as phpList administrator.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;: Adjust the login logic to use a strong and expensive hashing algorithm such as bcrypt or scrypt.&lt;/p&gt;
+
+&lt;h3 id=&quot;insecure-querying-of-a-secret-timing-attack&quot;&gt;Insecure querying of a secret (“Timing attack”)&lt;/h3&gt;
+
+&lt;p&gt;As the session token is stored in a VARCHAR(255) field in the database this may be vulnerable to timing attacks.
+An attacker may be able to infer a correct session token based on the responses. This risk is however quite a bit mitigated, as timing attacks require a close proximity to the server as well as a lot of session tokens. (due to detecting timing differences in milliseconds).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;: This would be addressed as well by using an hashing algorithm with a salt (e.g. bcrypt).&lt;/p&gt;
+
+&lt;h3 id=&quot;stored-cross-site-scripting&quot;&gt;Stored Cross-Site Scripting&lt;/h3&gt;
+
+&lt;p&gt;Some browsers such as Internet Explorer require the ​nosniff header to be set and potentially dangerous characters to be encoded. Otherwise other websites embedding this resource could trigger a XSS vulnerability.
+According to wikipedia (link )&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;MIME sniffing was, and still is, used by some web browsers, including notably Microsoft’s Internet Explorer, in an attempt to help web sites which do not correctly signal the MIME type of web content display correctly.[1] However, doing this opens up a serious security vulnerability,[2] in which, by confusing the MIME sniffing algorithm, the browser can be manipulated into interpreting data in a way that allows an attacker to carry out operations that are not expected by either the site operator or user, such as cross-site scripting.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So when Internet Explorer sees HTML in a page it can be tricked to execute such. That’s why the nosniff header is required, this tells the browser “do not try to magically interpret what this could be”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Add a &lt;strong&gt;X-Content-Type-Options&lt;/strong&gt; header with nosniff option.&lt;/li&gt;
+  &lt;li&gt;Add a &lt;strong&gt;Content-Security-Policy&lt;/strong&gt; header disabling all script execution.&lt;/li&gt;
+  &lt;li&gt;Add &lt;strong&gt;X-Frame-Options’&lt;/strong&gt; header and set it to DENY.&lt;/li&gt;
+  &lt;li&gt;Use &lt;strong&gt;JSON_HEX_TAG&lt;/strong&gt; when using json_encode. This also encoded characters such as &amp;lt; and ​&amp;gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The security headers have been &lt;a href=&quot;https://github.com/phpList/rest-api/pull/110&quot;&gt;added&lt;/a&gt; and the fourth one is another hardening that I’m working on.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/burp-response.png&quot; alt=&quot;Burp&quot; title=&quot;Burp response&quot; /&gt;
+ &lt;em&gt;Security headers added to response&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;future-development&quot;&gt;Future Development&lt;/h2&gt;
+
+&lt;p&gt;Some additional fixes remain a work in progress and I will submit them soon. Meanwhile, everyone should feel free to open their Pull Requests and report any issues identified. Check out the &lt;a href=&quot;https://github.com/phpList/rest-api/blob/master/.github/CONTRIBUTING.md&quot;&gt;contributor guidelines&lt;/a&gt; on GitHub to get started!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Sep 2018 14:20:23 +0200</pubDate>
+        <link>http://10.211.55.4:4000/2018/phpList-Rest-Api-Security-Review/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2018/phpList-Rest-Api-Security-Review/</guid>
+        
+        <category>security</category>
+        
+        <category>phpList</category>
+        
+        
+        <category>security</category>
+        
+        <category>phpList</category>
+        
+      </item>
     
       <item>
         <title>DOKU.TECH and the young spirit of Prishtina</title>
@@ -489,76 +746,6 @@ When Tyrell and Elliot finally meet back up at the Cab, Elliot has absolutely no
         
         
         <category>movies</category>
-        
-      </item>
-    
-      <item>
-        <title>LibOCon and libre Ladies...</title>
-        <description>&lt;p&gt;LibOCon is the annual gathering of the LibreOffice community. At LibOCon, LibreOffice users gather to network and meet key LibreOffice developers, designers, localizers, documenters, supporters and marketers, and to learn about the latest in LibreOffice development.
-I have been a LibreOffice user for many years and this year I joined the &lt;a href=&quot;https://conference.libreoffice.org/&quot;&gt;LibreOffice Conference&lt;/a&gt; from 11-13 October in Rome, Italy.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/icontributed.jpg&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;
-&lt;em&gt;Suela and Xheni during their presentation. Credits: Redon Skikuli CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;LibOCon 2017 was hosted inside historical buildings, the property of the City of Rome. 
-&lt;a href=&quot;https://twitter.com/Suela_Palushi&quot;&gt;Suela&lt;/a&gt; and I talked  about “How to retain new contributors?”,
-“Our experience as newcomers” and “Contributions to open source” - survey. Here are some of the results of the survey:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/libocon.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/libocon2.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/libocon6.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/libocon5.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/libocon7.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We had some interesting answers when  we asked them “How do community activities affect your experience as a contributor?”&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“It makes me feel that I am doing the things right. Each time I generate a contribution, I feel
-happiness because I am spending time of my life for the benefit of projects that will useful for other people around the world while I sharing this experience with other human beings”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Gain experience and new friends ”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“In 1:1/groups brainstorming is much faster and enjoyable”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Get to know more people in the same field of interests as mine”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Community gives you outside connections, adds purpose and enjoyment to the work we’re all doing”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;During LibOCon and HackFest I had the opportunity to meet other open source ladies who contribute to LibreOffice and we took this picture &amp;lt;3. 
-&lt;img src=&quot;/images/librecon.jpg&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;
-&lt;em&gt;LibreLadies CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I had a great time in Rome. Beautiful city and good friends.&lt;/p&gt;
-
-&lt;p&gt;Ps: The next LibOCon will be held in Tirana. See you there!
-&lt;img src=&quot;/images/romanforum.jpg&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;
-&lt;em&gt;Roman Forum CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 12 Oct 2017 17:04:23 +0200</pubDate>
-        <link>http://10.211.55.4:4000/2017/liboconandlibreladies/</link>
-        <guid isPermaLink="true">http://10.211.55.4:4000/2017/liboconandlibreladies/</guid>
-        
-        <category>opensource</category>
-        
-        <category>girlsintech</category>
-        
-        <category>conference</category>
-        
-        
-        <category>opensource</category>
         
       </item>
     

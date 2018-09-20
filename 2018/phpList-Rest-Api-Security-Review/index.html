@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+  <title>A security review of phpList REST API</title>
+  <meta name="description" content="APIs are essential for building applications that are open and can integrate with other applications and services, yet with the openness of APIs comes a challenge: APIs can create additional security risks, as they increase the number of ways in which malicious actors could get into applications. Therefore, when developing APIs, careful design and security are important. As part of my internship at phpList, I had the opportunity to work on performing a risk assessment for the REST API.
+
+">
+  <meta name="author" content="Xheni M">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="A security review of phpList REST API">
+  <meta name="twitter:description" content="APIs are essential for building applications that are open and can integrate with other applications and services, yet with the openness of APIs comes a challenge: APIs can create additional security risks, as they increase the number of ways in which malicious actors could get into applications. Therefore, when developing APIs, careful design and security are important. As part of my internship at phpList, I had the opportunity to work on performing a risk assessment for the REST API.
+
+">
+
+  <meta name="twitter:creator" content="xh3n1">
+
+  <meta name="twitter:image" content="/images/favicons/favicon-194x194.png">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="A security review of phpList REST API">
+  <meta property="og:description" content="APIs are essential for building applications that are open and can integrate with other applications and services, yet with the openness of APIs comes a challenge: APIs can create additional security risks, as they increase the number of ways in which malicious actors could get into applications. Therefore, when developing APIs, careful design and security are important. As part of my internship at phpList, I had the opportunity to work on performing a risk assessment for the REST API.
+
+">
+  <meta property="og:image" content="/images/favicons/favicon-194x194.png">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/images/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/images/favicons/manifest.json">
+  <link rel="shortcut icon" href="/images/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffc40d">
+  <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="/css/main.css?1537475727735820398">
+  <link rel="canonical" href="https://www.phplist.org/phplist-rest-api-security/">
+  <link rel="alternate" type="application/rss+xml" title="Xheni's Blog" href="/feed.xml">
+</head>
+
+
+  <body>
+    <span class="mobile btn-mobile-menu">
+  <i class="icon icon-list btn-mobile-menu__icon"></i>
+  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+</span>
+
+<header class="panel-cover" style="background-image: url(/images/cover.jpg)">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+        <a href="/" title="link to home of Xheni's Blog">
+          <img src="/images/profile.jpg" class="user-image" alt="My Profile Photo">
+          <h1 class="panel-cover__title panel-title">Xheni's Blog</h1>
+        </a>
+        <hr class="panel-cover__divider">
+        <p class="panel-cover__description">InfoSec student, Software Developer at phpList, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna. <img class="emoji" title=":lock:" alt=":lock:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f512.png" height="20" width="20"> <img class="emoji" title=":computer:" alt=":computer:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" height="20" width="20"> <img class="emoji" title=":blush:" alt=":blush:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f60a.png" height="20" width="20">  </p>
+
+        <hr class="panel-cover__divider panel-cover__divider--secondary">
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/#blog" title="link to Xheni's Blog's blog" class="blog-button">Blog</a></li>
+            </ul>
+          </nav>
+
+          <nav class="cover-navigation navigation--social">
+            <ul class="navigation">
+
+
+              <!-- Twitter -->
+              <li class="navigation__item">
+                <a href="http://twitter.com/xh3n1" title="Follow @xh3n1 on Twitter" target="_blank">
+                  <i class="icon icon-social-twitter"></i>
+                  <span class="label">Twitter</span>
+                </a>
+              </li>
+
+
+
+              <!-- Instagram -->
+              <li class="navigation__item">
+                <a href="http://instagram.com/xh3n1" title="Follow xh3n1 on Instagram" target="_blank">
+                  <i class="icon icon-social-instagram"></i>
+                  <span class="label">Instagram</span>
+                </a>
+              </li>
+
+
+
+              <!-- LinkedIn -->
+              <li class="navigation__item">
+                <a href="https://www.linkedin.com/in/xh3n1" title="Follow me  on LinkedIn" target="_blank">
+                  <i class="icon icon-social-linkedin"></i>
+                  <span class="label">LinkedIn</span>
+                </a>
+              </li>
+
+
+
+              <!-- GitHub -->
+              <li class="navigation__item">
+                <a href="https://www.github.com/xh3n1" title="Follow xh3n1 on GitHub" target="_blank">
+                  <i class="icon icon-social-github"></i>
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
+
+
+
+              <!-- Hacker News -->
+              <li class="navigation__item">
+                <a href="https://news.ycombinator.com/user?id=xh3n1" title="I'm also on Hacker News" target="_blank">
+                  <i class="icon icon-social-hacker-news"></i>
+                  <span class="label">Hacker News</span>
+                </a>
+              </li>
+
+
+
+              <!-- Keybase -->
+              <li class="navigation__item">
+                <a href="https://www.keybase.io/xenial" title="Follow xenial on Keybase" target="_blank">
+                  <i class="icon icon-key"></i>
+                  <span class="label">Keybase</span>
+                </a>
+              </li>
+
+
+
+              <!-- Email -->
+              <li class="navigation__item">
+                <a href="mailto:xheni@protonmail.com" title="Email xheni@protonmail.com" target="_blank">
+                  <i class="icon icon-mail"></i>
+                  <span class="label">Email</span>
+                </a>
+              </li>
+
+
+
+              <!-- PayPal -->
+              <li class="navigation__item">
+                <a href="https://www.paypal.me/xhenimyrtaj" title="Donate to Xheni" target="_blank">
+                  <i class="icon icon-paypal"></i>
+                  <span class="label">PayPal</span>
+                </a>
+              </li>
+
+
+            <!-- RSS -->
+            <li class="navigation__item">
+              <a href="/feed.xml" title="Subscribe" target="_blank">
+                <i class="icon icon-rss"></i>
+                <span class="label">RSS</span>
+              </a>
+            </li>
+
+
+            </ul>
+          </nav>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="20 Sep 2018" class="post-meta__date date"> 20 Sep 2018</time>
+
+      • <span class="post-meta__tags">on <a href="/tags/#security">security</a> <a href="/tags/#phpList">phpList</a> </span>
+
+      <p> <img class="emoji" title=":hourglass_flowing_sand:" alt=":hourglass_flowing_sand:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/23f3.png" height="20" width="20">This article will take 5 minutes to read.</p>
+    </div>
+    <h1 class="post-title">A security review of phpList REST API </h1>
+  </header>
+
+  <section class="post">
+    <p>APIs are essential for building applications that are open and can integrate with other applications and services, yet with the openness of APIs comes a challenge: APIs can create additional security risks, as they increase the number of ways in which malicious actors could get into applications. Therefore, when developing APIs, careful design and security are important. As part of my internship at phpList, I had the opportunity to work on performing a risk assessment for the REST API.</p>
+
+<p>On a personal note, it has been a challenging and exciting experience. I would like to share the research with the community as a learning opportunity for readers and myself. Please note that all high severity risks have been addressed and resolved already in the various related code repositories.</p>
+
+<h2 id="recap-on-the-phplist-rest-api">Recap on the phpList REST API</h2>
+
+<p>The phpList <a href="https://github.com/phpList/rest-api">REST API</a> provides functions for superusers to manage lists and subscribers. It uses functionality from the phpList <a href="https://github.com/phpList/core">core</a> module .</p>
+
+<p>This new REST API can also be used to provide REST access to an existing phpList 3 installation. For this, <a href="https://github.com/phpList/phplist3">phpList 3</a> installation and the phpList 4 installation with the REST API need to share the same database.</p>
+
+<h3 id="local-demo-with-postman">Local demo with Postman</h3>
+
+<p>You can try out the REST API by using pre-prepared requests and the Postman GUI tool. Install Postman as a browser extension or stand-alone app, open the phpList 4 <a href="https://documenter.getpostman.com/view/3293511/phplist-4-rest-api-demo/RVftkC9t#4710e871-973d-46fa-94b7-727fdc292cd5">REST API Demo collection</a> and click “Run in Postman”.
+For more information on how to install and try phpList REST API , please read the <a href="https://github.com/phpList/rest-api/blob/master/README.md">documentation</a>.</p>
+
+<h3 id="tools-used">Tools used</h3>
+
+<p>Reading “<a href="https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470">The Web Application Hacker’s Handbook</a>”, helped me quite a lot in the process of reviewing the security of phpList REST API.
+Curl
+Another tool that I used was <strong>BurpSuite Community Edition</strong>, which was also mentioned in the book. Burp is widely used by security professionals to find security vulnerabilities in web applications and I had the opportunity to play around with it for this risk assessment.
+<strong>Burp</strong> can test any HTTP endpoint. The process is to proxy the client’s traffic through Burp and then test it in the normal way.
+<img src="/images/burp.png" alt="Burp" title="Burp">
+ <em>Burp interface</em></p>
+
+<p>I also used <strong>cURL</strong> to consume the API calls. It is an open source software command line tool that is used to transfer data with URLs.</p>
+
+<p>The REST API topic has been also covered in several sites such as OWASP (The Open Web Application Security Project) <a href="https://www.owasp.org/index.php/REST_Security_Cheat_Sheet">REST Security</a>, which is a good starter reference to learn about the main security challenges of REST.</p>
+
+<p>On a personal note, it has been a challenging and exciting experience. I would like to share the research with the community since the found high severity risks have been <strong>resolved</strong>.</p>
+
+<h2 id="implementation-of-the-api-during-testing">Implementation of the API during testing</h2>
+
+<p>Here is a technical overview of how the REST API was implemented during my testing.</p>
+
+<h3 id="session-creation">Session creation</h3>
+<p>For authentication a user has to call the /api/v2/sessions route and provide username and password within the POST body:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST /app.php/api/v2/sessions HTTP/1.1
+Host: 10.211.55.4:82
+User-Agent: curl/7.54.0
+Accept: */*
+Content-Type: application/json
+Content-Length: 58
+Connection: close
+
+{
+    "login_name": "admin",
+    "password": "admin1234"
+}
+</code></pre></div></div>
+<p>The controller then queries the existing phpList database for an administrator and user with this password:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public function postAction(Request $request): View
+{
+   $this-&gt;validateCreateRequest($request);
+   $administrator = $this-&gt;administratorRepository-&gt;findOneByLoginCredentials(
+       $request-&gt;get('login_name'),
+       $request-&gt;get('password')
+   );
+   if ($administrator === null) {
+       throw new UnauthorizedHttpException('', 'Not authorized', null, 1500567098);
+   }
+
+   $token = $this-&gt;createAndPersistToken($administrator);
+
+   return View::create()-&gt;setStatusCode(Response::HTTP_CREATED)-&gt;setData($token);
+}
+</code></pre></div></div>
+<p>The controller is creating a new session key of 256 bytes and returning the MD5 representation of it. The user can then use those credentials for authentication.</p>
+
+<h3 id="session-verification">Session verification</h3>
+
+<p>For authentication purposes a trait AuthenticationTrait is implemented, this trait implements a function requireAuthentication:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>private function requireAuthentication(Request $request): Administrator
+{
+   $administrator = $this-&gt;authentication-&gt;authenticateByApiKey($request);
+   if ($administrator === null) {
+       throw new AccessDeniedHttpException(
+           'No valid session key was provided as basic auth password.',
+           null,
+           1512749701
+       );
+   }
+
+   return $administrator;
+}
+</code></pre></div></div>
+<p>When this function is invoked, it calls <em>\PhpList\Core\Security\Authentication::authenticateByApiKey</em>, this function is implemented as following.</p>
+
+<p>As one can see, it searches the AdministratorTokenRepository for an unexpired key and then verifies whether the token belongs to an administrator:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public function authenticateByApiKey(Request $request)
+{
+   $apiKey = $request-&gt;headers-&gt;get('php-auth-pw');
+   if (empty($apiKey)) {
+       return null;
+   }
+
+   $token = $this-&gt;tokenRepository-&gt;findOneUnexpiredByKey($apiKey);
+   if ($token === null) {
+       return null;
+   }
+
+   /** @var Administrator|null $administrator */
+   $administrator = $token-&gt;getAdministrator();
+   if ($administrator === null) {
+       return null;
+   }
+
+   try {
+       // This checks for cases where a super user created a session key and then got their super user
+       // privileges removed during the lifetime of the session key.
+     // In addition, this will load the lazy-loaded model from the database,
+       // which will check that the model really exists in the database (i.e., it has not been deleted).
+       if (!$administrator-&gt;isSuperUser()) {
+           $administrator = null;
+       }
+   } catch (EntityNotFoundException $exception) {
+       $administrator = null;
+   }
+
+   return $administrator;
+}
+</code></pre></div></div>
+<p>This is done by querying the table phplist_admintoken for the current session key.</p>
+
+<p>In the controllers, authentication is enforced by calling <em>\PhpList\RestBundle\Controller\SessionController::validateCreateRequest</em> in every function such as the following:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public function cgetAction(Request $request): View
+{
+   $this-&gt;requireAuthentication($request);
+
+   return View::create()-&gt;setData($this-&gt;subscriberListRepository-&gt;findAll());
+}
+</code></pre></div></div>
+
+<h3 id="lists-route">Lists Route</h3>
+
+<p><em>\PhpList\RestBundle\Controller\ListController</em> implements cgetAction, getAction and deleteAction. Those functions allow an administrator to:</p>
+
+<ol>
+  <li><strong>Get a collection of lists</strong></li>
+  <li><strong>Get information about a single list</strong></li>
+  <li><strong>Delete a list</strong></li>
+</ol>
+
+<p>The information is returned to the user as a JSON string with a Content-Type of application/json:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>HTTP/1.1 200 OK
+Date: Thu, 21 Jun 2018 14:45:33 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Cache-Control: no-cache, private
+Content-Length: 210
+Connection: close
+Content-Type: application/json
+
+{"name":"newsletter","description":"Sign up to our newsletter&lt;h1&gt;&lt;script&gt;alert(1)&lt;\/script&gt;","creation_date":"2018-06-20T13:29:07+02:00","list_position":0,"subject_prefix":"",
+"public":true,"category":"","id":2}
+</code></pre></div></div>
+<h3 id="subscribers-route">Subscribers route</h3>
+
+<p><em>\PhpList\RestBundle\Controller\SubscriberController</em>
+implements postAction. This function allows an administrator to:</p>
+
+<p><strong>Create a subscriber</strong></p>
+
+<p>The information is returned to the user as a JSON string with a Content-Type of application/json:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>HTTP/1.1 201 Created
+Date: Thu, 21 Jun 2018 15:05:17 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Cache-Control: no-cache, private
+Content-Length: 219
+Connection: close
+Content-Type: application/json
+
+{"creation_date":"2018-06-21T17:05:17+02:00","email":"xhenitest@xheni.me",
+"confirmed":false,"blacklisted":false,"bounce_count":0,
+"unique_id":"498f3de0e0b033665f58bb4b3c3f3c21",
+"html_email":false,"disabled":false,"id":7}
+</code></pre></div></div>
+
+<p>The controller performs the required authentication checks and doesn’t expose any functionalities not yet available to superusers. The security level is thus adequate.</p>
+
+<h2 id="security-concerns-and-mitigation">Security concerns and mitigation</h2>
+
+<p><em>Note</em>: High severity risks have already been <em>mitigated</em>; the other risks identified have been addressed by hardening the pertinent code.</p>
+
+<h3 id="disabled-admins-can-still-use-rest-api">Disabled admins can still use REST API</h3>
+
+<p>Administrators that are disabled in phpList are still able to login using the REST API.</p>
+
+<p><strong>Mitigation</strong>: Adjust the authenticateByApiKey to check if the user is disabled.
+Note: This issue has already been <a href="https://github.com/phpList/core/pull/293">fixed</a>.</p>
+
+<h3 id="invalid-login-attempts-are-not-logged">Invalid login attempts are not logged</h3>
+
+<p>Invalid login attempts using the REST API are not logged. The regular web interface is logging those in the event log.
+From these logs you can monitor activity and potentially discover any patterns or excessive usage activity.</p>
+
+<p><strong>Mitigation</strong>: Add logging of login events to REST API.</p>
+
+<h3 id="insecure-storage-of-sensitive-information">Insecure storage of sensitive information</h3>
+
+<p>As the session tokens are stored unencrypted, a leak of the phplist_admintoken table will allow a malicious actor to authenticate as phpList administrator.</p>
+
+<p><strong>Mitigation</strong>: Adjust the login logic to use a strong and expensive hashing algorithm such as bcrypt or scrypt.</p>
+
+<h3 id="insecure-querying-of-a-secret-timing-attack">Insecure querying of a secret (“Timing attack”)</h3>
+
+<p>As the session token is stored in a VARCHAR(255) field in the database this may be vulnerable to timing attacks.
+An attacker may be able to infer a correct session token based on the responses. This risk is however quite a bit mitigated, as timing attacks require a close proximity to the server as well as a lot of session tokens. (due to detecting timing differences in milliseconds).</p>
+
+<p><strong>Mitigation</strong>: This would be addressed as well by using an hashing algorithm with a salt (e.g. bcrypt).</p>
+
+<h3 id="stored-cross-site-scripting">Stored Cross-Site Scripting</h3>
+
+<p>Some browsers such as Internet Explorer require the ​nosniff header to be set and potentially dangerous characters to be encoded. Otherwise other websites embedding this resource could trigger a XSS vulnerability.
+According to wikipedia (link )</p>
+<blockquote>
+  <p>MIME sniffing was, and still is, used by some web browsers, including notably Microsoft’s Internet Explorer, in an attempt to help web sites which do not correctly signal the MIME type of web content display correctly.[1] However, doing this opens up a serious security vulnerability,[2] in which, by confusing the MIME sniffing algorithm, the browser can be manipulated into interpreting data in a way that allows an attacker to carry out operations that are not expected by either the site operator or user, such as cross-site scripting.</p>
+</blockquote>
+
+<p>So when Internet Explorer sees HTML in a page it can be tricked to execute such. That’s why the nosniff header is required, this tells the browser “do not try to magically interpret what this could be”.</p>
+
+<p><strong>Mitigation</strong>:</p>
+
+<ol>
+  <li>Add a <strong>X-Content-Type-Options</strong> header with nosniff option.</li>
+  <li>Add a <strong>Content-Security-Policy</strong> header disabling all script execution.</li>
+  <li>Add <strong>X-Frame-Options’</strong> header and set it to DENY.</li>
+  <li>Use <strong>JSON_HEX_TAG</strong> when using json_encode. This also encoded characters such as &lt; and ​&gt;.</li>
+</ol>
+
+<p>The security headers have been <a href="https://github.com/phpList/rest-api/pull/110">added</a> and the fourth one is another hardening that I’m working on.</p>
+
+<p><img src="/images/burp-response.png" alt="Burp" title="Burp response">
+ <em>Security headers added to response</em></p>
+
+<h2 id="future-development">Future Development</h2>
+
+<p>Some additional fixes remain a work in progress and I will submit them soon. Meanwhile, everyone should feel free to open their Pull Requests and report any issues identified. Check out the <a href="https://github.com/phpList/rest-api/blob/master/.github/CONTRIBUTING.md">contributor guidelines</a> on GitHub to get started!</p>
+
+  </section>
+  <section id="disqus_thread"></section><!-- /#disqus_thread -->
+</article>
+
+    <script type="text/javascript">
+      var disqus_config = function () {
+        this.page.url = 'http://10.211.55.4:4000/2018/phpList-Rest-Api-Security-Review/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = '/2018/phpList-Rest-Api-Security-Review'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+
+      (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//xheni-me.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+       })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+      </div>
+
+      <footer class="footer">
+  <span class="footer__copyright"> 2018 - Made with <img class="emoji" title=":hearts:" alt=":hearts:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2665.png" height="20" width="20"> and Jekyll by Xheni M.</span>
+</footer>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js?1537475727735820398"></script>
+
+
+    </div>
+  </body>
+</html>
