@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xheni's Blog</title>
-    <description>InfoSec student, Software Developer at phpList, Nextcloud contributor, Open Labs Hackerspace member, RGSoC alumna. :lock: :computer: :blush:</description>
+    <description>MSc in Information Security, Software Developer at phpList, Open Labs Hackerspace member, RGSoC alumna. :lock: :computer: :blush:</description>
     <link>http://10.211.55.4:4000/</link>
     <atom:link href="http://10.211.55.4:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 20 Sep 2018 22:35:27 +0200</pubDate>
-    <lastBuildDate>Thu, 20 Sep 2018 22:35:27 +0200</lastBuildDate>
-    <generator>Jekyll v3.6.2</generator>
+    <pubDate>Mon, 29 Oct 2018 23:15:53 +0100</pubDate>
+    <lastBuildDate>Mon, 29 Oct 2018 23:15:53 +0100</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
     
       <item>
         <title>A security review of phpList REST API</title>
