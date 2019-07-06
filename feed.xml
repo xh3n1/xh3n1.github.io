@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xheni's stream of consciousness</title>
-    <description>MSc in Information Security, Software Developer at phpList, Open Labs Hackerspace alumna, RGSoC alumna. :lock: :computer: :blush:</description>
+    <description>MSc in Information Security &amp; Software Developer :computer: :key:</description>
     <link>http://10.211.55.4:4000/</link>
     <atom:link href="http://10.211.55.4:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Dec 2018 21:53:22 +0100</pubDate>
-    <lastBuildDate>Tue, 25 Dec 2018 21:53:22 +0100</lastBuildDate>
-    <generator>Jekyll v3.7.4</generator>
+    <pubDate>Sat, 06 Jul 2019 11:56:20 +0100</pubDate>
+    <lastBuildDate>Sat, 06 Jul 2019 11:56:20 +0100</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>A security review of phpList REST API</title>
@@ -251,7 +251,7 @@ According to wikipedia (link )&lt;/p&gt;
 
 &lt;p&gt;Some additional fixes remain a work in progress and I will submit them soon. Meanwhile, everyone should feel free to open their Pull Requests and report any issues identified. Check out the &lt;a href=&quot;https://github.com/phpList/rest-api/blob/master/.github/CONTRIBUTING.md&quot;&gt;contributor guidelines&lt;/a&gt; on GitHub to get started!&lt;/p&gt;
 </description>
-        <pubDate>Thu, 20 Sep 2018 14:20:23 +0200</pubDate>
+        <pubDate>Thu, 20 Sep 2018 13:20:23 +0100</pubDate>
         <link>http://10.211.55.4:4000/2018/phpList-Rest-Api-Security-Review/</link>
         <guid isPermaLink="true">http://10.211.55.4:4000/2018/phpList-Rest-Api-Security-Review/</guid>
         
@@ -303,7 +303,7 @@ The capital city of Kosovo was smaller than I expected and a bit chaotic urban-w
 
 &lt;p&gt;It has a lively night life, a lovely boulevard and people who like to drink beer. All in all, I had a pleasant experience and will visit it again.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 28 Jun 2018 23:20:23 +0200</pubDate>
+        <pubDate>Thu, 28 Jun 2018 22:20:23 +0100</pubDate>
         <link>http://10.211.55.4:4000/2018/dokutech-prishtina/</link>
         <guid isPermaLink="true">http://10.211.55.4:4000/2018/dokutech-prishtina/</guid>
         
@@ -371,7 +371,7 @@ When you try to be familiar with a broad range of technologies and you are able 
 
 &lt;p&gt;Don’t leave “broken windows” (aka bad design, poor code or wrong decisions) unrepaired.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 28 May 2018 17:20:23 +0200</pubDate>
+        <pubDate>Mon, 28 May 2018 16:20:23 +0100</pubDate>
         <link>http://10.211.55.4:4000/2018/the-pragmatic-programmer/</link>
         <guid isPermaLink="true">http://10.211.55.4:4000/2018/the-pragmatic-programmer/</guid>
         
@@ -406,7 +406,7 @@ Scan now the barcode below and worry later. :wink:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/barcode.png&quot; alt=&quot;barcode&quot; title=&quot;open&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 25 May 2018 17:20:23 +0200</pubDate>
+        <pubDate>Fri, 25 May 2018 16:20:23 +0100</pubDate>
         <link>http://10.211.55.4:4000/2018/open-by-default-oscal-2018/</link>
         <guid isPermaLink="true">http://10.211.55.4:4000/2018/open-by-default-oscal-2018/</guid>
         
@@ -452,7 +452,7 @@ on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Ful
 
 &lt;p&gt;#HappyHacking :blush:&lt;/p&gt;
 </description>
-        <pubDate>Wed, 04 Apr 2018 22:20:23 +0200</pubDate>
+        <pubDate>Wed, 04 Apr 2018 21:20:23 +0100</pubDate>
         <link>http://10.211.55.4:4000/2018/Nextcloud-hackweek/</link>
         <guid isPermaLink="true">http://10.211.55.4:4000/2018/Nextcloud-hackweek/</guid>
         
@@ -543,7 +543,7 @@ on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Ful
 
 &lt;p&gt;&lt;strong&gt;Disclaimer: This article was originally published on phpList blog.&lt;/strong&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 02 Feb 2018 11:04:23 +0100</pubDate>
+        <pubDate>Fri, 02 Feb 2018 10:04:23 +0000</pubDate>
         <link>http://10.211.55.4:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</link>
         <guid isPermaLink="true">http://10.211.55.4:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</guid>
         
@@ -642,7 +642,7 @@ I spend most of the time at Nextcloud assembly, together with other Nextclouders
 
 &lt;p&gt;&lt;img src=&quot;/images/events/34c3-chaos2017.jpg&quot; alt=&quot;chaos&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 31 Dec 2017 16:04:23 +0100</pubDate>
+        <pubDate>Sun, 31 Dec 2017 15:04:23 +0000</pubDate>
         <link>http://10.211.55.4:4000/2017/34c3-chaos-communication-congress/</link>
         <guid isPermaLink="true">http://10.211.55.4:4000/2017/34c3-chaos-communication-congress/</guid>
         
@@ -673,7 +673,7 @@ The workshop went very good. We talked a bit about Git history and Git design in
 &lt;p&gt;A link of the &lt;a href=&quot;https://github.com/xh3n1/Personal/blob/master/presentation/introductiontoGit.pdf&quot;&gt;presentation&lt;/a&gt; can be found on my Personal GitHub repo. 
 The feedback that they gave us after the event was really good, and it encourages me to continue with Git workshops and not only.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 08 Nov 2017 11:04:23 +0100</pubDate>
+        <pubDate>Wed, 08 Nov 2017 10:04:23 +0000</pubDate>
         <link>http://10.211.55.4:4000/2017/Git-Workshop-At-OpenLabs/</link>
         <guid isPermaLink="true">http://10.211.55.4:4000/2017/Git-Workshop-At-OpenLabs/</guid>
         
@@ -707,7 +707,7 @@ It was quite interesting that Elliot mentionied specifically EXIF data when he w
 
 &lt;p&gt;When  Elliot was confronting Darlene, he  puts a device that created a  noise to confuse the bugs. This device it is known as a audio jammer and it was designed to obscure human speech from listening devices. These devices do exist in reality and you  can even find  mobile apps  which turn your smartphone into an audio jammer. These devices are legal to use, so consider using them if you are paranoid.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 05 Nov 2017 11:04:23 +0100</pubDate>
+        <pubDate>Sun, 05 Nov 2017 10:04:23 +0000</pubDate>
         <link>http://10.211.55.4:4000/2017/Mr-Robot-Season-3-Episode-4/</link>
         <guid isPermaLink="true">http://10.211.55.4:4000/2017/Mr-Robot-Season-3-Episode-4/</guid>
         
@@ -736,7 +736,7 @@ We’ve gone back in time to see what Tyrell was up to while Elliot spent time i
 When Tyrell and Elliot finally meet back up at the Cab, Elliot has absolutely no idea why is he there. They went to the warehouse and we know the end. Tyrell is feeling guilty for shooting him. He is panicked  while Elliot is operated on in the warehouse. On the other side Angela, looks so calm and cold.  Tyrell is more emotional about Elliot getting shot than Angela. She tells Tyrell that sometimes Elliot is another person. Nothing is ever as it seems. Tyrell’s world is shaken and his perception suddenly changed. Ideas of perception dominate the episode.&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 29 Oct 2017 21:04:23 +0100</pubDate>
+        <pubDate>Sun, 29 Oct 2017 20:04:23 +0000</pubDate>
         <link>http://10.211.55.4:4000/2017/Mr-Robot-Season-3-Episode-3/</link>
         <guid isPermaLink="true">http://10.211.55.4:4000/2017/Mr-Robot-Season-3-Episode-3/</guid>
         
