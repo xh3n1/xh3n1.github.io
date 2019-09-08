@@ -5,9 +5,130 @@
     <description>MSc in Information Security &amp; Software Developer :computer: :key:</description>
     <link>http://10.211.55.4:4000/</link>
     <atom:link href="http://10.211.55.4:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Sep 2019 18:58:37 +0100</pubDate>
-    <lastBuildDate>Sun, 08 Sep 2019 18:58:37 +0100</lastBuildDate>
+    <pubDate>Sun, 08 Sep 2019 19:51:24 +0100</pubDate>
+    <lastBuildDate>Sun, 08 Sep 2019 19:51:24 +0100</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Insecure Zendesk SSO implementation by generating JWT client-side</title>
+        <description>&lt;h2 id=&quot;belle-of-the-ball&quot;&gt;Belle of the Ball&lt;/h2&gt;
+
+&lt;p&gt;Two months ago I submitted a security bug report to &lt;a href=&quot;https://trint.com/&quot;&gt;Trint Ltd.&lt;/a&gt; on &lt;a href=&quot;https://hackerone.com/&quot;&gt;HackerOne&lt;/a&gt;. It got disclosed today and managed to get ranked on top of hacktivity feed ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/hackerone-top.png&quot; alt=&quot;Belle o the Ball&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Below you can find the report originally submitted &lt;a href=&quot;https://hackerone.com/reports/638635&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;app.trint.com&lt;/code&gt; implements SSO to Zendesk, it does this by using JWT as described at https://support.zendesk.com/hc/en-us/articles/203663816-Enabling-JWT-JSON-Web-Token-single-sign-on&lt;/p&gt;
+
+&lt;p&gt;This functionality has not been implemented securely because the JWT generation happens in the client-side. This is done by the Zendesk secret being hardcoded in the JavaScript code.
+The secret is used to create JSON Web Tokens and then you can use the generated token to impersonate any customer in Zendesk. (therefore potentially getting access to their support tickets)&lt;/p&gt;
+
+&lt;p&gt;Whilst &lt;code class=&quot;highlighter-rouge&quot;&gt;support.trint.com&lt;/code&gt; is marked as out of scope for the program, the described vulnerability isn’t caused by Zendesk. The vulnerable component is in &lt;code class=&quot;highlighter-rouge&quot;&gt;app.trint.com&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;assessment&quot;&gt;Assessment&lt;/h2&gt;
+
+&lt;p&gt;The JavaScript source map files are available next to the minified production files. This significantly makes analysing this issue easier.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;JavaScript file: https://app.trint.com/static/js/app.e984c9df.js&lt;/li&gt;
+  &lt;li&gt;Sourcemap file: https://app.trint.com/static/js/app.e984c9df.js.map&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Looking at some of the UI views, I stumbled upon &lt;code class=&quot;highlighter-rouge&quot;&gt;static/js/modules/auth/pages/ZendeskLoadingPage.jsz&lt;/code&gt; I’ve attached a stripped version which shows the JWT generation:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import { ZENDESK_DOMAIN } from 'modules/core/constants/index';
+
+const { REACT_APP_ZENDESK_SECRET } = process.env;
+
+
+function RedirectToZendesk(props) {
+  const { user, history } = props;
+
+  function generateZendeskTokenAndRedirect() {
+    const TIME_NOW_OBJECT = moment(Date.now());
+    try {
+      const payload = {
+        iat: TIME_NOW_OBJECT.unix(),
+        jti: uuid.v4(),
+        name: `${user.profile.firstName} ${user.profile.lastName}`,
+        email: user.username,
+      };
+
+      // encode zendesk token
+      const zendeskToken = jwt.sign(payload, REACT_APP_ZENDESK_SECRET);
+      window.location = `${ZENDESK_DOMAIN}/access/jwt?jwt=${zendeskToken}`;
+    } catch (err) {
+      history.push('/error');
+    }
+  }
+
+  useEffect(
+    () =&amp;gt; {
+      generateZendeskTokenAndRedirect(user);
+    },
+    [user],
+  );
+
+  return &amp;lt;Loader /&amp;gt;;
+}
+
+
+export default ZendeskLoadingPage;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Searching for &lt;code class=&quot;highlighter-rouge&quot;&gt;REACT_APP_ZENDESK_SECRET&lt;/code&gt; in the sourcemap will show the JWT secret:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;var REACT_APP_ZENDESK_SECRET = &quot;oq1HJ4jXo99Wt41bwvLh9BXBVdgpi52CjkXbThow7UhWQGtJ&quot;;&lt;/code&gt;
+`
+Generating the JWT on the client-side like this allows anyone to mint an arbitrary JWT. It would probably be better to generate this on the server-side.&lt;/p&gt;
+
+&lt;h2 id=&quot;reproduction-steps&quot;&gt;Reproduction steps&lt;/h2&gt;
+
+&lt;p&gt;As logged-in user press “Support” on https://app.trint.com
+Intercept the traffic and see the call to https://trintsupport.zendesk.com/access/jwt?jwt=[JWT_TOKEN]
+Logout of Zendesk
+Put the JWT token from above URI into https://jwt.io and decode it.
+Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NjI3MDk2NTksImp0a
+SI6IjIxZDAyOTg3LWU3YWItNDQ5MC05N2Q3LTc2YTBmMzJhOTVjOCIsIm5hbWUiOiJUZ
+XN0IFRlc3QiLCJlbWFpbCI6ImIzODcxNjk0QHVyaGVuLmNvbSJ9.mnnx7dbpXbvU7xr
+5Bp5pad2eHVN01mSsXApmZoFj73c
+{
+  &quot;iat&quot;: 1562709659,
+  &quot;jti&quot;: &quot;21d02987-e7ab-4490-97d7-76a0f32a95c8&quot;,
+  &quot;name&quot;: &quot;Test Test&quot;,
+  &quot;email&quot;: &quot;b3871694@urhen.com&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Now we can continue with tampering the JWT
+Change IAT to the current Unix timestamp
+Change JTI to a random UUID v4
+Change email to the victim email address
+Insert &lt;code class=&quot;highlighter-rouge&quot;&gt;oq1HJ4jXo99Wt41bwvLh9BXBVdgpi52CjkXbThow7UhWQGtJ&lt;/code&gt; as HMAC secret.
+Use the resulting JWT in a call to &lt;code class=&quot;highlighter-rouge&quot;&gt;https://trintsupport.zendesk.com/access/jwt?jwt=[JWT_TOKEN]&lt;/code&gt;. You will be logged in as the victim.&lt;/p&gt;
+
+&lt;h2 id=&quot;impact&quot;&gt;Impact&lt;/h2&gt;
+
+&lt;p&gt;Access to the Zendesk account of Trint customers. This includes potentially the support history of said user.&lt;/p&gt;
+
+&lt;p&gt;I haven’t verified whether the same SSO flow can also be used against Zendesk administrators. If so, the risk would be higher.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Sep 2019 13:20:23 +0100</pubDate>
+        <link>http://10.211.55.4:4000/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</link>
+        <guid isPermaLink="true">http://10.211.55.4:4000/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</guid>
+        
+        <category>security</category>
+        
+        <category>HackerOne</category>
+        
+        
+        <category>security</category>
+        
+        <category>report</category>
+        
+      </item>
     
       <item>
         <title>A security review of phpList REST API</title>
@@ -710,35 +831,6 @@ It was quite interesting that Elliot mentionied specifically EXIF data when he w
         <pubDate>Sun, 05 Nov 2017 10:04:23 +0000</pubDate>
         <link>http://10.211.55.4:4000/2017/Mr-Robot-Season-3-Episode-4/</link>
         <guid isPermaLink="true">http://10.211.55.4:4000/2017/Mr-Robot-Season-3-Episode-4/</guid>
-        
-        <category>movies</category>
-        
-        <category>Mr Robot</category>
-        
-        
-        <category>movies</category>
-        
-      </item>
-    
-      <item>
-        <title>Eps3.2_1egacy.so, a flashback episode </title>
-        <description>&lt;p&gt;This is my first recap of Mr Robot episodes. It’s full of spoilers and if you haven’t watched it yet,  DO NO READ IT!&lt;/p&gt;
-
-&lt;p&gt;First of all I loved the Shining style opening credits. The “Eps3.2_1egacy.so” is a flashback episode dedicated to one character: Tyrell Wellick.  It  answers to many questions like : What happened to Tyrell the night of the 5/9 hack, Why didn’t he contact his wife ? What’s his role in the Dark Army and on the Stage 2? How is he connected to Elliot?  The weird relationship between Elliot and Tyrell is the focus of this episode. 
-The flashback begins on the night of the hack as Elliot has just put his plan in motion. While Tyrell is staring at his partner computer, Elliot walks over to the popcorn machine, and we know that the gun is in there. We first assumed that he killed Tyrell but he  aims the gun at Tyrell, pulls the trigger and no shot is fired.  Tyrell is not scared. He laughs and sees this as divine intervention. Mr Robot gave the gun to Tyrell and told him if Elliot ever wants to stop the stage 2, he should shoot him. 
-Irving and the Dark Army shows up with questions for Tyrell. Mr. Robot has no clue who he is and he is confused.
-We’ve gone back in time to see what Tyrell was up to while Elliot spent time in jail. Tyrell undergoes some disturbing questioning at the cabin. We know now that he has some daddy issues and  declares his loyalty to Elliot.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/tyrell2.jpg&quot; alt=&quot;Tyrell&quot; title=&quot;Tyrell&quot; /&gt;
-&lt;em&gt;Tyrell grows his beard&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;He spends some months in the woods, alone and grows his beard. He chops wood, continually checks up on the news about Joanna  , and even has access to a baby cam that allows him to watch his child sleep… The news that Joanna has a new man on her side make him feel nervous. He goes outside. He is  spotted by a cop and he is captured by him. The cop plans to transfer him to FBI , but Agent Santiago kills him and takes  Tyrell back to the cabin. It confirms that Santiago was working all this time for the Dark Army as we all  suspected.
-When Tyrell and Elliot finally meet back up at the Cab, Elliot has absolutely no idea why is he there. They went to the warehouse and we know the end. Tyrell is feeling guilty for shooting him. He is panicked  while Elliot is operated on in the warehouse. On the other side Angela, looks so calm and cold.  Tyrell is more emotional about Elliot getting shot than Angela. She tells Tyrell that sometimes Elliot is another person. Nothing is ever as it seems. Tyrell’s world is shaken and his perception suddenly changed. Ideas of perception dominate the episode.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 29 Oct 2017 20:04:23 +0000</pubDate>
-        <link>http://10.211.55.4:4000/2017/Mr-Robot-Season-3-Episode-3/</link>
-        <guid isPermaLink="true">http://10.211.55.4:4000/2017/Mr-Robot-Season-3-Episode-3/</guid>
         
         <category>movies</category>
         

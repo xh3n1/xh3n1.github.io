@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://10.211.55.4:4000/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</loc>
+      
+        <lastmod>2019-09-08T13:20:23+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://10.211.55.4:4000/2018/phpList-Rest-Api-Security-Review/</loc>
       
         <lastmod>2018-09-20T13:20:23+01:00</lastmod>
@@ -246,7 +261,7 @@
     <url>
       <loc>http://10.211.55.4:4000/feed.xml</loc>
       
-        <lastmod>2019-09-08T18:58:37+01:00</lastmod>
+        <lastmod>2019-09-08T19:51:24+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -265,7 +280,7 @@
     <url>
       <loc>http://10.211.55.4:4000/css/main.css</loc>
       
-        <lastmod>2019-09-08T18:58:37+01:00</lastmod>
+        <lastmod>2019-09-08T19:51:24+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
