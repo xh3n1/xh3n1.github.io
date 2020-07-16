@@ -5,8 +5,8 @@
     <description>Software Engineer &amp; MSc in Information Security :computer: :key:</description>
     <link>https://xheni.me/</link>
     <atom:link href="https://xheni.me/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 15 Jul 2020 23:34:11 +0100</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2020 23:34:11 +0100</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2020 00:43:21 +0100</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2020 00:43:21 +0100</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -20,7 +20,7 @@
 
 &lt;p&gt;Një nga mësueset e mia në shkollen 9-vjeçare thoshte gjithmonë: “Na mbyti analfabetizmi funksional!” 
  Ajo ankohej se një ndër problemet më të medha në Shqiperi, nuk është fakti që njerezit nuk lexojnë, por që dhe ata që lexojnë kanë një mungesë të theksuar të mendimit kritik. Disa thonë se është e trashëguar nga koha e diktaturës, kur shqiptarët lexonin cfarë thoshte partia dhe tundnin kokën. 
- Megjithatë, unë mendoj se “analfabetzmi funksional” ekziston kudo në botë dhe vëçanërisht në internet.&lt;/p&gt;
+ Megjithatë, unë mendoj se “Analfabetizmi funksional” ekziston kudo në botë dhe vëçanërisht në internet.&lt;/p&gt;
 
 &lt;h2 id=&quot;rrjetet-sociale&quot;&gt;Rrjetet sociale&lt;/h2&gt;
 
@@ -78,13 +78,9 @@ Lëre se e gjeta…  “Jeta Osh Qef” nuk i bën propagandë qeverisë dhe lal
         <link>https://xheni.me/2020/keqinformimi-ne-shqiperi/</link>
         <guid isPermaLink="true">https://xheni.me/2020/keqinformimi-ne-shqiperi/</guid>
         
-        <category>albanian</category>
+        <category>albania</category>
         
-        <category>shqip</category>
-        
-        <category>social media</category>
-        
-        <category>propaganda</category>
+        <category>opinion</category>
         
         
         <category>opinion</category>
@@ -516,8 +512,6 @@ The capital city of Kosovo was smaller than I expected and a bit chaotic urban-w
         
         <category>tech</category>
         
-        <category>prishtina</category>
-        
         <category>hackerspace</category>
         
         
@@ -756,7 +750,7 @@ on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Ful
         
         <category>course</category>
         
-        <category>phplist</category>
+        <category>phpList</category>
         
         
         <category>opensource</category>
@@ -855,7 +849,7 @@ I spend most of the time at Nextcloud assembly, together with other Nextclouders
         
         <category>ccc</category>
         
-        <category>hackers</category>
+        <category>conference</category>
         
         
         <category>conference</category>
