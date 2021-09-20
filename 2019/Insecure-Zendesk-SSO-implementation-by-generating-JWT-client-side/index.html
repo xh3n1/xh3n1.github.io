@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
 
-  <title>Eps3.3_m3tadata.par2, a security review  </title>
-  <meta name="description" content="“Metadata. The story behind the data. Getting information is one thing, but how it was created, where, by whom, can often be illuminating.”
+  <title>Insecure Zendesk SSO implementation by generating JWT client-side</title>
+  <meta name="description" content="Belle of the Ball
 
 ">
   <meta name="author" content="Xheni M.">
@@ -18,8 +18,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Eps3.3_m3tadata.par2, a security review  ">
-  <meta name="twitter:description" content="“Metadata. The story behind the data. Getting information is one thing, but how it was created, where, by whom, can often be illuminating.”
+  <meta name="twitter:title" content="Insecure Zendesk SSO implementation by generating JWT client-side">
+  <meta name="twitter:description" content="Belle of the Ball
 
 ">
   
@@ -28,13 +28,13 @@
   <meta name="twitter:image" content="/images/favicons/favicon-194x194.png" />
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Eps3.3_m3tadata.par2, a security review  ">
-  <meta property="og:description" content="“Metadata. The story behind the data. Getting information is one thing, but how it was created, where, by whom, can often be illuminating.”
+  <meta property="og:title" content="Insecure Zendesk SSO implementation by generating JWT client-side">
+  <meta property="og:description" content="Belle of the Ball
 
 ">
 
   <link rel="stylesheet" href="/css/main.css?1632153777755050044">
-  <link rel="canonical" href="http://localhost:4000/2017/Mr-Robot-Season-3-Episode-4/">
+  <link rel="canonical" href="http://localhost:4000/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/">
   <link rel="alternate" type="application/rss+xml" title="Xheni's Ramblings" href="/feed.xml">
 </head>
 
@@ -155,34 +155,119 @@
         <article class="post-container post-container--single">
   <header class="post-header">
     <div class="post-meta">
-      <time datetime="5 Nov 2017" class="post-meta__date date"> 5 Nov 2017</time>
+      <time datetime="8 Sep 2019" class="post-meta__date date"> 8 Sep 2019</time>
       <span> - Just 2 minutes <img class="emoji" title=":hourglass_flowing_sand:" alt=":hourglass_flowing_sand:" src="https://github.githubassets.com/images/icons/emoji/unicode/23f3.png" height="20" width="20"></span>
       
-      • <span class="post-meta__tags">on <a href="/tags/#movies">movies</a>, <a href="/tags/#Mr%20Robot">Mr Robot</a>, </span>
+      • <span class="post-meta__tags">on <a href="/tags/#security">security</a>, <a href="/tags/#HackerOne">HackerOne</a>, </span>
       
     </div>
-    <h1 class="post-title">Eps3.3_m3tadata.par2, a security review   </h1>
+    <h1 class="post-title">Insecure Zendesk SSO implementation by generating JWT client-side </h1>
   </header>
 
   <section class="post">
-    <p>“Metadata. The story behind the data. Getting information is one thing, but how it was created, where, by whom, can often be illuminating.”</p>
+    <h2 id="belle-of-the-ball">Belle of the Ball</h2>
 
-<p><img src="/images/metadata2.jpg" alt="Elliot" title="Elliot"></p>
+<p>Two months ago I submitted a security bug report to <a href="https://trint.com/">Trint Ltd.</a> on <a href="https://hackerone.com/">HackerOne</a>. It got disclosed today and managed to get ranked on top of hacktivity feed ;)</p>
 
-<p><em>Elliot with plenty of metadata</em></p>
+<p><img src="/images/hackerone-top.png" alt="Belle o the Ball"></p>
 
-<p>What caught my attention this time was one of the Elliot’s monologues about metadata and our privacy online.
-Our friend mentioned that metadata from pictures which are  posted on social media by us , for example on  Facebook and Instagram can reveal a lot  more about the ones who took the pictures and they don’t know it. Information like who took the photo and the location, GPS coordinates. This is how he found the  address of the person who hacked his computer and this is how FBI found the person behind the fsociety video posted on VIMEO . Elliot’s thoughts about social media and metadata is not a big surprise for people who are concerned about their privacy online. 
-One week before I watched this episode, believe it or not, I was reading about EXIF metadata.<br>
-It was quite interesting that Elliot mentionied specifically EXIF data when he was telling us  about metadata and we know that our friend is right.</p>
+<p>Below you can find the report originally submitted <a href="https://hackerone.com/reports/638635">here</a>.</p>
 
-<p><img src="/images/metadata.jpg" alt="Elliot" title="Elliot"></p>
+<h2 id="summary">Summary</h2>
 
-<p>Even if facebook, instagram or twitter wipes the metadata when actually posting a picture online, it will still get the raw photo when you uploaded it. An advice would be to use  a Metadata Anonamization Toolkit if you really don’t want your pictures  to have metadata when you upload them online,  to lock down social media accounts to maximum privacy levels, disable location-based posting, and remember that what you post online is out there forever.</p>
+<p><code class="language-plaintext highlighter-rouge">app.trint.com</code> implements SSO to Zendesk, it does this by using JWT as described at https://support.zendesk.com/hc/en-us/articles/203663816-Enabling-JWT-JSON-Web-Token-single-sign-on</p>
 
-<h3 id="how-to-confuse-the-bugs"><strong>How to confuse the bugs?</strong></h3>
+<p>This functionality has not been implemented securely because the JWT generation happens in the client-side. This is done by the Zendesk secret being hardcoded in the JavaScript code.
+The secret is used to create JSON Web Tokens and then you can use the generated token to impersonate any customer in Zendesk. (therefore potentially getting access to their support tickets)</p>
 
-<p>When  Elliot was confronting Darlene, he  puts a device that created a  noise to confuse the bugs. This device it is known as a audio jammer and it was designed to obscure human speech from listening devices. These devices do exist in reality and you  can even find  mobile apps  which turn your smartphone into an audio jammer. These devices are legal to use, so consider using them if you are paranoid.</p>
+<p>Whilst <code class="language-plaintext highlighter-rouge">support.trint.com</code> is marked as out of scope for the program, the described vulnerability isn’t caused by Zendesk. The vulnerable component is in <code class="language-plaintext highlighter-rouge">app.trint.com</code>.</p>
+
+<h2 id="assessment">Assessment</h2>
+
+<p>The JavaScript source map files are available next to the minified production files. This significantly makes analysing this issue easier.</p>
+
+<ol>
+  <li>JavaScript file: https://app.trint.com/static/js/app.e984c9df.js</li>
+  <li>Sourcemap file: https://app.trint.com/static/js/app.e984c9df.js.map</li>
+</ol>
+
+<p>Looking at some of the UI views, I stumbled upon <code class="language-plaintext highlighter-rouge">static/js/modules/auth/pages/ZendeskLoadingPage.jsz</code> I’ve attached a stripped version which shows the JWT generation:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import { ZENDESK_DOMAIN } from 'modules/core/constants/index';
+
+const { REACT_APP_ZENDESK_SECRET } = process.env;
+
+
+function RedirectToZendesk(props) {
+  const { user, history } = props;
+
+  function generateZendeskTokenAndRedirect() {
+    const TIME_NOW_OBJECT = moment(Date.now());
+    try {
+      const payload = {
+        iat: TIME_NOW_OBJECT.unix(),
+        jti: uuid.v4(),
+        name: `${user.profile.firstName} ${user.profile.lastName}`,
+        email: user.username,
+      };
+
+      // encode zendesk token
+      const zendeskToken = jwt.sign(payload, REACT_APP_ZENDESK_SECRET);
+      window.location = `${ZENDESK_DOMAIN}/access/jwt?jwt=${zendeskToken}`;
+    } catch (err) {
+      history.push('/error');
+    }
+  }
+
+  useEffect(
+    () =&gt; {
+      generateZendeskTokenAndRedirect(user);
+    },
+    [user],
+  );
+
+  return &lt;Loader /&gt;;
+}
+
+
+export default ZendeskLoadingPage;
+</code></pre></div></div>
+<p>Searching for <code class="language-plaintext highlighter-rouge">REACT_APP_ZENDESK_SECRET</code> in the sourcemap will show the JWT secret:</p>
+
+<p><code class="language-plaintext highlighter-rouge">var REACT_APP_ZENDESK_SECRET = "oq1HJ4jXo99Wt41bwvLh9BXBVdgpi52CjkXbThow7UhWQGtJ";</code>
+`
+Generating the JWT on the client-side like this allows anyone to mint an arbitrary JWT. It would probably be better to generate this on the server-side.</p>
+
+<h2 id="reproduction-steps">Reproduction steps</h2>
+
+<p>As logged-in user press “Support” on https://app.trint.com
+Intercept the traffic and see the call to https://trintsupport.zendesk.com/access/jwt?jwt=[JWT_TOKEN]
+Logout of Zendesk
+Put the JWT token from above URI into https://jwt.io and decode it.
+Example:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NjI3MDk2NTksImp0a
+SI6IjIxZDAyOTg3LWU3YWItNDQ5MC05N2Q3LTc2YTBmMzJhOTVjOCIsIm5hbWUiOiJUZ
+XN0IFRlc3QiLCJlbWFpbCI6ImIzODcxNjk0QHVyaGVuLmNvbSJ9.mnnx7dbpXbvU7xr
+5Bp5pad2eHVN01mSsXApmZoFj73c
+{
+  "iat": 1562709659,
+  "jti": "21d02987-e7ab-4490-97d7-76a0f32a95c8",
+  "name": "Test Test",
+  "email": "b3871694@urhen.com"
+}
+</code></pre></div></div>
+<p>Now we can continue with tampering the JWT
+Change IAT to the current Unix timestamp
+Change JTI to a random UUID v4
+Change email to the victim email address
+Insert <code class="language-plaintext highlighter-rouge">oq1HJ4jXo99Wt41bwvLh9BXBVdgpi52CjkXbThow7UhWQGtJ</code> as HMAC secret.
+Use the resulting JWT in a call to <code class="language-plaintext highlighter-rouge">https://trintsupport.zendesk.com/access/jwt?jwt=[JWT_TOKEN]</code>. You will be logged in as the victim.</p>
+
+<h2 id="impact">Impact</h2>
+
+<p>Access to the Zendesk account of Trint customers. This includes potentially the support history of said user.</p>
+
+<p>I haven’t verified whether the same SSO flow can also be used against Zendesk administrators. If so, the risk would be higher.</p>
 
   </section>
 </article>

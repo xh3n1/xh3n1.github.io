@@ -3,8 +3,8 @@
   <channel>
     <title>Xheni's Ramblings</title>
     <description>Software Engineer | MSc in Information Security</description>
-    <link>https://xheni.me/</link>
-    <atom:link href="https://xheni.me/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     <pubDate>Mon, 20 Sep 2021 16:02:57 +0000</pubDate>
     <lastBuildDate>Mon, 20 Sep 2021 16:02:57 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
@@ -116,8 +116,8 @@ Use the resulting JWT in a call to &lt;code class=&quot;language-plaintext highl
 &lt;p&gt;I haven’t verified whether the same SSO flow can also be used against Zendesk administrators. If so, the risk would be higher.&lt;/p&gt;
 </description>
         <pubDate>Sun, 08 Sep 2019 12:20:23 +0000</pubDate>
-        <link>https://xheni.me/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</link>
-        <guid isPermaLink="true">https://xheni.me/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</guid>
+        <link>http://localhost:4000/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</guid>
         
         <category>security</category>
         
@@ -373,8 +373,8 @@ According to wikipedia (link )&lt;/p&gt;
 &lt;p&gt;Some additional fixes remain a work in progress and I will submit them soon. Meanwhile, everyone should feel free to open their Pull Requests and report any issues identified. Check out the &lt;a href=&quot;https://github.com/phpList/rest-api/blob/master/.github/CONTRIBUTING.md&quot;&gt;contributor guidelines&lt;/a&gt; on GitHub to get started!&lt;/p&gt;
 </description>
         <pubDate>Thu, 20 Sep 2018 12:20:23 +0000</pubDate>
-        <link>https://xheni.me/2018/phpList-Rest-Api-Security-Review/</link>
-        <guid isPermaLink="true">https://xheni.me/2018/phpList-Rest-Api-Security-Review/</guid>
+        <link>http://localhost:4000/2018/phpList-Rest-Api-Security-Review/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/phpList-Rest-Api-Security-Review/</guid>
         
         <category>security</category>
         
@@ -425,8 +425,8 @@ The capital city of Kosovo was smaller than I expected and a bit chaotic urban-w
 &lt;p&gt;It has a lively night life, a lovely boulevard and people who like to drink beer. All in all, I had a pleasant experience and will visit it again.&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 Jun 2018 21:20:23 +0000</pubDate>
-        <link>https://xheni.me/2018/dokutech-prishtina/</link>
-        <guid isPermaLink="true">https://xheni.me/2018/dokutech-prishtina/</guid>
+        <link>http://localhost:4000/2018/dokutech-prishtina/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/dokutech-prishtina/</guid>
         
         <category>conference</category>
         
@@ -491,8 +491,8 @@ When you try to be familiar with a broad range of technologies and you are able 
 &lt;p&gt;Don’t leave “broken windows” (aka bad design, poor code or wrong decisions) unrepaired.&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 May 2018 15:20:23 +0000</pubDate>
-        <link>https://xheni.me/2018/the-pragmatic-programmer/</link>
-        <guid isPermaLink="true">https://xheni.me/2018/the-pragmatic-programmer/</guid>
+        <link>http://localhost:4000/2018/the-pragmatic-programmer/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/the-pragmatic-programmer/</guid>
         
         <category>books</category>
         
@@ -526,8 +526,8 @@ Scan now the barcode below and worry later. :wink:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/barcode.png&quot; alt=&quot;barcode&quot; title=&quot;open&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 May 2018 15:20:23 +0000</pubDate>
-        <link>https://xheni.me/2018/open-by-default-oscal-2018/</link>
-        <guid isPermaLink="true">https://xheni.me/2018/open-by-default-oscal-2018/</guid>
+        <link>http://localhost:4000/2018/open-by-default-oscal-2018/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/open-by-default-oscal-2018/</guid>
         
         <category>opensource</category>
         
@@ -572,8 +572,8 @@ on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Ful
 &lt;p&gt;#HappyHacking :blush:&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Apr 2018 20:20:23 +0000</pubDate>
-        <link>https://xheni.me/2018/Nextcloud-hackweek/</link>
-        <guid isPermaLink="true">https://xheni.me/2018/Nextcloud-hackweek/</guid>
+        <link>http://localhost:4000/2018/Nextcloud-hackweek/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/Nextcloud-hackweek/</guid>
         
         <category>opensource</category>
         
@@ -663,8 +663,8 @@ on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Ful
 &lt;p&gt;&lt;strong&gt;Disclaimer: This article was originally published on phpList blog.&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Feb 2018 10:04:23 +0000</pubDate>
-        <link>https://xheni.me/2018/Learning-advanced-php-with-phplist-and-treehouse/</link>
-        <guid isPermaLink="true">https://xheni.me/2018/Learning-advanced-php-with-phplist-and-treehouse/</guid>
+        <link>http://localhost:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</guid>
         
         <category>opensource</category>
         
@@ -762,8 +762,8 @@ I spend most of the time at Nextcloud assembly, together with other Nextclouders
 &lt;p&gt;&lt;img src=&quot;/images/events/34c3-chaos2017.jpg&quot; alt=&quot;chaos&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 31 Dec 2017 15:04:23 +0000</pubDate>
-        <link>https://xheni.me/2017/34c3-chaos-communication-congress/</link>
-        <guid isPermaLink="true">https://xheni.me/2017/34c3-chaos-communication-congress/</guid>
+        <link>http://localhost:4000/2017/34c3-chaos-communication-congress/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/34c3-chaos-communication-congress/</guid>
         
         <category>34c3</category>
         
@@ -793,8 +793,8 @@ The workshop went very good. We talked a bit about Git history and Git design in
 The feedback that they gave us after the event was really good, and it encourages me to continue with Git workshops and not only.&lt;/p&gt;
 </description>
         <pubDate>Wed, 08 Nov 2017 10:04:23 +0000</pubDate>
-        <link>https://xheni.me/2017/Git-Workshop-At-OpenLabs/</link>
-        <guid isPermaLink="true">https://xheni.me/2017/Git-Workshop-At-OpenLabs/</guid>
+        <link>http://localhost:4000/2017/Git-Workshop-At-OpenLabs/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/Git-Workshop-At-OpenLabs/</guid>
         
         <category>opensource</category>
         
@@ -827,8 +827,8 @@ It was quite interesting that Elliot mentionied specifically EXIF data when he w
 &lt;p&gt;When  Elliot was confronting Darlene, he  puts a device that created a  noise to confuse the bugs. This device it is known as a audio jammer and it was designed to obscure human speech from listening devices. These devices do exist in reality and you  can even find  mobile apps  which turn your smartphone into an audio jammer. These devices are legal to use, so consider using them if you are paranoid.&lt;/p&gt;
 </description>
         <pubDate>Sun, 05 Nov 2017 10:04:23 +0000</pubDate>
-        <link>https://xheni.me/2017/Mr-Robot-Season-3-Episode-4/</link>
-        <guid isPermaLink="true">https://xheni.me/2017/Mr-Robot-Season-3-Episode-4/</guid>
+        <link>http://localhost:4000/2017/Mr-Robot-Season-3-Episode-4/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/Mr-Robot-Season-3-Episode-4/</guid>
         
         <category>movies</category>
         
