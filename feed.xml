@@ -2,92 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xheni's Ramblings</title>
-    <description>Software Engineer &amp; MSc in Information Security :computer: :key:</description>
-    <link>https://xheni.me/</link>
-    <atom:link href="https://xheni.me/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 17 Jul 2020 00:43:21 +0100</pubDate>
-    <lastBuildDate>Fri, 17 Jul 2020 00:43:21 +0100</lastBuildDate>
-    <generator>Jekyll v3.8.7</generator>
-    
-      <item>
-        <title>Keqinformimi në Shqipërinë e vitit 2020</title>
-        <description>&lt;p&gt;“We are drowning in information, while starving for wisdom.”
-― E.O. Wilson&lt;/p&gt;
-
-&lt;p&gt;Thënien më lart e mora nga interneti, mund të jetë ose jo e vërtetë.&lt;/p&gt;
-
-&lt;h2 id=&quot;analfabetizmi-funksional&quot;&gt;Analfabetizmi funksional&lt;/h2&gt;
-
-&lt;p&gt;Një nga mësueset e mia në shkollen 9-vjeçare thoshte gjithmonë: “Na mbyti analfabetizmi funksional!” 
- Ajo ankohej se një ndër problemet më të medha në Shqiperi, nuk është fakti që njerezit nuk lexojnë, por që dhe ata që lexojnë kanë një mungesë të theksuar të mendimit kritik. Disa thonë se është e trashëguar nga koha e diktaturës, kur shqiptarët lexonin cfarë thoshte partia dhe tundnin kokën. 
- Megjithatë, unë mendoj se “Analfabetizmi funksional” ekziston kudo në botë dhe vëçanërisht në internet.&lt;/p&gt;
-
-&lt;h2 id=&quot;rrjetet-sociale&quot;&gt;Rrjetet sociale&lt;/h2&gt;
-
-&lt;p&gt;Përpiqem t’i konsumoj sa më pak rrjetet sociale, por fatkeqësisht më merr akoma të paktën disa minuta nga dita.
-Pavarësisht se mundohem të ndjek vetëm gjëra artistike moderne të tipit “meme pages”, ka raste që më dalin para disa postime që do doja mos t’i kisha parë kurrë. 
-Në fillim qesh, pastaj i bie murit me kokë…&lt;/p&gt;
-
-&lt;p&gt;Në Facebook sheh lajme dhe postime bombastike, ku shumica e tyre kanë si tendencë të thithin sa më shumë klikime, që shpesh herë tejkalojnë çdo kufi të etikës, ose siç mund t’i keni dëgjuar ndryshe: clickbait.&lt;/p&gt;
-
-&lt;p&gt;Po mbytemi me informacion dhe mungon filtrimi i informacionit.
- Njerëzit thithin llum.
- Shumë njerëz janë dembelë dhe e marrin të mirëqenë çdo gjë që lexojnë apo shohin lart e poshtë… Butafori sociale pothuajse çdo ditë.&lt;/p&gt;
-
-&lt;p&gt;Nga ana tjeter kam vënë re një rritje të numrit të njerezve që besojnë dhe shpërndajnë teori konspirative nga më të qesharaket, të tipit Corona Virus është “fake news” apo që shkaktohet nga antenat 5G, toka është e sheshtë,  Bill Gates do të na injektoje “Chip” për të n’a përgjuar, a thua se nuk e kanë “chip”-in në duar… As nuk dua t’ia nis per Soros - se ajo është histori më vete.&lt;/p&gt;
-
-&lt;p&gt;Disa arsye pse une mendoj se kemi një rritje të numrit të njerëzve që besojnë në teori konspirative është fakti se librat konspirative janë një ndër më të shiturit në “Panairin e Librit” në Tiranë.&lt;/p&gt;
-
-&lt;p&gt;Këta “të lexuarit” që u duket vetja më të zgjuar se të tjerët, menjëherë pasi lexojnë libra rreth illuminati, dhe pasi zbulojnë “të vertetën”, kane çuditerisht nje dëshirë të papërmbajtur për të iluminuar online ndjekesit e tyre rreth “Komplotit Botëror”…!!!&lt;/p&gt;
-
-&lt;p&gt;Pastaj kemi kategorinë tjetër që shyqyr dinë pak anglisht dhe shoshin video në youtube me “lizard people”.&lt;/p&gt;
-
-&lt;p&gt;Pse gjejnë konspiratorët terren?&lt;/p&gt;
-
-&lt;p&gt;Sepse mungojnë burime serioze të informacionit në Shqipëri. 
-Media tradicionale propagandon në shumicën e rasteve dhe nuk janë më të besueshme edhe kur thonë të vërtetën.&lt;/p&gt;
-
-&lt;p&gt;Kur shoh studentë të Informatikës Ekonomike që shperndajne statuse në Facebook të tipit “po nuk e postove këtë status, Mark Z. do të të bëjë publike mesazhet private apo do të te vdesin njerëz…etj”, çfarë mund të pres unë nga gjyshja ime me 4 vjet shkollë?&lt;/p&gt;
-
-&lt;h2 id=&quot;media-tradicionale&quot;&gt;Media tradicionale&lt;/h2&gt;
-
-&lt;p&gt;Unë nuk skandalizohem kur shoh njerëz që postojnë lajme nga “Jeta Osh Qef”.
-Unë skandalizohem kur shoh ku ka përfunduar Top Channel.
-Unë nuk di t’a gjej ndryshimin mes një lajmi të postuar nga Top Channel dhe një nga “Jeta Osh Qef”. 
-Lëre se e gjeta…  “Jeta Osh Qef” nuk i bën propagandë qeverisë dhe lali Erit.&lt;/p&gt;
-
-&lt;h2 id=&quot;propaganda&quot;&gt;Propaganda&lt;/h2&gt;
-
-&lt;p&gt;Mediat po përdoren si kurrë më parë për propagandë në Shqiperi (pas viteve 90’). Përvec asaj televizive dhe të shtypshkruar, kemi propagandë të paparë në media sociale. Nga të gjitha anët.&lt;/p&gt;
-
-&lt;p&gt;Dua të marr vetëm rastin e teatrit se e kam më të freskët.&lt;/p&gt;
-
-&lt;p&gt;Ja një shembull konkret i propagandës nga Top Channel:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://top-channel.tv/2020/05/17/fotot-ja-si-do-te-jete-teatri-i-ri-kombetar/&quot;&gt;https://top-channel.tv/2020/05/17/fotot-ja-si-do-te-jete-teatri-i-ri-kombetar/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;pse-censura-nuk-është-zgjidhja&quot;&gt;Pse censura nuk është zgjidhja?&lt;/h2&gt;
-
-&lt;p&gt;Sepse liria ne Shqiperi është e brishtë. Korrupsioni është në nivele tmerruese. Pushteti i ka shtrirë tentakulat nëpër çdo institucion dhe këto të fundit janë të mbushur me individë që janë ose të kapur nga pushteti ose të paaftë.&lt;/p&gt;
-
-&lt;p&gt;What could possibly go wrong?!&lt;/p&gt;
-
-&lt;p&gt;Shembulli me i freskët ishte përpjekja nga Akep për të mbyllur aksesin ndaj Medium.com LOL.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 08 Jul 2020 21:20:23 +0100</pubDate>
-        <link>https://xheni.me/2020/keqinformimi-ne-shqiperi/</link>
-        <guid isPermaLink="true">https://xheni.me/2020/keqinformimi-ne-shqiperi/</guid>
-        
-        <category>albania</category>
-        
-        <category>opinion</category>
-        
-        
-        <category>opinion</category>
-        
-        <category>albania</category>
-        
-      </item>
+    <description>Software Engineer | MSc in Information Security</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 20 Sep 2021 16:02:57 +0000</pubDate>
+    <lastBuildDate>Mon, 20 Sep 2021 16:02:57 +0000</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Insecure Zendesk SSO implementation by generating JWT client-side</title>
@@ -101,12 +21,12 @@ Lëre se e gjeta…  “Jeta Osh Qef” nuk i bën propagandë qeverisë dhe lal
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;app.trint.com&lt;/code&gt; implements SSO to Zendesk, it does this by using JWT as described at https://support.zendesk.com/hc/en-us/articles/203663816-Enabling-JWT-JSON-Web-Token-single-sign-on&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;app.trint.com&lt;/code&gt; implements SSO to Zendesk, it does this by using JWT as described at https://support.zendesk.com/hc/en-us/articles/203663816-Enabling-JWT-JSON-Web-Token-single-sign-on&lt;/p&gt;
 
 &lt;p&gt;This functionality has not been implemented securely because the JWT generation happens in the client-side. This is done by the Zendesk secret being hardcoded in the JavaScript code.
 The secret is used to create JSON Web Tokens and then you can use the generated token to impersonate any customer in Zendesk. (therefore potentially getting access to their support tickets)&lt;/p&gt;
 
-&lt;p&gt;Whilst &lt;code class=&quot;highlighter-rouge&quot;&gt;support.trint.com&lt;/code&gt; is marked as out of scope for the program, the described vulnerability isn’t caused by Zendesk. The vulnerable component is in &lt;code class=&quot;highlighter-rouge&quot;&gt;app.trint.com&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Whilst &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;support.trint.com&lt;/code&gt; is marked as out of scope for the program, the described vulnerability isn’t caused by Zendesk. The vulnerable component is in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;app.trint.com&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;assessment&quot;&gt;Assessment&lt;/h2&gt;
 
@@ -117,9 +37,9 @@ The secret is used to create JSON Web Tokens and then you can use the generated 
   &lt;li&gt;Sourcemap file: https://app.trint.com/static/js/app.e984c9df.js.map&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Looking at some of the UI views, I stumbled upon &lt;code class=&quot;highlighter-rouge&quot;&gt;static/js/modules/auth/pages/ZendeskLoadingPage.jsz&lt;/code&gt; I’ve attached a stripped version which shows the JWT generation:&lt;/p&gt;
+&lt;p&gt;Looking at some of the UI views, I stumbled upon &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;static/js/modules/auth/pages/ZendeskLoadingPage.jsz&lt;/code&gt; I’ve attached a stripped version which shows the JWT generation:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import { ZENDESK_DOMAIN } from 'modules/core/constants/index';
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import { ZENDESK_DOMAIN } from 'modules/core/constants/index';
 
 const { REACT_APP_ZENDESK_SECRET } = process.env;
 
@@ -158,9 +78,9 @@ function RedirectToZendesk(props) {
 
 export default ZendeskLoadingPage;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Searching for &lt;code class=&quot;highlighter-rouge&quot;&gt;REACT_APP_ZENDESK_SECRET&lt;/code&gt; in the sourcemap will show the JWT secret:&lt;/p&gt;
+&lt;p&gt;Searching for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;REACT_APP_ZENDESK_SECRET&lt;/code&gt; in the sourcemap will show the JWT secret:&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;var REACT_APP_ZENDESK_SECRET = &quot;oq1HJ4jXo99Wt41bwvLh9BXBVdgpi52CjkXbThow7UhWQGtJ&quot;;&lt;/code&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;var REACT_APP_ZENDESK_SECRET = &quot;oq1HJ4jXo99Wt41bwvLh9BXBVdgpi52CjkXbThow7UhWQGtJ&quot;;&lt;/code&gt;
 `
 Generating the JWT on the client-side like this allows anyone to mint an arbitrary JWT. It would probably be better to generate this on the server-side.&lt;/p&gt;
 
@@ -171,7 +91,7 @@ Intercept the traffic and see the call to https://trintsupport.zendesk.com/acces
 Logout of Zendesk
 Put the JWT token from above URI into https://jwt.io and decode it.
 Example:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NjI3MDk2NTksImp0a
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NjI3MDk2NTksImp0a
 SI6IjIxZDAyOTg3LWU3YWItNDQ5MC05N2Q3LTc2YTBmMzJhOTVjOCIsIm5hbWUiOiJUZ
 XN0IFRlc3QiLCJlbWFpbCI6ImIzODcxNjk0QHVyaGVuLmNvbSJ9.mnnx7dbpXbvU7xr
 5Bp5pad2eHVN01mSsXApmZoFj73c
@@ -186,8 +106,8 @@ XN0IFRlc3QiLCJlbWFpbCI6ImIzODcxNjk0QHVyaGVuLmNvbSJ9.mnnx7dbpXbvU7xr
 Change IAT to the current Unix timestamp
 Change JTI to a random UUID v4
 Change email to the victim email address
-Insert &lt;code class=&quot;highlighter-rouge&quot;&gt;oq1HJ4jXo99Wt41bwvLh9BXBVdgpi52CjkXbThow7UhWQGtJ&lt;/code&gt; as HMAC secret.
-Use the resulting JWT in a call to &lt;code class=&quot;highlighter-rouge&quot;&gt;https://trintsupport.zendesk.com/access/jwt?jwt=[JWT_TOKEN]&lt;/code&gt;. You will be logged in as the victim.&lt;/p&gt;
+Insert &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;oq1HJ4jXo99Wt41bwvLh9BXBVdgpi52CjkXbThow7UhWQGtJ&lt;/code&gt; as HMAC secret.
+Use the resulting JWT in a call to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://trintsupport.zendesk.com/access/jwt?jwt=[JWT_TOKEN]&lt;/code&gt;. You will be logged in as the victim.&lt;/p&gt;
 
 &lt;h2 id=&quot;impact&quot;&gt;Impact&lt;/h2&gt;
 
@@ -195,9 +115,9 @@ Use the resulting JWT in a call to &lt;code class=&quot;highlighter-rouge&quot;&
 
 &lt;p&gt;I haven’t verified whether the same SSO flow can also be used against Zendesk administrators. If so, the risk would be higher.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 08 Sep 2019 13:20:23 +0100</pubDate>
-        <link>https://xheni.me/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</link>
-        <guid isPermaLink="true">https://xheni.me/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</guid>
+        <pubDate>Sun, 08 Sep 2019 12:20:23 +0000</pubDate>
+        <link>http://localhost:4000/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</guid>
         
         <category>security</category>
         
@@ -249,7 +169,7 @@ Another tool that I used was &lt;strong&gt;BurpSuite Community Edition&lt;/stron
 &lt;h3 id=&quot;session-creation&quot;&gt;Session creation&lt;/h3&gt;
 &lt;p&gt;For authentication a user has to call the /api/v2/sessions route and provide username and password within the POST body:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;POST /app.php/api/v2/sessions HTTP/1.1
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;POST /app.php/api/v2/sessions HTTP/1.1
 Host: 10.211.55.4:82
 User-Agent: curl/7.54.0
 Accept: */*
@@ -263,7 +183,7 @@ Connection: close
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;The controller then queries the existing phpList database for an administrator and user with this password:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public function postAction(Request $request): View
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public function postAction(Request $request): View
 {
    $this-&amp;gt;validateCreateRequest($request);
    $administrator = $this-&amp;gt;administratorRepository-&amp;gt;findOneByLoginCredentials(
@@ -284,7 +204,7 @@ Connection: close
 &lt;h3 id=&quot;session-verification&quot;&gt;Session verification&lt;/h3&gt;
 
 &lt;p&gt;For authentication purposes a trait AuthenticationTrait is implemented, this trait implements a function requireAuthentication:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;private function requireAuthentication(Request $request): Administrator
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;private function requireAuthentication(Request $request): Administrator
 {
    $administrator = $this-&amp;gt;authentication-&amp;gt;authenticateByApiKey($request);
    if ($administrator === null) {
@@ -301,7 +221,7 @@ Connection: close
 &lt;p&gt;When this function is invoked, it calls &lt;em&gt;\PhpList\Core\Security\Authentication::authenticateByApiKey&lt;/em&gt;, this function is implemented as following.&lt;/p&gt;
 
 &lt;p&gt;As one can see, it searches the AdministratorTokenRepository for an unexpired key and then verifies whether the token belongs to an administrator:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public function authenticateByApiKey(Request $request)
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public function authenticateByApiKey(Request $request)
 {
    $apiKey = $request-&amp;gt;headers-&amp;gt;get('php-auth-pw');
    if (empty($apiKey)) {
@@ -338,7 +258,7 @@ Connection: close
 
 &lt;p&gt;In the controllers, authentication is enforced by calling &lt;em&gt;\PhpList\RestBundle\Controller\SessionController::validateCreateRequest&lt;/em&gt; in every function such as the following:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public function cgetAction(Request $request): View
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public function cgetAction(Request $request): View
 {
    $this-&amp;gt;requireAuthentication($request);
 
@@ -357,7 +277,7 @@ Connection: close
 &lt;/ol&gt;
 
 &lt;p&gt;The information is returned to the user as a JSON string with a Content-Type of application/json:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;HTTP/1.1 200 OK
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;HTTP/1.1 200 OK
 Date: Thu, 21 Jun 2018 14:45:33 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Cache-Control: no-cache, private
@@ -377,7 +297,7 @@ implements postAction. This function allows an administrator to:&lt;/p&gt;
 
 &lt;p&gt;The information is returned to the user as a JSON string with a Content-Type of application/json:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;HTTP/1.1 201 Created
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;HTTP/1.1 201 Created
 Date: Thu, 21 Jun 2018 15:05:17 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Cache-Control: no-cache, private
@@ -452,9 +372,9 @@ According to wikipedia (link )&lt;/p&gt;
 
 &lt;p&gt;Some additional fixes remain a work in progress and I will submit them soon. Meanwhile, everyone should feel free to open their Pull Requests and report any issues identified. Check out the &lt;a href=&quot;https://github.com/phpList/rest-api/blob/master/.github/CONTRIBUTING.md&quot;&gt;contributor guidelines&lt;/a&gt; on GitHub to get started!&lt;/p&gt;
 </description>
-        <pubDate>Thu, 20 Sep 2018 13:20:23 +0100</pubDate>
-        <link>https://xheni.me/2018/phpList-Rest-Api-Security-Review/</link>
-        <guid isPermaLink="true">https://xheni.me/2018/phpList-Rest-Api-Security-Review/</guid>
+        <pubDate>Thu, 20 Sep 2018 12:20:23 +0000</pubDate>
+        <link>http://localhost:4000/2018/phpList-Rest-Api-Security-Review/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/phpList-Rest-Api-Security-Review/</guid>
         
         <category>security</category>
         
@@ -504,9 +424,9 @@ The capital city of Kosovo was smaller than I expected and a bit chaotic urban-w
 
 &lt;p&gt;It has a lively night life, a lovely boulevard and people who like to drink beer. All in all, I had a pleasant experience and will visit it again.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 28 Jun 2018 22:20:23 +0100</pubDate>
-        <link>https://xheni.me/2018/dokutech-prishtina/</link>
-        <guid isPermaLink="true">https://xheni.me/2018/dokutech-prishtina/</guid>
+        <pubDate>Thu, 28 Jun 2018 21:20:23 +0000</pubDate>
+        <link>http://localhost:4000/2018/dokutech-prishtina/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/dokutech-prishtina/</guid>
         
         <category>conference</category>
         
@@ -570,9 +490,9 @@ When you try to be familiar with a broad range of technologies and you are able 
 
 &lt;p&gt;Don’t leave “broken windows” (aka bad design, poor code or wrong decisions) unrepaired.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 28 May 2018 16:20:23 +0100</pubDate>
-        <link>https://xheni.me/2018/the-pragmatic-programmer/</link>
-        <guid isPermaLink="true">https://xheni.me/2018/the-pragmatic-programmer/</guid>
+        <pubDate>Mon, 28 May 2018 15:20:23 +0000</pubDate>
+        <link>http://localhost:4000/2018/the-pragmatic-programmer/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/the-pragmatic-programmer/</guid>
         
         <category>books</category>
         
@@ -605,9 +525,9 @@ Scan now the barcode below and worry later. :wink:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/barcode.png&quot; alt=&quot;barcode&quot; title=&quot;open&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 25 May 2018 16:20:23 +0100</pubDate>
-        <link>https://xheni.me/2018/open-by-default-oscal-2018/</link>
-        <guid isPermaLink="true">https://xheni.me/2018/open-by-default-oscal-2018/</guid>
+        <pubDate>Fri, 25 May 2018 15:20:23 +0000</pubDate>
+        <link>http://localhost:4000/2018/open-by-default-oscal-2018/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/open-by-default-oscal-2018/</guid>
         
         <category>opensource</category>
         
@@ -651,9 +571,9 @@ on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Ful
 
 &lt;p&gt;#HappyHacking :blush:&lt;/p&gt;
 </description>
-        <pubDate>Wed, 04 Apr 2018 21:20:23 +0100</pubDate>
-        <link>https://xheni.me/2018/Nextcloud-hackweek/</link>
-        <guid isPermaLink="true">https://xheni.me/2018/Nextcloud-hackweek/</guid>
+        <pubDate>Wed, 04 Apr 2018 20:20:23 +0000</pubDate>
+        <link>http://localhost:4000/2018/Nextcloud-hackweek/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/Nextcloud-hackweek/</guid>
         
         <category>opensource</category>
         
@@ -743,8 +663,8 @@ on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Ful
 &lt;p&gt;&lt;strong&gt;Disclaimer: This article was originally published on phpList blog.&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Feb 2018 10:04:23 +0000</pubDate>
-        <link>https://xheni.me/2018/Learning-advanced-php-with-phplist-and-treehouse/</link>
-        <guid isPermaLink="true">https://xheni.me/2018/Learning-advanced-php-with-phplist-and-treehouse/</guid>
+        <link>http://localhost:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</guid>
         
         <category>opensource</category>
         
@@ -842,8 +762,8 @@ I spend most of the time at Nextcloud assembly, together with other Nextclouders
 &lt;p&gt;&lt;img src=&quot;/images/events/34c3-chaos2017.jpg&quot; alt=&quot;chaos&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 31 Dec 2017 15:04:23 +0000</pubDate>
-        <link>https://xheni.me/2017/34c3-chaos-communication-congress/</link>
-        <guid isPermaLink="true">https://xheni.me/2017/34c3-chaos-communication-congress/</guid>
+        <link>http://localhost:4000/2017/34c3-chaos-communication-congress/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/34c3-chaos-communication-congress/</guid>
         
         <category>34c3</category>
         
@@ -873,8 +793,8 @@ The workshop went very good. We talked a bit about Git history and Git design in
 The feedback that they gave us after the event was really good, and it encourages me to continue with Git workshops and not only.&lt;/p&gt;
 </description>
         <pubDate>Wed, 08 Nov 2017 10:04:23 +0000</pubDate>
-        <link>https://xheni.me/2017/Git-Workshop-At-OpenLabs/</link>
-        <guid isPermaLink="true">https://xheni.me/2017/Git-Workshop-At-OpenLabs/</guid>
+        <link>http://localhost:4000/2017/Git-Workshop-At-OpenLabs/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/Git-Workshop-At-OpenLabs/</guid>
         
         <category>opensource</category>
         
@@ -882,6 +802,40 @@ The feedback that they gave us after the event was really good, and it encourage
         
         
         <category>opensource</category>
+        
+      </item>
+    
+      <item>
+        <title>Eps3.3_m3tadata.par2, a security review  </title>
+        <description>&lt;p&gt;“Metadata. The story behind the data. Getting information is one thing, but how it was created, where, by whom, can often be illuminating.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/metadata2.jpg&quot; alt=&quot;Elliot&quot; title=&quot;Elliot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Elliot with plenty of metadata&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;What caught my attention this time was one of the Elliot’s monologues about metadata and our privacy online.
+Our friend mentioned that metadata from pictures which are  posted on social media by us , for example on  Facebook and Instagram can reveal a lot  more about the ones who took the pictures and they don’t know it. Information like who took the photo and the location, GPS coordinates. This is how he found the  address of the person who hacked his computer and this is how FBI found the person behind the fsociety video posted on VIMEO . Elliot’s thoughts about social media and metadata is not a big surprise for people who are concerned about their privacy online. 
+One week before I watched this episode, believe it or not, I was reading about EXIF metadata.&lt;br /&gt;
+It was quite interesting that Elliot mentionied specifically EXIF data when he was telling us  about metadata and we know that our friend is right.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/metadata.jpg&quot; alt=&quot;Elliot&quot; title=&quot;Elliot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Even if facebook, instagram or twitter wipes the metadata when actually posting a picture online, it will still get the raw photo when you uploaded it. An advice would be to use  a Metadata Anonamization Toolkit if you really don’t want your pictures  to have metadata when you upload them online,  to lock down social media accounts to maximum privacy levels, disable location-based posting, and remember that what you post online is out there forever.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-confuse-the-bugs&quot;&gt;&lt;strong&gt;How to confuse the bugs?&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;When  Elliot was confronting Darlene, he  puts a device that created a  noise to confuse the bugs. This device it is known as a audio jammer and it was designed to obscure human speech from listening devices. These devices do exist in reality and you  can even find  mobile apps  which turn your smartphone into an audio jammer. These devices are legal to use, so consider using them if you are paranoid.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Nov 2017 10:04:23 +0000</pubDate>
+        <link>http://localhost:4000/2017/Mr-Robot-Season-3-Episode-4/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/Mr-Robot-Season-3-Episode-4/</guid>
+        
+        <category>movies</category>
+        
+        <category>Mr Robot</category>
+        
+        
+        <category>movies</category>
         
       </item>
     
