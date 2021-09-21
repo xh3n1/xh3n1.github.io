@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xheni's Ramblings</title>
+    <title>Jenny from the blog</title>
     <description>Software Engineer | MSc in Information Security</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 20 Sep 2021 16:02:57 +0000</pubDate>
-    <lastBuildDate>Mon, 20 Sep 2021 16:02:57 +0000</lastBuildDate>
+    <link>https://xheni.me/</link>
+    <atom:link href="https://xheni.me/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 21 Sep 2021 15:12:13 +0000</pubDate>
+    <lastBuildDate>Tue, 21 Sep 2021 15:12:13 +0000</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -116,8 +116,8 @@ Use the resulting JWT in a call to &lt;code class=&quot;language-plaintext highl
 &lt;p&gt;I haven’t verified whether the same SSO flow can also be used against Zendesk administrators. If so, the risk would be higher.&lt;/p&gt;
 </description>
         <pubDate>Sun, 08 Sep 2019 12:20:23 +0000</pubDate>
-        <link>http://localhost:4000/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</guid>
+        <link>https://xheni.me/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</link>
+        <guid isPermaLink="true">https://xheni.me/2019/Insecure-Zendesk-SSO-implementation-by-generating-JWT-client-side/</guid>
         
         <category>security</category>
         
@@ -373,8 +373,8 @@ According to wikipedia (link )&lt;/p&gt;
 &lt;p&gt;Some additional fixes remain a work in progress and I will submit them soon. Meanwhile, everyone should feel free to open their Pull Requests and report any issues identified. Check out the &lt;a href=&quot;https://github.com/phpList/rest-api/blob/master/.github/CONTRIBUTING.md&quot;&gt;contributor guidelines&lt;/a&gt; on GitHub to get started!&lt;/p&gt;
 </description>
         <pubDate>Thu, 20 Sep 2018 12:20:23 +0000</pubDate>
-        <link>http://localhost:4000/2018/phpList-Rest-Api-Security-Review/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/phpList-Rest-Api-Security-Review/</guid>
+        <link>https://xheni.me/2018/phpList-Rest-Api-Security-Review/</link>
+        <guid isPermaLink="true">https://xheni.me/2018/phpList-Rest-Api-Security-Review/</guid>
         
         <category>security</category>
         
@@ -425,8 +425,8 @@ The capital city of Kosovo was smaller than I expected and a bit chaotic urban-w
 &lt;p&gt;It has a lively night life, a lovely boulevard and people who like to drink beer. All in all, I had a pleasant experience and will visit it again.&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 Jun 2018 21:20:23 +0000</pubDate>
-        <link>http://localhost:4000/2018/dokutech-prishtina/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/dokutech-prishtina/</guid>
+        <link>https://xheni.me/2018/dokutech-prishtina/</link>
+        <guid isPermaLink="true">https://xheni.me/2018/dokutech-prishtina/</guid>
         
         <category>conference</category>
         
@@ -491,8 +491,8 @@ When you try to be familiar with a broad range of technologies and you are able 
 &lt;p&gt;Don’t leave “broken windows” (aka bad design, poor code or wrong decisions) unrepaired.&lt;/p&gt;
 </description>
         <pubDate>Mon, 28 May 2018 15:20:23 +0000</pubDate>
-        <link>http://localhost:4000/2018/the-pragmatic-programmer/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/the-pragmatic-programmer/</guid>
+        <link>https://xheni.me/2018/the-pragmatic-programmer/</link>
+        <guid isPermaLink="true">https://xheni.me/2018/the-pragmatic-programmer/</guid>
         
         <category>books</category>
         
@@ -500,47 +500,6 @@ When you try to be familiar with a broad range of technologies and you are able 
         
         
         <category>books</category>
-        
-      </item>
-    
-      <item>
-        <title>Back in my days</title>
-        <description>&lt;p&gt;Let me tell you a short story. Back in my days, when I was just a young and dumb tech student, I saw an event on facebook about Linux cafe organized by Open Labs.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/events/backinmydays.jpg&quot; alt=&quot;barcode&quot; title=&quot;back in my days&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I was using Ubuntu at that time and I really wanted to go to such event, because I thought that this might be an opportunity to meet people that share
-the same interest as me. But, I couldn’t go alone because I was very shy and I assumed that there might be people much smarter than me, with super hacking skills, because Open Labs first gave me the impression
-that it was a place only for nerds. Anyway, I asked my uni friends, Suela and Jona to join me but they didn’t want to.
-So, I ended up alone and I went there. I was in front of the door and just when I thought that I made it, sadly, I was like:”Xheni, what are you doing here? Go back home.”
-There I was, stalking Open Labs online without the courage to be part of it. Some months later, I heard that they were
-organizing Oscal (Open Source Conference Albania), and I said to myself:”Xheni you should not miss this!”. I asked my friends again, and this time I convinced them.
-I went there. I saw almost every talk, made new friends, got stickers. I had so much fun and since then I fell in love with open source. I also enjoyed oscal, as a volunteer because I was a volunteer for the second edition and the fourth edition as well, but I missed the third one because I was in Germany at that time (recuperating from my stressful years of studies).
-Anyway, this time I decided that I should be part of Oscal in a different way, as a speaker even though I’m still that shy girl who didn’t go inside 5 years ago.
-Guess what, I submitted two sessions. One was a workshop to help the beginners with git and GitHub and one was a talk about the driving force behind open source communities.
-You can find my presentations &lt;a href=&quot;https://github.com/xh3n1/Personal/tree/master/presentation&quot;&gt;here&lt;/a&gt;. Both sessions went GREAT.&lt;/p&gt;
-
-&lt;p&gt;Marinela Gogo and I did a survey about contributing to open source and until now 52 people took it. I will share them on my blog at a later time because I want to dedicate another blog post to it and also get more people to fill it out.
-Scan now the barcode below and worry later. :wink:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/barcode.png&quot; alt=&quot;barcode&quot; title=&quot;open&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 25 May 2018 15:20:23 +0000</pubDate>
-        <link>http://localhost:4000/2018/open-by-default-oscal-2018/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/open-by-default-oscal-2018/</guid>
-        
-        <category>opensource</category>
-        
-        <category>openlabs</category>
-        
-        <category>conference</category>
-        
-        <category>albania</category>
-        
-        
-        <category>opensource</category>
-        
-        <category>conference</category>
         
       </item>
     
@@ -572,8 +531,8 @@ on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Ful
 &lt;p&gt;#HappyHacking :blush:&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Apr 2018 20:20:23 +0000</pubDate>
-        <link>http://localhost:4000/2018/Nextcloud-hackweek/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/Nextcloud-hackweek/</guid>
+        <link>https://xheni.me/2018/Nextcloud-hackweek/</link>
+        <guid isPermaLink="true">https://xheni.me/2018/Nextcloud-hackweek/</guid>
         
         <category>opensource</category>
         
@@ -663,8 +622,8 @@ on the &lt;a href=&quot;https://github.com/nextcloud/fulltextsearch&quot;&gt;Ful
 &lt;p&gt;&lt;strong&gt;Disclaimer: This article was originally published on phpList blog.&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Feb 2018 10:04:23 +0000</pubDate>
-        <link>http://localhost:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/Learning-advanced-php-with-phplist-and-treehouse/</guid>
+        <link>https://xheni.me/2018/Learning-advanced-php-with-phplist-and-treehouse/</link>
+        <guid isPermaLink="true">https://xheni.me/2018/Learning-advanced-php-with-phplist-and-treehouse/</guid>
         
         <category>opensource</category>
         
@@ -762,8 +721,8 @@ I spend most of the time at Nextcloud assembly, together with other Nextclouders
 &lt;p&gt;&lt;img src=&quot;/images/events/34c3-chaos2017.jpg&quot; alt=&quot;chaos&quot; title=&quot;34c3&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 31 Dec 2017 15:04:23 +0000</pubDate>
-        <link>http://localhost:4000/2017/34c3-chaos-communication-congress/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/34c3-chaos-communication-congress/</guid>
+        <link>https://xheni.me/2017/34c3-chaos-communication-congress/</link>
+        <guid isPermaLink="true">https://xheni.me/2017/34c3-chaos-communication-congress/</guid>
         
         <category>34c3</category>
         
@@ -793,8 +752,8 @@ The workshop went very good. We talked a bit about Git history and Git design in
 The feedback that they gave us after the event was really good, and it encourages me to continue with Git workshops and not only.&lt;/p&gt;
 </description>
         <pubDate>Wed, 08 Nov 2017 10:04:23 +0000</pubDate>
-        <link>http://localhost:4000/2017/Git-Workshop-At-OpenLabs/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/Git-Workshop-At-OpenLabs/</guid>
+        <link>https://xheni.me/2017/Git-Workshop-At-OpenLabs/</link>
+        <guid isPermaLink="true">https://xheni.me/2017/Git-Workshop-At-OpenLabs/</guid>
         
         <category>opensource</category>
         
@@ -806,36 +765,117 @@ The feedback that they gave us after the event was really good, and it encourage
       </item>
     
       <item>
-        <title>Eps3.3_m3tadata.par2, a security review  </title>
-        <description>&lt;p&gt;“Metadata. The story behind the data. Getting information is one thing, but how it was created, where, by whom, can often be illuminating.”&lt;/p&gt;
+        <title>LibOCon and libre Ladies...</title>
+        <description>&lt;p&gt;LibOCon is the annual gathering of the LibreOffice community. At LibOCon, LibreOffice users gather to network and meet key LibreOffice developers, designers, localizers, documenters, supporters and marketers, and to learn about the latest in LibreOffice development.
+I have been a LibreOffice user for many years and this year I joined the &lt;a href=&quot;https://conference.libreoffice.org/&quot;&gt;LibreOffice Conference&lt;/a&gt; from 11-13 October in Rome, Italy.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/metadata2.jpg&quot; alt=&quot;Elliot&quot; title=&quot;Elliot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/icontributed.jpg&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;
+&lt;em&gt;Suela and Xheni during their presentation. Credits: Redon Skikuli CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Elliot with plenty of metadata&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;LibOCon 2017 was hosted inside historical buildings, the property of the City of Rome. 
+&lt;a href=&quot;https://twitter.com/Suela_Palushi&quot;&gt;Suela&lt;/a&gt; and I talked  about “How to retain new contributors?”,
+“Our experience as newcomers” and “Contributions to open source” - survey. Here are some of the results of the survey:&lt;/p&gt;
 
-&lt;p&gt;What caught my attention this time was one of the Elliot’s monologues about metadata and our privacy online.
-Our friend mentioned that metadata from pictures which are  posted on social media by us , for example on  Facebook and Instagram can reveal a lot  more about the ones who took the pictures and they don’t know it. Information like who took the photo and the location, GPS coordinates. This is how he found the  address of the person who hacked his computer and this is how FBI found the person behind the fsociety video posted on VIMEO . Elliot’s thoughts about social media and metadata is not a big surprise for people who are concerned about their privacy online. 
-One week before I watched this episode, believe it or not, I was reading about EXIF metadata.&lt;br /&gt;
-It was quite interesting that Elliot mentionied specifically EXIF data when he was telling us  about metadata and we know that our friend is right.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/libocon.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/metadata.jpg&quot; alt=&quot;Elliot&quot; title=&quot;Elliot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/libocon2.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Even if facebook, instagram or twitter wipes the metadata when actually posting a picture online, it will still get the raw photo when you uploaded it. An advice would be to use  a Metadata Anonamization Toolkit if you really don’t want your pictures  to have metadata when you upload them online,  to lock down social media accounts to maximum privacy levels, disable location-based posting, and remember that what you post online is out there forever.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/libocon6.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;how-to-confuse-the-bugs&quot;&gt;&lt;strong&gt;How to confuse the bugs?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/images/libocon5.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;When  Elliot was confronting Darlene, he  puts a device that created a  noise to confuse the bugs. This device it is known as a audio jammer and it was designed to obscure human speech from listening devices. These devices do exist in reality and you  can even find  mobile apps  which turn your smartphone into an audio jammer. These devices are legal to use, so consider using them if you are paranoid.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/libocon7.png&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We had some interesting answers when  we asked them “How do community activities affect your experience as a contributor?”&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“It makes me feel that I am doing the things right. Each time I generate a contribution, I feel
+happiness because I am spending time of my life for the benefit of projects that will useful for other people around the world while I sharing this experience with other human beings”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Gain experience and new friends ”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“In 1:1/groups brainstorming is much faster and enjoyable”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Get to know more people in the same field of interests as mine”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Community gives you outside connections, adds purpose and enjoyment to the work we’re all doing”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;During LibOCon and HackFest I had the opportunity to meet other open source ladies who contribute to LibreOffice and we took this picture &amp;lt;3. 
+&lt;img src=&quot;/images/librecon.jpg&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;
+&lt;em&gt;LibreLadies CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I had a great time in Rome. Beautiful city and good friends.&lt;/p&gt;
+
+&lt;p&gt;Ps: The next LibOCon will be held in Tirana. See you there!
+&lt;img src=&quot;/images/romanforum.jpg&quot; alt=&quot;liboCon&quot; title=&quot;LibOCOn CC-BY-SA 4.0&quot; /&gt;
+&lt;em&gt;Roman Forum CC-BY-SA 4.0&lt;/em&gt;&lt;/p&gt;
+
 </description>
-        <pubDate>Sun, 05 Nov 2017 10:04:23 +0000</pubDate>
-        <link>http://localhost:4000/2017/Mr-Robot-Season-3-Episode-4/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/Mr-Robot-Season-3-Episode-4/</guid>
+        <pubDate>Thu, 12 Oct 2017 15:04:23 +0000</pubDate>
+        <link>https://xheni.me/2017/liboconandlibreladies/</link>
+        <guid isPermaLink="true">https://xheni.me/2017/liboconandlibreladies/</guid>
         
-        <category>movies</category>
+        <category>opensource</category>
         
-        <category>Mr Robot</category>
+        <category>girlsintech</category>
+        
+        <category>conference</category>
         
         
-        <category>movies</category>
+        <category>opensource</category>
+        
+      </item>
+    
+      <item>
+        <title>CryptoParty in Tirana</title>
+        <description>&lt;p&gt;Privacy is the space in which ideas are developed, to retreat into whenever you want. This space is not only physical but digital as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is a CryptoParty?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;CryptoParties are free and open for everyone, but especially ​those without prior knowledge, who haven’t yet attended one.
+CryptoParty is a decentralized movement with constantly happening activities in the entire world. The goal of this movement is sharing as much knowledge to as many individuals as possible on how to protect ourselves in the digital world. This worldwide effort introduces the basis of cryptography both in theory and practice, such as encrypted communication, prevention of espionage when navigating on the internet, anonymity on Tor netwyork, cryptography with public key, storage encryption, Virtual Private Networks (VPN) etc. The project consists of a series of workshops free and open for everyone .&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The first CryptoParty in Albania&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To join this worldwide effort and to inform about the dangers of the digital world, the importance of online privacy and exchange of practical knowledge to protect our privacy, Open Labs with the support of Arjen Kamphuis and Ardian Haxha have organized CryptoParty Tirana.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/cryptoparty1.jpg&quot; alt=&quot;CryptoParty&quot; title=&quot;Cryptoparty&quot; /&gt;
+&lt;em&gt;CryptoParty Albania. Credits: CC-BY-4.0 Andis Rado&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The CryptoParty  took place at Innovation Hub Tirana  and  gathered  many technology enthusiasts , developers, students, academics, journalists  and people who are concerned about privacy and information security.
+It was the first CryptoParty in Albania and  it  was really well-organized, with multiple talks and  workshops like:  private browsing, file-encryption, email-encryption, debian installation etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/cryptoparty2.jpg&quot; alt=&quot;CryptoParty&quot; title=&quot;Cryptoparty&quot; /&gt;
+&lt;em&gt;Data encryption workshop. Credits: CC-BY-4.0 Andis Rado&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;However, there were people who come down on the side of the government: “I have nothing to hide”…
+The nothing to hide argument states that government surveillance programs do not threaten privacy unless they uncover illegal activities, and that if they do uncover illegal activities, the person committing these activities does not have the right to keep them private. Hence, a person who favors this argument may state “I’ve got nothing to hide” and therefore does not express opposition to government surveillance.An individual using this argument may say that a person should not have worries about government or surveillance if he/she has “nothing to hide.”-Wikipedia.&lt;/p&gt;
+
+&lt;p&gt;My point is:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;“Arguing that you don’t care about the right to privacy because you have nothing to hide, is no different than saying you don’t care about free speech because you have nothing to say.” – E. Snowden.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Emilio Mordini, philosopher and psychoanalyst, argued that the “nothing to hide” argument is inherently paradoxical. People do not need to have “something to hide” in order to hide “something”. What is relevant is not what is hidden, rather the experience that there is an intimate area, which could be hidden, whose access could be restricted. Psychologically speaking, we become individuals through the discovery that we could hide something to others.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Oct 2017 15:04:23 +0000</pubDate>
+        <link>https://xheni.me/2017/CryptoParty-in-Tirana/</link>
+        <guid isPermaLink="true">https://xheni.me/2017/CryptoParty-in-Tirana/</guid>
+        
+        <category>cryptoparty</category>
+        
+        <category>privacy</category>
+        
+        
+        <category>crypto</category>
         
       </item>
     
